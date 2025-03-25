@@ -27,8 +27,63 @@
 ### 2. Construcción de Simulación de Red propuesta
 
 ### 3. Diferencias entre Simulador y Emulador
+En el ámbito de la ingeniería de redes, es fundamental distinguir entre **simuladores** y **emuladores**, ya que cada herramienta cumple propósitos específicos en el diseño, análisis e implementación de infraestructuras de red
+
+**Simuladores de Redes**  
+
+*Definición y Características:*
+_Un simulador de redes es una herramienta software que modela el comportamiento teórico de dispositivos, protocolos y topologías de red mediante algoritmos y representaciones abstractas.Su enfoque se centra en:_
+- **Abstracción funcional:** No utiliza implementaciones reales de sistemas operativos o firmware.  
+- **Entornos controlados:** Permite probar escenarios bajo condiciones ideales o predefinidas.  
+- **Bajo consumo de recursos:** Optimizado para ejecutarse en hardware estándar sin requerimientos elevados.  
+
+***Casos de Uso***  
+- Enseñanza de conceptos básicos de redes (ej: funcionamiento de switches, enrutamiento estático).  
+- Pruebas de conectividad simple o validación de diseños teóricos.  
+- Laboratorios académicos donde la prioridad es la comprensión conceptual.  
+
+***Herramientas Representativas***  
+- **Packet Tracer (Cisco):** Simula comandos básicos de dispositivos Cisco.
+- **NetSim:** Utilizado para modelar protocolos de capas OSI y analizar tráfico.
+
+---
+
+**Emuladores de Redes**  
+
+*Definición y Características:*  
+Un emulador de redes replica el funcionamiento real de dispositivos mediante la ejecución de imágenes binarias de sistemas operativos específicos (ej: Cisco IOS, VyOS). Sus aspectos clave incluyen:  
+- **Alto realismo:** Permite configuraciones idénticas a las de hardware físico.  
+- **Integración con infraestructuras reales:** Puede conectarse a dispositivos físicos o nubes públicas.  
+- **Demanda de recursos:** Requiere hardware potente (CPU multicore, mayor RAM, almacenamiento rápido).  
+
+***Casos de Uso***  
+- Implementación de redes empresariales complejas (ej: BGP, MPLS, VPNs sitio a sitio).  
+- Pruebas de interoperabilidad entre dispositivos de múltiples fabricantes.  
+- Preparación para certificaciones profesionales (ej: CCNP, JNCIP).  
+
+***Herramientas Representativas***  
+- **GNS3:** Emula routers, switches y firewalls usando imágenes reales de Cisco, Juniper y otros vendors.  
+- **EVE-NG:** Soporta virtualización de múltiples nodos y integración con herramientas de análisis como Wireshark.  
+
+---
+
+**Tabla Comparativa**  
+
+| **Aspecto**               | **Simulador**                          | **Emulador**                          |
+|---------------------------|----------------------------------------|----------------------------------------|
+| **Nivel de realismo**      | Modelos teóricos simplificados         | Réplica exacta de sistemas operativos  |
+| **Recursos requeridos**    | Hardware básico                       | Hardware especializado (CPU/RAM alta)  |
+| **Flexibilidad**           | Limitada a funciones preprogramadas   | Configuración granular y personalizada |
+| **Entorno de aplicación** | Académico/Educativo                   | Profesional/Investigación avanzada     |
+| **Ejemplos**              | Packet Tracer, NetSim                 | GNS3, EVE-NG, CORE                     |
+
+---
+
+La elección entre simuladores y emuladores depende directamente de los objetivos del proyecto. Mientras los simuladores ofrecen un entorno accesible para la asimilación de conceptos fundamentales, los emuladores brindan la precisión técnica necesaria para escenarios realistas y profesionales. En el contexto de la Ingeniería en Computación, dominar ambas herramientas permite abordar desde problemas pedagógicos hasta desafíos de implementación en entornos productivos, consolidando así una formación integral en redes de computadoras.  
 
 ### 4. Evaluar conectividad entre 3 host IPv4
+*Procedimiento:*
+1- Asignar las direcciones IPv4 según la tabla del enunciado a cada host (`h1`, `h2`, `h3`) y al router.  
 
 ### 5. Evaluar conectividad entre 3 host IPv6
 
