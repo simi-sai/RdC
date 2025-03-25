@@ -27,12 +27,14 @@
 ### 2. Construcción de Simulación de Red propuesta
 
 ### 3. Diferencias entre Simulador y Emulador
-En el ámbito de la ingeniería de redes, es fundamental distinguir entre **simuladores** y **emuladores**, ya que cada herramienta cumple propósitos específicos en el diseño, análisis e implementación de infraestructuras de red
+Distinguir entre **simuladores** y **emuladores** es importante, ya que cada herramienta cumple propósitos específicos en el diseño, análisis e implementación de infraestructuras de red.
 
 **Simuladores de Redes**  
 
-*Definición y Características:*
-_Un simulador de redes es una herramienta software que modela el comportamiento teórico de dispositivos, protocolos y topologías de red mediante algoritmos y representaciones abstractas.Su enfoque se centra en:_
+*Definición y Características:*  
+_Un simulador de redes es una herramienta software que modela el comportamiento teórico de dispositivos, protocolos y topologías de red mediante algoritmos y representaciones abstractas._
+
+ Su enfoque se centra en:
 - **Abstracción funcional:** No utiliza implementaciones reales de sistemas operativos o firmware.  
 - **Entornos controlados:** Permite probar escenarios bajo condiciones ideales o predefinidas.  
 - **Bajo consumo de recursos:** Optimizado para ejecutarse en hardware estándar sin requerimientos elevados.  
@@ -51,19 +53,21 @@ _Un simulador de redes es una herramienta software que modela el comportamiento 
 **Emuladores de Redes**  
 
 *Definición y Características:*  
-Un emulador de redes replica el funcionamiento real de dispositivos mediante la ejecución de imágenes binarias de sistemas operativos específicos (ej: Cisco IOS, VyOS). Sus aspectos clave incluyen:  
+_Un emulador de redes replica el funcionamiento real de dispositivos mediante la ejecución de imágenes binarias de sistemas operativos específicos (ej: Cisco IOS, VyOS)._
+
+Sus aspectos clave incluyen:  
 - **Alto realismo:** Permite configuraciones idénticas a las de hardware físico.  
 - **Integración con infraestructuras reales:** Puede conectarse a dispositivos físicos o nubes públicas.  
-- **Demanda de recursos:** Requiere hardware potente (CPU multicore, mayor RAM, almacenamiento rápido).  
+- **Demanda de recursos:** Requiere hardware potente
 
 ***Casos de Uso***  
-- Implementación de redes empresariales complejas (ej: BGP, MPLS, VPNs sitio a sitio).  
+- Implementación de redes empresariales complejas 
 - Pruebas de interoperabilidad entre dispositivos de múltiples fabricantes.  
-- Preparación para certificaciones profesionales (ej: CCNP, JNCIP).  
+- Preparación para certificaciones profesionales 
 
 ***Herramientas Representativas***  
 - **GNS3:** Emula routers, switches y firewalls usando imágenes reales de Cisco, Juniper y otros vendors.  
-- **EVE-NG:** Soporta virtualización de múltiples nodos y integración con herramientas de análisis como Wireshark.  
+- **CORE:** Herramienta que permite la emulación de redes informáticas en una o varias máquinas, aunqeu también puede conectarse a entornos de red reales.
 
 ---
 
@@ -82,8 +86,21 @@ Un emulador de redes replica el funcionamiento real de dispositivos mediante la 
 La elección entre simuladores y emuladores depende directamente de los objetivos del proyecto. Mientras los simuladores ofrecen un entorno accesible para la asimilación de conceptos fundamentales, los emuladores brindan la precisión técnica necesaria para escenarios realistas y profesionales. En el contexto de la Ingeniería en Computación, dominar ambas herramientas permite abordar desde problemas pedagógicos hasta desafíos de implementación en entornos productivos, consolidando así una formación integral en redes de computadoras.  
 
 ### 4. Evaluar conectividad entre 3 host IPv4
-*Procedimiento:*
-1- Asignar las direcciones IPv4 según la tabla del enunciado a cada host (`h1`, `h2`, `h3`) y al router.  
+1. **Configuración inicial:**
+   - Activamos puertos conectados a las PCs  
+   - Asignamos direcciones IPv4 estáticas a cada PC dentro de la misma subred (ej: `192.168.1.10/24`, `192.168.1.11/24`).  
+*Imagen de referencia:*  
+![Configuracion Manual de IP](Imagenes/AsignacionManualIP.jpg)
+
+3. **Pruebas de conectividad:** 
+   - Ejecutamos el comando `ping` entre todos los hosts para verificar la comunicación directa.
+   - *Ejemplo de resultado exitoso:* 
+![Pruebas de ping](Imagenes/Ping-entre-2-hosts.jpg) 
+- ✅ `h1 (192.168.1.10)` → `h2 (192.168.1.11)`: 0% de pérdida de paquetes.
+
+3. **Comunicación con otros hosts:**  
+   - Realizamos pruebas análogas entre `h1 ↔ h3` y `h2 ↔ h3`, obteniendo resultados similares (0% de pérdida).  
+   - *Aclaración:* No incluimos capturas de estos pings por similitud, pero se verificó la conectividad completa.  
 
 ### 5. Evaluar conectividad entre 3 host IPv6
 
