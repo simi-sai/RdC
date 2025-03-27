@@ -52,6 +52,97 @@ La tecnologia dual stack permite que los dispositivos soporten ambos protocolos 
 
 ### 1. Caracteristicas principales del Switch
 
-### 2. Checklist de procedimientos
+**Basado en datasheet oficial**
+* **Arquitectura:**
+    - 24 puertos Ethernet 10/100BASE-TX.
+    - 2 puertos Gigabit Ethernet uplink.
+    - Backplane de 8.8 Gbps.
+    - Memoria Flash: 8MB (para IOS).
+    - RAM: 32 MB
+* **Protocolos soportados:**
+    - Spanning Tree Protocol (802.1D).
+    - VLANs (802.1Q).
+    - SNMP v2c/v3.
+    - CDP (Cisco Discovery Protocol).
+* **Consola:**
+    - Puerto RJ-45 (9600 Baudios, 8N1, flujo de datos none).
+    - Acceso mediante cable serie rollover (Cisco PINOUT: RJ-45 a DB-9).
 
+### 2. Checklist de procedimientos
+**a. Conexion por consula con PUTTY**
+1. Hardware
+    - Conectar el puerto de consola con un puerto usb a la PC1 usando un cable serie RJ-45 y un adaptador USB-Serie.
+
+2. Configuracion de PUTTY
+    - Tipo de conexion: Serial
+    - puerto COM: Identificar en Administrador de dispositivos(windows).
+    - Velocidad: **9600 baudios**.
+    - Parámetros: 8bits de datos, 1 bit de parada, sin paridad, control de flujo: None.
+
+3. Acceso:
+    - Encender el switch y presionar Enter en PC1 para obtener prompt `Switch>`
+
+**b. Modificacion de contraseñas.**
+1. cambiar contraseña de modo privilegiado.
+~~~
+Switch> enable
+Switch# configure terminal
+Switch(config)# enable secret [clave_nueva]
+Switch(config)# exit
+~~~
+2. Configurar contraseña para acceso por consola
+~~~
+Switch(config)# line console 0
+Switch(config-line)# password ClaveConsola456
+Switch(config-line)# login
+Switch(config-line)# exit
+~~~
+3. Guardar la configuración
+~~~
+Switch(config)# copy running-config startup-config
+~~~
+**c. Configuracion y conexion de red basica.**
+1. Conexion de PCs al Switch
+    - **PC1**: Puerto FastEthernet0/1.
+    - **PC2**: Puerto FastEthernet0/2.
+    - **PC3 (para monitoreo)**: Puerto FastEthernet0/3.
+2. Configuracion de las IPs en las PCs
+    - En windows:
+    ~~~
+    #PC1:
+    netsh interface ip set adress name="Ethernet" static 192.168.1.10 255.255.255.0
+
+    #PC2:
+    netsh interface ip set adress name="Ethernet" static 192.168.1.11 255.255.255.0
+    ~~~
+    - En linux:
+    ~~~
+    #PC1:
+    sudo ip addr add 192.168.1.10/24 dev eth0
+
+    #PC2:
+    sudo ip addr add 192.168.1.11/24 dev eth0
+    ~~~
+3. Prueba de conectividad
+~~~
+#Desde PC1:
+ping 192.168.1.11 
+
+#PC2:
+ping 192.168.1.10
+~~~
+**d. Configuracion de Port Mirroring (SPAN) con capturas de trafico**
+1. Habilitar SPAN en el Switch
+~~~
+Switch# configure terminal
+Switch(config)# monitor session 1 source interface FastEthernet0/1 both
+Switch(config)# monitor session 1 destination interface FastEthernet0/3
+Switch(config)# end
+~~~
+2. Configurar Wireshark en PC3
+1. Abrir Wireshark y seleccionar interfaz de red.
+2. Aplicar filtros:
+    - `arp` para ver solicitudes/respuestas ARP.
+    - `icmp` para trafico de ping
+3. Ejecutar el comando `ping` en PC1 o PC2 para observar la captura del trafico.
 ### 3. Experiencia presencial
