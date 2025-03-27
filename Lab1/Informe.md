@@ -134,12 +134,12 @@ Durante la interacción con el equipo físico y la implementación de la red, se
 
 ---
 
-### **4. Port Mirroring y análisis de tráfico**  
+ **4. Port Mirroring y análisis de tráfico**  
 - **Configuración SPAN:**  
   - Wireshark mostró correctamente paquetes ARP (para resolución de MAC) e ICMP tras ajustar los filtros.  
 ---
 
-### **5. Lecciones aprendidas**  
+ **5. Lecciones aprendidas**  
 1. **Verificación física:**  
    - Chequear cables y LEDs antes de asumir errores de configuración.  
 2. **Documentación:**  
@@ -149,7 +149,7 @@ Durante la interacción con el equipo físico y la implementación de la red, se
 
 ---
 
-## **Conclusión**  
+ **Conclusión**  
 La experiencia presencial reforzó la importancia de:  
 - La **metodología ordenada** (seguir checklists).  
 - El **análisis de fallas en capas** (física → enlace → red).  
