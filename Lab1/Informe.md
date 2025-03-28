@@ -313,30 +313,58 @@ En IPv4, ARP usa broadcast para resolver direcciones. En IPv6, esto se reemplaza
 
 #### a. Conexion por consula con PUTTY
 
-1. Hardware
+1. Interacción con el hardware**  
+- **Conexión física:**  
+  - Los puertos FastEthernet del switch se etiquetaron claramente, facilitando la conexión de las PCs.  
+  - Se verificó el estado de los LEDs de los puertos para confirmar actividad (link/actividad).
+    
+![Foto de la Experiencia](/Lab1/Imagenes/SwitchyCompus.jpg)
 
-   - Conectar el puerto de consola con un puerto usb a la PC1 usando un cable serie RJ-45 y un adaptador USB-Serie.
+- **Desafíos:**  
+  - Inicialmente, el puerto de consola no respondía debido a un cable RJ-45 dañado. Se resolvió reemplazándolo.  
+  - Dificultad para identificar el puerto COM correcto en Windows (solución: revisar el Administrador de dispositivos).
+    
+  ![Administrador de Dispositivos de Windows](/Lab1/Imagenes/AdministradorDeDispositivos.png)
 
-2. Configuracion de PUTTY
+2. Configuración del switch
+- **Acceso por consola:**  
+  - Uso de PuTTY con parámetros seriales (`9600 baudios, 8N1`) fue crítico para acceder al CLI del switch.
 
-   - Tipo de conexion: Serial
-   - puerto COM: Identificar en Administrador de dispositivos(windows).
-   - Velocidad: **9600 baudios**.
-   - Parámetros: 8bits de datos, 1 bit de parada, sin paridad, control de flujo: None.
+![Configuracion de Putty](/Lab1/Imagenes/ImegenPutty.png)
+
+  - El prompt `Switch>` apareció, al ya estar configurado tuvimos que probar contraseñas clasicas para poder reconfigurarlo.
+    
+![Intengo de Ingresar al Switch](/Lab1/Imagenes/PruebaContraseñas.png)
+
+- **Cambio de contraseñas:**  
+  - La configuración de `enable secret` aseguró el acceso privilegiado, pero se olvidó guardar con `copy running-config startup-config` en el primer intento, perdiendo los cambios.
+
+![Cambio de Contraseña](/Lab1/Imagenes/CambioDeContraseña.png)
 
 3. Acceso:
    - Encender el switch y presionar Enter en PC1 para obtener prompt `Switch>`
 
-#### b. Modificacion de contraseñas.
+**3. Comunicación entre PCs**  
+- **Configuración IP estática:**  
+  - Tanto en Windows como en Linux funcionó correctamente la configuracion manual de IP.
+  - 
+![Asignacion Manual de IP](/Lab1/Imagenes/AsignacionManualIP.jpg)
+
+- **Pruebas de conectividad:**  
+  - El primer `ping` entre PC1 y PC2 falló por firewall de Windows bloqueando ICMP. Se resolvió desactivando temporalmente el firewall.  
+  - Se observó que el TTL variaba según el SO: Windows (128) vs Linux (64).
+  
+![Ping en Windows](/Lab1/Imagenes/Ping-entre-2-hosts.jpg)
+![Ping en Linux](/Lab1/Imagenes/PingLinux.png)
+![Foto de la Experiencia](/Lab1/Imagenes/PingEntreCompus.jpg)
 
 1. cambiar contraseña de modo privilegiado.
 
-```
-Switch> enable
-Switch# configure terminal
-Switch(config)# enable secret [clave_nueva]
-Switch(config)# exit
-```
+ **4. Port Mirroring y análisis de tráfico**  
+- **Configuración SPAN:**  
+  - Wireshark mostró correctamente paquetes ARP (para resolución de MAC) e ICMP tras ajustar los filtros.
+   [FALTA IMAGEN] 
+
 
 2. Configurar contraseña para acceso por consola
 
