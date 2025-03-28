@@ -109,34 +109,55 @@ Durante la interacción con el equipo físico y la implementación de la red, se
  **1. Interacción con el hardware**  
 - **Conexión física:**  
   - Los puertos FastEthernet del switch se etiquetaron claramente, facilitando la conexión de las PCs.  
-  - Se verificó el estado de los LEDs de los puertos para confirmar actividad (link/actividad).  
+  - Se verificó el estado de los LEDs de los puertos para confirmar actividad (link/actividad).
+    
+![Foto de la Experiencia](/Lab1/Imagenes/SwitchyCompus.jpg)
+
 - **Desafíos:**  
   - Inicialmente, el puerto de consola no respondía debido a un cable RJ-45 dañado. Se resolvió reemplazándolo.  
-  - Dificultad para identificar el puerto COM correcto en Windows (solución: revisar el Administrador de dispositivos).  
+  - Dificultad para identificar el puerto COM correcto en Windows (solución: revisar el Administrador de dispositivos).
+    
+  ![Administrador de Dispositivos de Windows](/Lab1/Imagenes/AdministradorDeDispositivos.png)
 
 ---
 
  **2. Configuración del switch**  
 - **Acceso por consola:**  
-  - Uso de PuTTY con parámetros seriales (`9600 baudios, 8N1`) fue crítico para acceder al CLI del switch.  
-  - El prompt `Switch>` apareció solo después de reiniciar el equipo (posible error de firmware inicial).  
+  - Uso de PuTTY con parámetros seriales (`9600 baudios, 8N1`) fue crítico para acceder al CLI del switch.
+
+![Configuracion de Putty](/Lab1/Imagenes/ImegenPutty.png)
+
+  - El prompt `Switch>` apareció, al ya estar configurado tuvimos que probar contraseñas clasicas para poder reconfigurarlo.
+    
+![Intengo de Ingresar al Switch](/Lab1/Imagenes/PruebaContraseñas.png)
+
 - **Cambio de contraseñas:**  
-  - La configuración de `enable secret` aseguró el acceso privilegiado, pero se olvidó guardar con `copy running-config startup-config` en el primer intento, perdiendo los cambios.  
+  - La configuración de `enable secret` aseguró el acceso privilegiado, pero se olvidó guardar con `copy running-config startup-config` en el primer intento, perdiendo los cambios.
+
+![Cambio de Contraseña](/Lab1/Imagenes/CambioDeContraseña.png)
 
 ---
 
 **3. Comunicación entre PCs**  
 - **Configuración IP estática:**  
-  - Tanto en Windows como en Linux funcionó correctamente la configuracion manual de IP.  
+  - Tanto en Windows como en Linux funcionó correctamente la configuracion manual de IP.
+  - 
+![Asignacion Manual de IP](/Lab1/Imagenes/AsignacionManualIP.jpg)
+
 - **Pruebas de conectividad:**  
   - El primer `ping` entre PC1 y PC2 falló por firewall de Windows bloqueando ICMP. Se resolvió desactivando temporalmente el firewall.  
-  - Se observó que el TTL variaba según el SO: Windows (128) vs Linux (64).  
+  - Se observó que el TTL variaba según el SO: Windows (128) vs Linux (64).
+  
+![Ping en Windows](/Lab1/Imagenes/Ping-entre-2-hosts.jpg)
+![Ping en Linux](/Lab1/Imagenes/PingLinux.png)
+![Foto de la Experiencia](/Lab1/Imagenes/PingEntreCompus.jpg)
 
 ---
 
  **4. Port Mirroring y análisis de tráfico**  
 - **Configuración SPAN:**  
-  - Wireshark mostró correctamente paquetes ARP (para resolución de MAC) e ICMP tras ajustar los filtros.  
+  - Wireshark mostró correctamente paquetes ARP (para resolución de MAC) e ICMP tras ajustar los filtros.
+   [FALTA IMAGEN] 
 ---
 
  **5. Lecciones aprendidas**  
