@@ -1,0 +1,102 @@
+# Trabajo Practico N°3 - Práctico
+
+**Integrantes**
+
+- Enrique L. Graham.
+- Franco I. Mamani.
+- Simón Saillen.
+- Rodrigo S. Vargas.
+
+**Lenox Legends v2.0**
+
+**Universidad Nacional de Córdoba - FCEFyN**
+
+**Catedra de Redes de Computadoras**
+
+**Profesores**
+
+- Santiago M. Henn.
+- Facundo N. 0. Cuneo.
+
+
+## INTRODUCCION TEORICA
+### OSPF
+El protocolo del primer camino mas corto posible (OSPF, Open Shortest Path First) se usa de forma generalizada como protocolo de enrutamiento interior en redes TPC/IP. OSPF calcula una ruta a traves de una interconexión de redes que suponga el menor coste de a cuerdo a una métrica de coste configurable por usuario. El usuario puede configurar el coste para que exprese una función del retardo, velocidad de transmisión, el coste económico u otros factores. OSFP es capaz de equilibrar las cargas entre múltiples caminos de igual coste.
+
+#### Resumen de Caracteristicas de OSPF
+
+| Característica       | Detalle                                                                 |
+|----------------------|-------------------------------------------------------------------------|
+| Tipo              | Protocolo IGP de estado de enlace                                       |
+| Algoritmo         | Dijkstra (SPF - Shortest Path First)                                    |
+| Métrica           | Cost (costo basado en el ancho de banda)                                |
+| Convergencia      | Rápida (actualiza cambios de red muy rápido)                            |
+| Jerarquía         | Soporta jerarquía de áreas (área backbone y otras)                      |
+| Autenticación     | Soporta autenticación para mayor seguridad                              |
+| Multicast         | Usa multicast para actualizaciones (224.0.0.5 y 224.0.0.6)              |
+| Estándar abierto  | No propietario, definido por el RFC 2328                                |
+----
+### Clases de Red
+La direccion IP esta codigicada para permitir una asignación variable de bits para especificar la red y el computador, como se muestra en la siguiente imagen: 
+
+![Formatos de direcciones IP](/Lab3/Imagenes/ClasesRedes.PNG)
+
+Este esquema de codificación proporciona flexibilidad al asignar las direcciones a los computadores y permite una mezcla de tamaños de red en un conjunto de redes. Existen tres clases principales de redes que se pueden asociar a las siguientes condiciones:
+* **Clase A:** pocas redes, cada una con muchos computadores.
+* **Clase B:** un número medio de redes, cada una con un número medio de computadores.
+* **Clase C:** muchas redes, cada una con pocos computadores.
+
+| Clase | Primer octeto (rango) | Bits de red | Bits de host | Número de redes     | Hosts por red (sin contar 0 y 255) | Ejemplo       |
+|-------|------------------------|-------------|---------------|----------------------|-------------------------------------|----------------|
+| A     | 0 - 127                | 8           | 24            | 128 (solo 1-126)     | ~16 millones                        | 10.0.0.1       |
+| B     | 128 - 191              | 16          | 16            | ~16,000              | ~65,000                             | 172.16.0.1     |
+| C     | 192 - 223              | 24          | 8             | ~2 millones          | 254                                 | 192.168.1.1    |
+| D     | 224 - 239              | -           | -             | Multicast            | No para host                        | 224.0.0.1      |
+| E     | 240 - 255              | -           | -             | Reservada (experimentos) | -                               | 240.0.0.1      |
+----
+### Algoritmos de Shortest Path
+Los algoritmos de camino mas corto son técnicas que permiten encontrar el camino más corto entre un nodo de inicio y uno de destino dentro de un grafo. Algunos algoritmos son:
+
+#### 1. Algoritmo de Dijkstra
+Uno de los algoritmos mas conocidos y utilizados par aencontrar el camino mas corto en grafos con pesos NO negativos. Funciona para grafos dirigidos y no dirigidos y puede ser implementado usando una cola de prioridad para optimizar el rendimiento. Es **Greedy**, es decir, toma la desicion óptima en cada paso basándose en la información local.
+
+- Ventaja: Muy eficiente para grafos dispersos (pocos nodos y aristas).
+- Desventaja: No puede manejar grafos con Pesos negativos.
+
+#### 2. Algoritmo de Bellman-Ford
+Este algoritmo es util cuando el grafo tiene pesos negativos en las aristas. Es mas lento que Dijkstra, especialmente en grafos grandes.
+
+#### 3. Algoritmo de Floyd-Warshall
+A diferencia de Dijkstra y Bellman-Ford, calcula las distancias mas cortas entre los pares nodos en el grafo. Es muy util cuando se necesitan todas las rutas mas cortas de un grafo completo. Es muy lento para grafos grandes
+
+#### 4. Algoritmo A* (A-star)
+Este algoritmo es una modificacion del algoritmo de Dijkstra que incorpora heurísticas para mejorar el rendimiento en ciertos escenarios, como la navegacion de mapas.
+
+#### Comparacion de los Algoritmos:
+| Algoritmo      | Mejor para                                           | Limitaciones                                 | Complejidad Temporal       |
+|----------------|------------------------------------------------------|----------------------------------------------|----------------------------|
+| Dijkstra       | Grafos sin pesos negativos, rutas más rápidas        | No funciona con pesos negativos              | O((V + E) * log(V))        |
+| Bellman-Ford   | Grafos con pesos negativos, detecta ciclos negativos | Más lento que Dijkstra                       | O(V * E)                   |
+| Floyd-Warshall | Todos los pares de nodos, grafos completos           | Muy lento para grafos grandes                | O(V³)                      |
+| A*             | Búsqueda eficiente en mapas o rutas (con heurísticas) | Depende de una heurística precisa            | Depende de la heurística   |
+----
+
+### Aplicación de grafos en OSPF
+Una red de computadoras puede modelarse naturalmente como un grafo:
+- **Nodos**: Representan dispositivos como routers, switches o hosts.
+- **Aristas**: Representan las conexiones fisicas o logicas entre los dispositivos.
+- **Pesos en las aristas**: Representan costos de transmision, como ancho de banda, latencia, carga de enlace o costo arbitrario asignado por el administrador de Red.
+
+OSPF es un protocolo que utiliza la teoria de grafos para encontrar los caminos mas cortos desde un router hasta todos los destinos posibles en la red. 
+
+#### Construccion del grafo
+
+Cada router OSPF recopila informacion sobre todos los enlaces a los que esta conectado y distribuye esa informacion a traves de Link-State Advertisements (LSAs). Con esto:
+
+- Todos los routers construyen un mapa identico de la red, que es un grafo completo de todos los routers y enlaces.
+- Cada nodo tiene una copia del grafo, donde conoce la topologia completa.
+
+#### Aplicacion del algoritmo de Dijkstra
+Una vez que el router tiene el grafo de la red, utiliza el algoritmo de Dijkstra para calcular la mejor ruta a cada destino. Esto construye la tabla de enrutamiento, que indica el mejor siguiente salgo (next-hop) hacia cada red. 
+
+Cuando cambia el estado de un enlace, se envia un nuevo LSA y Todos los routers actualizan su grafo y recalculan sus rutas usando este algoritmo.
