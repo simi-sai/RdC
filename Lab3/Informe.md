@@ -163,3 +163,5 @@ Vamos a usar una red clase B para esta LAN:
 | R4           | Interfaz de Host       | 172.16.1.1       | 255.255.255.252     | Gateway para H4                              |
 | H5           | Interfaz de Host       | 172.16.2.2       | 255.255.255.252     | Host 5, conectado a R5                       |
 | R5           | Interfaz de Host       | 172.16.2.1       | 255.255.255.252     | Gateway para H5                              |
+
+Se usan distintas redes para cada par de routers ya que los protocolos como OSPF necesitan saber que redes estan disponibles y por donde se llega a cada una. Si todo esta en la misma red, no hay forma de diferenciarlas, y el protocolo no puede calcular rutas correctas.
