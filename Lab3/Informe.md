@@ -100,3 +100,66 @@ Cada router OSPF recopila informacion sobre todos los enlaces a los que esta con
 Una vez que el router tiene el grafo de la red, utiliza el algoritmo de Dijkstra para calcular la mejor ruta a cada destino. Esto construye la tabla de enrutamiento, que indica el mejor siguiente salgo (next-hop) hacia cada red. 
 
 Cuando cambia el estado de un enlace, se envia un nuevo LSA y Todos los routers actualizan su grafo y recalculan sus rutas usando este algoritmo.
+
+## Esquema de direccionamiento IP
+Red propuesta:
+![Red](/Lab3/Imagenes/Red.PNG)
+
+Vamos a dividir la red en subredes logicas.
+#### Asignacion de Subredes
+| Enlace   | Red asignada     | Router A IP         | Router B IP         |
+|----------|------------------|---------------------|---------------------|
+| R1 - R2  | 192.168.1.0/30   | R1: 192.168.1.1     | R2: 192.168.1.2     |
+| R1 - R3  | 192.168.1.4/30   | R1: 192.168.1.5     | R3: 192.168.1.6     |
+| R2 - R3  | 192.168.1.8/30   | R2: 192.168.1.9     | R3: 192.168.1.10    |
+| R3 - R4  | 192.168.1.12/30  | R3: 192.168.1.13    | R4: 192.168.1.14    |
+| R3 - R5  | 192.168.1.16/30  | R3: 192.168.1.17    | R5: 192.168.1.18    |
+| R4 - R5  | 192.168.1.20/30  | R4: 192.168.1.21    | R5: 192.168.1.22    |
+
+#### Subred del Switch S1 con los hosts 1,2,3
+Vamos a usar una red clase B para esta LAN:
+| Red            | Dispositivo | IP            |
+|----------------|-------------|---------------|
+| 172.16.0.0/24  | H1          | 172.16.0.101  |
+|                | H2          | 172.16.0.102  |
+|                | H3          | 172.16.0.103  |
+|                | R2 (gateway)| 172.16.0.1    |
+
+----
+#### Host h4 conectado directo a R4 - Clase B
+| Red            | Dispositivo | IP            |
+|----------------|-------------|---------------|
+| 172.16.1.0/30  | H4          | 172.16.1.2    |
+|                | R4          | 172.16.1.1    |
+
+----
+#### Host h5 conectado directo a R5 - Clase B
+| Red            | Dispositivo | IP            |
+|----------------|-------------|---------------|
+| 172.16.2.0/30  | H5          | 172.16.2.2    |
+|                | R5          | 172.16.2.1    |
+
+#### Tabla de direccionamiento completa
+| Dispositivo | Interfaz               | Dirección IP     | Máscara de Subred   | Descripción                                   |
+|--------------|------------------------|------------------|---------------------|-----------------------------------------------|
+| R1           | Loopback               | 192.168.1.1      | 255.255.255.255     | Loopback (Dirección de loopback)              |
+| R1           | Interfaz R1-R2         | 192.168.1.1      | 255.255.255.252     | Enlace con R2                                 |
+| R1           | Interfaz R1-R3         | 192.168.1.5      | 255.255.255.252     | Enlace con R3                                 |
+| R2           | Interfaz R1-R2         | 192.168.1.2      | 255.255.255.252     | Enlace con R1                                 |
+| R2           | Interfaz R2-R3         | 192.168.1.9      | 255.255.255.252     | Enlace con R3                                 |
+| R3           | Interfaz R1-R3         | 192.168.1.6      | 255.255.255.252     | Enlace con R1                                 |
+| R3           | Interfaz R2-R3         | 192.168.1.10     | 255.255.255.252     | Enlace con R2                                 |
+| R3           | Interfaz R3-R4         | 192.168.1.13     | 255.255.255.252     | Enlace con R4                                 |
+| R3           | Interfaz R3-R5         | 192.168.1.17     | 255.255.255.252     | Enlace con R5                                 |
+| R4           | Interfaz R3-R4         | 192.168.1.14     | 255.255.255.252     | Enlace con R3                                 |
+| R4           | Interfaz R4-R5         | 192.168.1.21     | 255.255.255.252     | Enlace con R5                                 |
+| R5           | Interfaz R3-R5         | 192.168.1.18     | 255.255.255.252     | Enlace con R3                                 |
+| R5           | Interfaz R4-R5         | 192.168.1.22     | 255.255.255.252     | Enlace con R4                                 |
+| S1           | Interfaz de Switch     | 172.16.0.1       | 255.255.255.0       | Gateway para los hosts (H1, H2, H3)          |
+| H1           | Interfaz de Host       | 172.16.0.101     | 255.255.255.0       | Host 1, conectado a S1                       |
+| H2           | Interfaz de Host       | 172.16.0.102     | 255.255.255.0       | Host 2, conectado a S1                       |
+| H3           | Interfaz de Host       | 172.16.0.103     | 255.255.255.0       | Host 3, conectado a S1                       |
+| H4           | Interfaz de Host       | 172.16.1.2       | 255.255.255.252     | Host 4, conectado a R4                       |
+| R4           | Interfaz de Host       | 172.16.1.1       | 255.255.255.252     | Gateway para H4                              |
+| H5           | Interfaz de Host       | 172.16.2.2       | 255.255.255.252     | Host 5, conectado a R5                       |
+| R5           | Interfaz de Host       | 172.16.2.1       | 255.255.255.252     | Gateway para H5                              |
