@@ -287,49 +287,112 @@ Con estas capturas explicadas demuestras:
 
 ### 5 y 6.
 
+#### Nota sobre la Configuración de Router IDs
+
+Durante la configuración de OSPF, decidí modificar las Router IDs de los routers, asignándoles valores de acuerdo con su identificación en la red. Esto se realizó con el objetivo de facilitar la lectura y la identificación de los routers al revisar tablas de enrutamiento, bases de datos OSPF y cualquier otro diagnóstico relacionado con OSPF.
+
+**¿Por qué modificar las Router IDs?**
+Claridad en el diagnóstico y análisis:
+
+Al utilizar Router IDs como 1.1.1.1, 2.2.2.2, 3.3.3.3, etc., se facilita la comprensión de los resultados al analizar las tablas de enrutamiento o los vecinos OSPF. Es mucho más sencillo identificar a qué router se refiere cada entrada cuando las ID son claras y sistemáticas.
+
+Simplificación en la administración de la red:
+
+Esta asignación lógica permite diferenciar rápidamente entre los distintos routers en los informes, las salidas de los comandos de verificación (show ip ospf neighbor, show ip ospf database, etc.), y en la configuración de áreas.
+
+**Router IDs Asignados**:
+
+- R1: 1.1.1.1
+- R2: 2.2.2.2
+- R3: 3.3.3.3
+- R4: 4.4.4.4
+- R5: 5.5.5.5
+
 #### Configuración de Redes Directamente Conectadas
 
 En esta sección se muestra la configuración de las redes conectadas directamente a cada router, que se han configurado para OSPF.
 
 - Router 1 (R1)
-  <img src="Imagenes/r1-5a">
+  <br>
+  ![R1-5a](/Lab3/Imagenes/r1-5a.png)
 
 - Router 2 (R2)
-  <img src="Imagenes/r2-5a">
+  <br>
+  ![R2-5a](/Lab3/Imagenes/r2-5a.png)
 
 - Router 3 (R3)
-  <img src="Imagenes/r3-5a">
+  <br>
+  ![R3-5a](/Lab3/Imagenes/r3-5a.png)
 
 - Router 4 (R4)
-  <img src="./Imagenes/r4-5a">
+  <br>
+  ![R4-5a](/Lab3/Imagenes/r4-5a.png)
 
 - Router 5 (R5)
-  <img src="Imagenes/r5-5a">
+  <br>
+  ![R5-5a](/Lab3/Imagenes/r5-5a.png)
 
 #### Base de Datos de Estado de Enlace (LSDB)
 
 Las entradas de la Base de Datos de Estado de Enlace (LSDB) muestran las redes que OSPF ha aprendido y están disponibles en cada router.
 
 - Router 1 (R1)
-  ![R1-5a](/Lab3/Imagenes/r1-5b.PNG)
+  <br>
+  ![R1-5b](/Lab3/Imagenes/r1-5b.png)
 
 - Router 2 (R2)
-  ![R2-5a](/Lab3/Imagenes/r1-5b.PNG)
+  <br>
+  ![R2-5a](/Lab3/Imagenes/r2-5b.png)
 
 - Router 3 (R3)
-  ![R3-5a](/Lab3/Imagenes/r3-5b.PNG)
+  <br>
+  ![R3-5b](/Lab3/Imagenes/r3-5b.png)
 
 - Router 4 (R4)
-  ![R4-5a](/Lab3/Imagenes/r4-5b.PNG)
+  <br>
+  ![R4-5b](/Lab3/Imagenes/r4-5b.png)
 
 - Router 5 (R5)
-  ![R5-5a](/Lab3/Imagenes/r5-5b.PNG)
+  <br>
+  ![R5-5b](/Lab3/Imagenes/r5-5b.png)
 
 Las redes conectadas directamente a cada router han sido anunciadas correctamente a través de OSPF.
 Las entradas de la LSDB de cada router son consistentes con las configuraciones de red establecidas.
-Los routers están correctamente configurados para operar en las áreas adecuadas (Área 0 y Área 1).
+Los routers están correctamente configurados para operar en las áreas adecuadas (Área 0 = A y Área 1 = B).
 
 ### 7.
+
+#### a)
+
+Para verificar que R2 tiene una adyacencia con R1 y R3 y que OSPF está funcionando correctamente, debemos utilizar el siguiente comando:
+
+- show ip ospf neighbor
+
+![R2-neighbors](/Lab3/Imagenes/r2-7a.png)
+
+Efectivamente se observa que tanto el R1 como el R3 aparecen en la tabla de vecinos OSPF de R2
+
+- Neighbor ID: Este es el Router ID de los vecinos, que deberían ser 1.1.1.1 (R1) y 3.3.3.3 (R3) en este caso.
+- State = FULL: Esto indica que la adyacencia OSPF está completamente establecida.
+- Dead Time: El tiempo restante antes de que expire la adyacencia si no hay comunicación.
+- Address: La dirección IP de cada vecino.
+- Interface: La interfaz local de R2 utilizada para establecer la adyacencia.
+
+#### b)
+
+Para obtener información general sobre las operaciones de OSPF en R2, usamos el comando:
+
+- show ip protocols
+
+![R2-7b](/Lab3/Imagenes/r2-7b.png)
+
+- Routing Protocol is "ospf 1": Confirma que OSPF está configurado con el proceso ID 1.
+
+- Router ID 2.2.2.2: Es el Router ID de R2.
+
+- Routing for Networks: Muestra las redes que R2 está anunciando y las áreas correspondientes previamente configuradas.
+
+- Routing Information Sources: Los vecinos desde los cuales R2 está recibiendo rutas, junto con el tiempo de la última actualización.
 
 ### 8. Configuración de Costo
 
