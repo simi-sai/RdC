@@ -311,19 +311,19 @@ En esta sección se muestra la configuración de las redes conectadas directamen
 Las entradas de la Base de Datos de Estado de Enlace (LSDB) muestran las redes que OSPF ha aprendido y están disponibles en cada router.
 
 - Router 1 (R1)
-  <img src="Imagenes/r1-5b">
+  ![R1-5a](/Lab3/Imagenes/r1-5b.PNG)
 
 - Router 2 (R2)
-  <img src="Imagenes/r2-5b">
+  ![R2-5a](/Lab3/Imagenes/r1-5b.PNG)
 
 - Router 3 (R3)
-  <img src="Imagenes/r3-5b">
+  ![R3-5a](/Lab3/Imagenes/r3-5b.PNG)
 
 - Router 4 (R4)
-  <img src="Imagenes/r4-5b">
+  ![R4-5a](/Lab3/Imagenes/r4-5b.PNG)
 
 - Router 5 (R5)
-  <img src="Imagenes/r5-5b">
+  ![R5-5a](/Lab3/Imagenes/r5-5b.PNG)
 
 Las redes conectadas directamente a cada router han sido anunciadas correctamente a través de OSPF.
 Las entradas de la LSDB de cada router son consistentes con las configuraciones de red establecidas.
@@ -434,4 +434,3 @@ Router#
 5.  **Impacto:** Los hosts h1, h2, h3 quedan aislados del resto de la red OSPF, ya que R2 era su único gateway. Tanto R2 como ningún otro router tendrá una ruta válida hacia su red.
 
 ### 11.
-
