@@ -127,7 +127,7 @@ Red propuesta:
 
 Vamos a dividir la red en subredes logicas.
 
-#### 1. Segmentación de redes clase B para hosts
+#### Segmentación de redes clase B para hosts
 
 - **Red principal:** `172.16.0.0/16` (clase B).
 - **Subredes /24 para hosts:**
@@ -137,7 +137,8 @@ Vamos a dividir la red en subredes logicas.
 
 ---
 
-#### 2. Redes clase C para enlaces entre routers
+#### Redes clase C para enlaces entre routers
+
 | **Enlace**  | **Red asignada**   | **Router A (IP)**  | **Router B (IP)**  |
 |-------------|---------------------|--------------------|--------------------|
 | **R1-R2**   | 192.168.1.0/24     | R1: 192.168.1.1   | R2: 192.168.1.2   |
@@ -149,7 +150,7 @@ Vamos a dividir la red en subredes logicas.
 
 ---
 
-#### 3. Tabla de direccionamiento completa
+#### Tabla de direccionamiento completa
 
 | **Dispositivo** | **Interfaz**         | **Dirección IP**   | **Máscara**         | **Descripción**                    |
 |-----------------|----------------------|--------------------|---------------------|------------------------------------|
@@ -179,9 +180,11 @@ Vamos a dividir la red en subredes logicas.
 ---
 
 ### 3. Configuracion de routers para que utilice el protocolo OSPF
+
 Luego de configurar los routers para utilizar protocolo OSPF verificamos la conexion punto a punto entre los dispositivos enlazados:
 
-#### 1- Comprobar conectividad IP básica
+#### Comprobar conectividad IP básica
+
 De R1 a R2:
 
 ![alt text](/Lab3/Imagenes/PingR1-R2.png)
@@ -195,20 +198,26 @@ De H1 a H5:
 ![alt text](/Lab3/Imagenes/PingH1-H5.png)
 
 Si hacemos esto con todos los routers con sus respectivos vecinos deberia dar el mismo resultado
-#### 2- Verificar la vecindad OSPF
+
+#### Verificar la vecindad OSPF
+
 Verificamos la vecindad de R3:
 
 ![alt text](/Lab3/Imagenes/VecinosR3.png)
 
 Si hacemos esto para todos los routers nos dara la misma informacion pero con sus respectivos vecinos de ese router
-#### 3- Revisar la tabla de enrutamiento
- Las rutas OSPF aparecen con la letra O:
+
+#### Revisar la tabla de enrutamiento
+
+Las rutas OSPF aparecen con la letra O:
 ![alt text](/Lab3/Imagenes/TablaEnrutamientoR3.png)
 
 Con el mismo codigo en los distintos routers apareceran las rutas OSPF
 
-### 4. Identificamos y analizamos los mensajes de OSPF
-#### 1. Panel de Simulación
+### 4. Identificación y Analisis de mensajes OSPF
+
+#### Panel de Simulación
+
 ![alt text](/Lab3/Imagenes/Simulacion.png)
 
 **Explicación**  
@@ -223,10 +232,12 @@ Con el mismo codigo en los distintos routers apareceran las rutas OSPF
 
 ---
 
-#### 2.Detalle OSI del PDU recibido
+#### Detalle OSI del PDU recibido
+
 ![alt text](/Lab3/Imagenes/PDUInformation-OSIModel.png)
 
 **Explicación por capas**  
+
 - **Layer 1**: el paquete llega a la interfaz `Serial0/0/0` de `Router4`.  
 - **Layer 2**: tramas HDLC (encapsulación serial).  
 - **Layer 3**: cabecera IP con:
@@ -236,7 +247,8 @@ Con el mismo codigo en los distintos routers apareceran las rutas OSPF
 
 ---
 
-#### 3.Campos del OSPF Hello
+#### Campos del OSPF Hello
+
 ![alt text](/Lab3/Imagenes/OSPF-Hello.png)
 
 | Campo                     | Valor ejemplo      | Significado / Impacto                                          |
@@ -256,13 +268,21 @@ Con el mismo codigo en los distintos routers apareceran las rutas OSPF
 | **BACKUP DESIGNATED ROUTER** | 0.0.0.0         | BDR en multiacceso (no aplica en punto-a-punto).               |
 | **NEIGHBOR**              | 192.168.4.2        | Lista de Router IDs con los que ya se vio Hello (vecindad).    |
 
-**Comentarios**  
+**Comentarios** 
+
 - Los temporizadores **Hello** y **Dead** deben coincidir en ambos routers para formar adyacencia.  
 - El **Router ID** no puede duplicarse en la misma área.  
 - El **Neighbor** listado confirma que `Router4` vio un Hello previo de `Router3` (ID `192.168.4.2`).
 
 Con estas capturas explicadas demuestras:
+
 1. Cómo se generan y envían los **HS** (Hello) en OSPF.  
 2. Qué información crítica transportan y cómo afecta a la formación de adyacencias.  
 3. Qué buscar (coherencia de temporizadores, área, IDs, máscara) para diagnosticar fallos de convergencia.  
 4. La ventaja de usar el modo **Simulation** de Packet Tracer para desglosar paso a paso cada PDU.  
+
+### 5
+
+### 6
+
+### 7
