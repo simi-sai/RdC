@@ -281,8 +281,112 @@ Con estas capturas explicadas demuestras:
 3. Qué buscar (coherencia de temporizadores, área, IDs, máscara) para diagnosticar fallos de convergencia.  
 4. La ventaja de usar el modo **Simulation** de Packet Tracer para desglosar paso a paso cada PDU.  
 
-### 5
+### 5.
 
-### 6
+### 6.
 
-### 7
+### 7.
+
+### 8. Configuración de Costo
+
+#### Trayectoria por defecto
+
+Primero realizamos un tracert entre **H1** (172.16.0.101) y **H4** (172.16.1.2) para ver la trayectoria que calcula OSPF con los costos por defecto.
+
+!["Tracerert previo a cambiar los costos"](/Lab3/Imagenes/tracerout-default.png)
+
+Como se puede ver (y comparando con la tabla de direccionamiento), el recorrido es:
+
+$$\text{H1} \rightarrowtail \text{R2} \rightarrow \text{R3} \rightarrow \text{R4} \rightarrowtail \text{H4}$$
+
+#### Trayectoria modificada
+
+Aumentando el costo de las conexiones R2-R3.
+
+Cambiando la configuración de R2:
+
+```console
+Router>enable
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#interface serial0/0/1
+Router(config-if)#ip ospf cost 200
+Router(config-if)#end
+Router#
+```
+
+Se obtuvieron los siguientes resultados:
+
+!["tracert-modificado"](/Lab3/Imagenes/tracert-modificado.png)
+
+Como se puede observar, ahora la trayectoria es:
+
+$$\text{H1}\rightarrowtail\text{R2}\rightarrow\text{R1}\rightarrow\text{R3}\rightarrow\text{R4}\rightarrowtail\text{H4}$$
+
+### 9. Redistribuyendo una ruta OSPF predeterminada
+
+#### a. Configuración de Loopback
+
+Se configuró el Router1 para que tenga una dirección IP Loopback para simular un proveedor de internet.
+
+```console
+Router>enable
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#ip route 0.0.0.0 0.0.0.0 Loopback0
+%Default route without gateway, if not a point-to-point interface, may impact performance
+Router(config)#end
+Router#
+```
+
+#### b. Ruta estatica R1
+
+Verificando la correcta instalación de la ruta estática con `show ip route static`:
+
+```console
+Router#show ip route static
+S*   0.0.0.0/0 is directly connected, Loopback0
+
+Router#
+```
+
+#### c. Incluyendo ruta predeterminada a actualizaciones OSPF
+
+```console
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router ospf 1
+Router(config-router)#default-information originate
+Router(config-router)#end
+Router#
+```
+
+### 10. Impacto de caida de Interfaz
+
+#### Interfaz R2-R1 (`Serial 0/0/0`)
+
+1.  **Detección:** R2 y R1 detectan la caída del enlace.
+2.  **Adyacencia:** R2 deja de recibir mensajes de R1 (y viceversa). La adyacencia OSPF entre ellos se rompe.
+3.  **Actualización LSA:** Ambos routers (R1 y R2) originan un nuevo Router LSA (Type 1), indicando que el enlace entre ellos ya no existe o tiene un costo infinito.
+4.  **Recálculo SPF:** Todos los routers en Area 1 (R1, R2, y R3 como ABR) reciben los LSAs, actualizan su LSDB y re-ejecutan el algoritmo SPF.
+5.  **Nueva Ruta:** R2 pierde su ruta directa hacia R1. Si necesita alcanzar la red Loopback (o cualquier otra red solo alcanzable vía R1 desde R2), deberá enrutar el tráfico a través de su otro vecino OSPF. R1 también redirigirá el tráfico destinado a la LAN de R2 a través de R3.
+6.  **ABR:** R3 (ABR) podría actualizar los Summary LSAs (Type 3) si las métricas hacia redes en otras áreas cambian debido a la nueva ruta.
+7.  **Impacto:** Pérdida de la conexión directa R1-R2. El tráfico entre ellos y las redes detrás de ellos ahora debe pasar por R3.
+
+#### Interfaz R2-R3 (`Serial 0/0/1`)
+
+1.  **Detección y Adyacencia:** R2 y R3 detectan la caída y la adyacencia OSPF expira.
+2.  **Actualización LSA:** R2 y R3 originan nuevos LSAs reflejando la pérdida del enlace R2-R3.
+3.  **Recálculo SPF:** Todos los routers afectados re-ejecutan SPF.
+4.  **Nueva Ruta:** R2 pierde su conexión directa con R3. Para alcanzar cualquier red LAN h4 o LAN h5, deberá ir a través de R1. R3 también perderá la ruta directa a la LAN de R2 y deberá pasar por R1.
+5.  **Impacto:** Pérdida del enlace directo R2-R3. Todo el tráfico entre R2 y el resto de la red ahora debe obligatoriamente transitar por R1.
+
+#### Interfaz R2-S1 (`GigabitEthernet 0/0`)
+
+1.  **Detección:** R2 detecta la caída de su interfaz LAN.
+2.  **Actualización LSA:** R2 origina un nuevo Router LSA (Type 1) indicando que la red ya no es alcanzable a través de él.
+3.  **Recálculo SPF:** R1 y R3 (ABR) actualizan sus LSDBs y re-ejecutan SPF.
+4.  **Nueva Ruta:** R1 y R3 eliminan la ruta hacia los Hosts vía R2.
+5.  **Impacto:** Los hosts h1, h2, h3 quedan aislados del resto de la red OSPF, ya que R2 era su único gateway. Tanto R2 como ningún otro router tendrá una ruta válida hacia su red.
+
+### 11.
