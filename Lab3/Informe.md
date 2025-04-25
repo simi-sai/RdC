@@ -127,70 +127,142 @@ Red propuesta:
 
 Vamos a dividir la red en subredes logicas.
 
-#### Asignacion de Subredes
+#### 1. Segmentación de redes clase B para hosts
 
-| Enlace   | Red asignada     | Router A IP         | Router B IP         |
-|----------|------------------|---------------------|---------------------|
-| R1 - R2  | 192.168.1.0/30   | R1: 192.168.1.1     | R2: 192.168.1.2     |
-| R1 - R3  | 192.168.1.4/30   | R1: 192.168.1.5     | R3: 192.168.1.6     |
-| R2 - R3  | 192.168.1.8/30   | R2: 192.168.1.9     | R3: 192.168.1.10    |
-| R3 - R4  | 192.168.1.12/30  | R3: 192.168.1.13    | R4: 192.168.1.14    |
-| R3 - R5  | 192.168.1.16/30  | R3: 192.168.1.17    | R5: 192.168.1.18    |
-| R4 - R5  | 192.168.1.20/30  | R4: 192.168.1.21    | R5: 192.168.1.22    |
+- **Red principal:** `172.16.0.0/16` (clase B).
+- **Subredes /24 para hosts:**
+  - **Subred S1 (H1, H2, H3):** `172.16.0.0/24`.
+  - **Subred H4 (R4):** `172.16.1.0/24`.
+  - **Subred H5 (R5):** `172.16.2.0/24`.
 
-#### Subred del Switch S1 con los Hosts 1,2,3
+---
 
-Vamos a usar una red clase B para esta LAN:
+#### 2. Redes clase C para enlaces entre routers
+| **Enlace**  | **Red asignada**   | **Router A (IP)**  | **Router B (IP)**  |
+|-------------|---------------------|--------------------|--------------------|
+| **R1-R2**   | 192.168.1.0/24     | R1: 192.168.1.1   | R2: 192.168.1.2   |
+| **R1-R3**   | 192.168.2.0/24     | R1: 192.168.2.1   | R3: 192.168.2.2   |
+| **R2-R3**   | 192.168.3.0/24     | R2: 192.168.3.1   | R3: 192.168.3.2   |
+| **R3-R4**   | 192.168.4.0/24     | R3: 192.168.4.1   | R4: 192.168.4.2   |
+| **R3-R5**   | 192.168.5.0/24     | R3: 192.168.5.1   | R5: 192.168.5.2   |
+| **R4-R5**   | 192.168.6.0/24     | R4: 192.168.6.1   | R5: 192.168.6.2   |
 
-| Red            | Dispositivo | IP            |
-|----------------|-------------|---------------|
-| 172.16.0.0/24  | H1          | 172.16.0.101  |
-|                | H2          | 172.16.0.102  |
-|                | H3          | 172.16.0.103  |
-|                | R2 (gateway)| 172.16.0.1    |
+---
 
-----
+#### 3. Tabla de direccionamiento completa
 
-#### Host H4 conectado directo a R4 - Clase B
+| **Dispositivo** | **Interfaz**         | **Dirección IP**   | **Máscara**         | **Descripción**                    |
+|-----------------|----------------------|--------------------|---------------------|------------------------------------|
+| **R1**          | Loopback             | 10.0.0.1           | 255.255.255.255     | Loopback (administración)          |
+| R1              | Enlace R1-R2         | 192.168.1.1        | 255.255.255.0       | Conexión a R2                      |
+| R1              | Enlace R1-R3         | 192.168.2.1        | 255.255.255.0       | Conexión a R3                      |
+| **R2**          | Enlace R1-R2         | 192.168.1.2        | 255.255.255.0       | Conexión a R1                      |
+| R2              | Enlace R2-R3         | 192.168.3.1        | 255.255.255.0       | Conexión a R3                      |
+| R2              | Interfaz LAN (S1)    | 172.16.0.1         | 255.255.255.0       | Gateway para H1, H2, H3            |
+| **R3**          | Enlace R1-R3         | 192.168.2.2        | 255.255.255.0       | Conexión a R1                      |
+| R3              | Enlace R2-R3         | 192.168.3.2        | 255.255.255.0       | Conexión a R2                      |
+| R3              | Enlace R3-R4         | 192.168.4.1        | 255.255.255.0       | Conexión a R4                      |
+| R3              | Enlace R3-R5         | 192.168.5.1        | 255.255.255.0       | Conexión a R5                      |
+| **R4**          | Enlace R3-R4         | 192.168.4.2        | 255.255.255.0       | Conexión a R3                      |
+| R4              | Enlace R4-R5         | 192.168.6.1        | 255.255.255.0       | Conexión a R5                      |
+| R4              | Interfaz LAN (H4)    | 172.16.1.1         | 255.255.255.0       | Gateway para H4                    |
+| **R5**          | Enlace R3-R5         | 192.168.5.2        | 255.255.255.0       | Conexión a R3                      |
+| R5              | Enlace R4-R5         | 192.168.6.2        | 255.255.255.0       | Conexión a R4                      |
+| R5              | Interfaz LAN (H5)    | 172.16.2.1         | 255.255.255.0       | Gateway para H5                    |
+| **S1**          | VLAN 1               | 172.16.0.254       | 255.255.255.0       | Switch S1 (gestión)                |
+| **H1**          | eth0                 | 172.16.0.101       | 255.255.255.0       | Host 1 (gateway: 172.16.0.1)       |
+| **H2**          | eth0                 | 172.16.0.102       | 255.255.255.0       | Host 2 (gateway: 172.16.0.1)       |
+| **H3**          | eth0                 | 172.16.0.103       | 255.255.255.0       | Host 3 (gateway: 172.16.0.1)       |
+| **H4**          | eth0                 | 172.16.1.2         | 255.255.255.0       | Host 4 (gateway: 172.16.1.1)       |
+| **H5**          | eth0                 | 172.16.2.2         | 255.255.255.0       | Host 5 (gateway: 172.16.2.1)       |
 
-| Red            | Dispositivo | IP            |
-|----------------|-------------|---------------|
-| 172.16.1.0/30  | H4          | 172.16.1.2    |
-|                | R4          | 172.16.1.1    |
+---
 
-----
+### 3. Configuracion de routers para que utilice el protocolo OSPF
+Luego de configurar los routers para utilizar protocolo OSPF verificamos la conexion punto a punto entre los dispositivos enlazados:
 
-#### Host H5 conectado directo a R5 - Clase B
+#### 1- Comprobar conectividad IP básica
+De R1 a R2:
 
-| Red            | Dispositivo | IP            |
-|----------------|-------------|---------------|
-| 172.16.2.0/30  | H5          | 172.16.2.2    |
-|                | R5          | 172.16.2.1    |
+![alt text](/Lab3/Imagenes/PingR1-R2.png)
 
-#### Tabla de Direccionamiento Completa
+De R1 a R3:
 
-| Dispositivo | Interfaz               | Dirección IP     | Máscara de Subred   | Descripción                                   |
-|--------------|------------------------|------------------|---------------------|-----------------------------------------------|
-| R1           | Loopback               | 192.168.1.1      | 255.255.255.255     | Loopback (Dirección de loopback)              |
-| R1           | Interfaz R1-R2         | 192.168.1.1      | 255.255.255.252     | Enlace con R2                                 |
-| R1           | Interfaz R1-R3         | 192.168.1.5      | 255.255.255.252     | Enlace con R3                                 |
-| R2           | Interfaz R1-R2         | 192.168.1.2      | 255.255.255.252     | Enlace con R1                                 |
-| R2           | Interfaz R2-R3         | 192.168.1.9      | 255.255.255.252     | Enlace con R3                                 |
-| R3           | Interfaz R1-R3         | 192.168.1.6      | 255.255.255.252     | Enlace con R1                                 |
-| R3           | Interfaz R2-R3         | 192.168.1.10     | 255.255.255.252     | Enlace con R2                                 |
-| R3           | Interfaz R3-R4         | 192.168.1.13     | 255.255.255.252     | Enlace con R4                                 |
-| R3           | Interfaz R3-R5         | 192.168.1.17     | 255.255.255.252     | Enlace con R5                                 |
-| R4           | Interfaz R3-R4         | 192.168.1.14     | 255.255.255.252     | Enlace con R3                                 |
-| R4           | Interfaz R4-R5         | 192.168.1.21     | 255.255.255.252     | Enlace con R5                                 |
-| R5           | Interfaz R3-R5         | 192.168.1.18     | 255.255.255.252     | Enlace con R3                                 |
-| R5           | Interfaz R4-R5         | 192.168.1.22     | 255.255.255.252     | Enlace con R4                                 |
-| S1           | Interfaz de Switch     | 172.16.0.1       | 255.255.255.0       | Gateway para los hosts (H1, H2, H3)          |
-| H1           | Interfaz de Host       | 172.16.0.101     | 255.255.255.0       | Host 1, conectado a S1                       |
-| H2           | Interfaz de Host       | 172.16.0.102     | 255.255.255.0       | Host 2, conectado a S1                       |
-| H3           | Interfaz de Host       | 172.16.0.103     | 255.255.255.0       | Host 3, conectado a S1                       |
-| H4           | Interfaz de Host       | 172.16.1.2       | 255.255.255.252     | Host 4, conectado a R4                       |
-| R4           | Interfaz de Host       | 172.16.1.1       | 255.255.255.252     | Gateway para H4                              |
-| H5           | Interfaz de Host       | 172.16.2.2       | 255.255.255.252     | Host 5, conectado a R5                       |
-| R5           | Interfaz de Host       | 172.16.2.1       | 255.255.255.252     | Gateway para H5                              |
+![alt text](/Lab3/Imagenes/PingR1-R3.png)
 
-Se usan distintas redes para cada par de routers ya que los protocolos como OSPF necesitan saber que redes estan disponibles y por donde se llega a cada una. Si todo esta en la misma red, no hay forma de diferenciarlas y el protocolo no puede calcular rutas correctas.
+De H1 a H5:
+
+![alt text](/Lab3/Imagenes/PingH1-H5.png)
+
+Si hacemos esto con todos los routers con sus respectivos vecinos deberia dar el mismo resultado
+#### 2- Verificar la vecindad OSPF
+Verificamos la vecindad de R3:
+
+![alt text](/Lab3/Imagenes/VecinosR3.png)
+
+Si hacemos esto para todos los routers nos dara la misma informacion pero con sus respectivos vecinos de ese router
+#### 3- Revisar la tabla de enrutamiento
+ Las rutas OSPF aparecen con la letra O:
+![alt text](/Lab3/Imagenes/TablaEnrutamientoR3.png)
+
+Con el mismo codigo en los distintos routers apareceran las rutas OSPF
+
+### 4. Identificamos y analizamos los mensajes de OSPF
+#### 1. Panel de Simulación
+![alt text](/Lab3/Imagenes/Simulacion.png)
+
+**Explicación**  
+- La ventana muestra la **lista de eventos** capturados en modo “Simulation”.  
+- Se ha filtrado para ver sólo mensajes **OSPF**.  
+- Cada línea indica:
+  - **Vis. Time(sec)**: instante de la simulación en segundos.
+  - **Last Device**: emisor del paquete (p. ej. `Router3`).
+  - **At Device**: receptor del paquete (p. ej. `Router4`, `H4`, etc.).
+  - **Type**: tipo de PDU (aquí todos son OSPF Hello, DBD, LSR, etc.).
+- En este fragmento vemos varios **OSPF Hello** intercambiados entre `Router3` → `Router4`, luego `Router4` → `H4`, etc.
+
+---
+
+#### 2.Detalle OSI del PDU recibido
+![alt text](/Lab3/Imagenes/PDUInformation-OSIModel.png)
+
+**Explicación por capas**  
+- **Layer 1**: el paquete llega a la interfaz `Serial0/0/0` de `Router4`.  
+- **Layer 2**: tramas HDLC (encapsulación serial).  
+- **Layer 3**: cabecera IP con:
+  - **Src IP**: `192.168.4.1` (interfaz de `Router3`).
+  - **Dest IP**: `224.0.0.5` (dirección multicast de vecinos OSPF).  
+- No hay capas superiores mostradas en esta vista OSI; el contenido OSPF se examina en “Inbound PDU Details”.
+
+---
+
+#### 3.Campos del OSPF Hello
+![alt text](/Lab3/Imagenes/OSPF-Hello.png)
+
+| Campo                     | Valor ejemplo      | Significado / Impacto                                          |
+|---------------------------|--------------------|----------------------------------------------------------------|
+| **VERSION NUM**           | 2                  | Versión OSPF para IPv4.                                        |
+| **TYPE**                  | 1                  | Tipo de paquete (1 = Hello).                                   |
+| **PACKET LENGTH**         | 48                 | Longitud total en bytes.                                       |
+| **ROUTER ID**             | 192.168.5.1        | Identificador único del emisor.                                |
+| **AREA ID**               | 0.0.0.0            | Área OSPF (aquí, área 0).                                      |
+| **CHECKSUM**              | 0                  | Suma de verificación (calculará un valor en redes reales).     |
+| **AUTH TYPE**             | 0                  | Tipo de autenticación (0 = sin auth).                          |
+| **NETWORK MASK**          | 255.255.255.0      | Máscara de la subred del enlace punto-a-punto.                 |
+| **HELLO INTERVAL**        | 10                 | Frecuencia de envío de Hellos (debe coincidir en ambos extremos). |
+| **ROUTER DEAD INTERVAL**  | 40                 | Tiempo tras el cual se considera muerto al vecino (4× Hello).  |
+| **OPTIONS**               | 0                  | Bits de capacidades (p.ej. soporte de redes stub/NSSA).        |
+| **DESIGNATED ROUTER**     | 0.0.0.0            | En multiacceso, DR (aquí 0.0.0.0 porque es punto-a-punto).      |
+| **BACKUP DESIGNATED ROUTER** | 0.0.0.0         | BDR en multiacceso (no aplica en punto-a-punto).               |
+| **NEIGHBOR**              | 192.168.4.2        | Lista de Router IDs con los que ya se vio Hello (vecindad).    |
+
+**Comentarios**  
+- Los temporizadores **Hello** y **Dead** deben coincidir en ambos routers para formar adyacencia.  
+- El **Router ID** no puede duplicarse en la misma área.  
+- El **Neighbor** listado confirma que `Router4` vio un Hello previo de `Router3` (ID `192.168.4.2`).
+
+Con estas capturas explicadas demuestras:
+1. Cómo se generan y envían los **HS** (Hello) en OSPF.  
+2. Qué información crítica transportan y cómo afecta a la formación de adyacencias.  
+3. Qué buscar (coherencia de temporizadores, área, IDs, máscara) para diagnosticar fallos de convergencia.  
+4. La ventaja de usar el modo **Simulation** de Packet Tracer para desglosar paso a paso cada PDU.  
