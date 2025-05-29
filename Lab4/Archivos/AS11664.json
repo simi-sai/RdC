@@ -1,0 +1,89 @@
+{
+  "Network": {
+    "Name": "CLARO ARGENTINA",
+    "Organization": "AMX Argentina S.A.",
+    "Also Known As": "",
+    "Long Name": "",
+    "Company Website": "http://www.claro.com.ar",
+    "ASN": "11664",
+    "IRR as-set/route-set": "AS-CLARO-AUP-ALL",
+    "Route Server URL": "",
+    "Looking Glass URL": "",
+    "Network Types": "Cable/DSL/ISP",
+    "IPv4 Prefixes": "3000",
+    "IPv6 Prefixes": "600",
+    "Traffic Levels": "1-5Tbps",
+    "Traffic Ratios": "Heavy Inbound",
+    "Geographic Scope": "Regional",
+    "Protocols Supported": "Unicast IPv4 Multicast IPv6 Never via route servers",
+    "Last Updated": "2024-12-18T15:44:19Z",
+    "Public Peering Info Updated": "2024-12-18T15:44:43Z",
+    "Peering Facility Info Updated": "2024-07-18T12:19:35Z",
+    "Contact Info Updated": "2024-12-16T14:39:59Z",
+    "Notes": "",
+    "RIR Status": "ok",
+    "RIR Status Updated": "2024-06-26T04:47:55Z",
+    "Peering Policy Information": "",
+    "Peering Policy": "",
+    "General Policy": "Open",
+    "Multiple Locations": "Preferred",
+    "Ratio Requirement": "No",
+    "Contract Requirement": "Required",
+    "Health Check": ""
+  },
+  "Public Peering Exchange Points": [
+    {
+      "Exchange": "AR-IX Cabase - Argentina",
+      "IPv4": "45.68.8.114",
+      "ASN": "11664",
+      "IPv6": "2001:13c7:6001::114",
+      "Speed": "100G",
+      "Port Location": "Cabase BUE",
+      "RS Peer": "100G",
+      "BFD Support": ""
+    },
+    {
+      "Exchange": "AR-IX Cabase - Argentina",
+      "IPv4": "45.68.8.108",
+      "ASN": "11664",
+      "IPv6": "2001:13c7:6001::108",
+      "Speed": "100G",
+      "Port Location": "Cabase BUE",
+      "RS Peer": "100G",
+      "BFD Support": ""
+    }
+  ],
+  "Interconnection Facilities": [
+    {
+      "Facility": "BIT-TEC POP.PY.ASU.1",
+      "Country": "Paraguay",
+      "City": "Asuncion"
+    },
+    {
+      "Facility": "Cabase BUE",
+      "Country": "Argentina",
+      "City": "Ciudad Autónoma de Buenos Aires"
+    },
+    {
+      "Facility": "Cirion Buenos Aires - BUE1",
+      "Country": "Argentina",
+      "City": "Buenos Aires"
+    },
+    {
+      "Facility": "Las Toninas, Argentina Cable landing station",
+      "Country": "Argentina",
+      "City": "Las Toninas"
+    },
+    {
+      "Facility": "Pacheco Datacenter EZE1 Argentina Buenos Aires",
+      "Country": "Argentina",
+      "City": "Buenos Aires"
+    },
+    {
+      "Facility": "Telxius Barracas, Buenos Aires",
+      "Country": "Argentina",
+      "City": "Buenos Aires"
+    }
+  ],
+  "Contact Points": []
+}
