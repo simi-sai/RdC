@@ -156,3 +156,141 @@ Las consecuencias de este error fueron significativas:
 - **Confusión Generalizada**: La interrupción generó confusión y preocupación entre los usuarios, quienes no sabían si el problema era local o global.
 
 ### Parte II - Simulaciónes y Análisis
+
+#### 1. Preparación de la Topología
+Para empezar esta 2da parte debemos implementar la topologia dada con el siguiente direccionamiento:
+
+| Dispositivo | Interfaz             | Dirección IP       | Máscara         | Descripción             |
+|-------------|----------------------|--------------------|-----------------|-------------------------|
+| **R0**      | Gi0/0                | 192.168.1.1        | 255.255.255.0   | LAN AS100               |
+|             | Gi0/1                | 10.0.0.1           | 255.255.255.0   | Enlace a R1             |
+| **R1**      | Gi0/0                | 192.168.2.1        | 255.255.255.0   | LAN AS200               |
+|             | Gi0/1                | 10.0.0.2           | 255.255.255.0   | Enlace a R0             |
+| **Pc0**     | —                    | 192.168.1.2        | 255.255.255.0   | Puerta: 192.168.1.1     |
+| **Pc1**     | —                    | 192.168.1.3        | 255.255.255.0   | Puerta: 192.168.1.1     |
+| **Pc2**     | —                    | 192.168.2.2        | 255.255.255.0   | Puerta: 192.168.2.1     |
+| **Pc3**     | —                    | 192.168.2.3        | 255.255.255.0   | Puerta: 192.168.2.1     |
+
+---
+
+#### 2. Armado en Packet Tracer:
+
+![alt text](Imagenes/topologia.png)
+
+    - Routers: R0 (2911), R1 (2911)
+    - Switches: Switch0(2960), Switch1(2960)  
+    - PCs: PC0, PC1, PC2, PC3
+
+---
+
+#### 3. Configuración de IP y BGP
+
+**3.1** Para empezar configuraremos R0 y R1 con los siguientes comandos:
+![alt text](Imagenes/ConfigureR1.png)
+
+Aqui lo que hacemos es:
+- Configuramos la interfaz GigabitEthernet0/0(conecta al switch de AS200) y GigabitEthernet0/1(enlace entre R1 y R0).
+- Asignamos la direcciónes IPv4 y máscaras a Gi0/0
+- Asignamos la dirección del enlace punto a punto con R0 en Gi0/1 .
+
+(Repetimos el mismo proceso para el Router0(R0) con sus respectivas direcciones)
+
+
+
+**3.2** Luego configuramos las IPv4 a los host:
+
+![alt text](Imagenes/ConfigurePC2.png)
+
+De igual manera para los demas host siguiendo la tabla de direcciones
+
+**3.3** Configuramos BGP en R0 y R1
+
+Para configurar el router R0 usaremos estos comandos:
+- **router bgp 100:** Entrar en el modo de configuración del proceso BGP para el AS100(identifica al router en la red BGP)
+- **neighbor 10.0.0.2 remote-as 200:** Declara como vecino al router con IP es 10.0.0.2, y especifica que pertenece al AS200. Esto establece el interconexión BGP entre AS100 y AS200.
+- **network 192.168.1.0 mask 255.255.255.0:**   Indica a BGP que anuncie la red 192.168.1.0/24 a sus vecinos
+
+De una forma similar haremos lo mismo con R1:
+
+![alt text](Imagenes/R0-BGP.png) ![alt text](Imagenes/R1-BGP.png)
+
+
+**3.3** Comandos de verificación
+
+Para verificar tanto la sesion BGP, detalles de vecinos y rutas aprendidas via BGP usaremos los siguientes comandos:
+- **show ip bgp summary**
+
+![alt text](Imagenes/show-ip-bgp-summary.png)
+
+Aqui lo que vemos es:
+- **Neighbor:** Dirección IP del vecino BGP
+- **V:** Versión de BGP
+- **AS:** AS remoto al que nos hemos emparejado (R1 en AS200)
+- **MsgRcvd:** Número de mensajes BGP recibidos desde el vecino
+- **MsgSent:** Número de mensajes BGP enviados al vecino
+- **TblVer:** 	Versión de la tabla de rutas BGP local
+- **InQ / OutQ:** Longitud de las colas de entrada y salida de la sesión TCP que transporta BGP
+- **Up/Down_** Tiempo que lleva establecida la sesión BGP
+- **State/PfxRcd** Estado de la sesión o numero de prefijos recibidos
+
+Como podemos ver la sesión con 10.0.0.2 está establecida (porque State muestra un número de prefijos recibidos, no un estado de error) y ya hemos intercambiado 13 mensajes y aprendido 4 redes de AS200.
+
+
+- **show ip bgp neighbor**
+
+![alt text](Imagenes/show-ip-bgp-neighbor.png)
+Como vemos este comando genera:
+ - Un informe completo de la relación BGP entre el router R0 (AS100) y su vecino R1 (AS200) donde:
+  - Confirmamos que el vecino BGP (10.0.0.2, AS200) se encuentra en estado "Establecido", lo que indica que la sesión BGP está activa.
+  - Vemos que tambien se han intercambiado mensajes, y R0 ya ha enviado un anuncio de red (1 prefijo) demostrando que la comunicación BGP está correctamente establecida y operativa.
+  - El prefijo recibido por R0 aparece en su tabla de rutas como B 192.168.2.0/24 via 10.0.0.2, por lo que valida que las redes están siendo propagadas correctamente entre AS100 y AS200.
+
+- **show ip route bgp**
+
+![alt text](Imagenes/show-ip-route-bgp.png)
+
+Aqui podemos ver que el comando utilizado filtra la tabla de rutas y muestra sólo aquellas que fueron aprendidas a través de BGP.
+
+#### 4. Probando Conectividad
+
+1. Ping dentro del mismo AS(PC0 -> PC1)
+
+![alt text](Imagenes/Ping-mismo-AS.png)
+
+De la misma manera probamos el otro AS y conseguimos los mismos resultados exitosos
+
+2. Ping entre AS100 y AS200
+
+![alt text](Imagenes/Ping-distinto-AS.png)
+
+Como vemos se los dos host de distinto AS se pueden comunicar entre si
+
+#### 5. Simulando la red
+
+1. Simulamos trafico en la red
+![alt text](Imagenes/Simulacion1.png)
+
+En esta captura del Simulation Panel de Packet Tracer, observamos lo siguiente:
+ - Mensajes BGP (en violeta) entre Router0 y Router1, indicando que el peering BGP está establecido y operativo.
+ - Mensajes TCP (verde claro) sobre los que se monta BGP
+ - Tráfico ICMP desde Pc0 a Pc2, y respuestas correctamente devueltas, indicando que la conectividad entre los dos AS está funcionando.
+ - La última línea indica que el ping final llegó correctamente a Pc0, lo que demuestra el tráfico bidireccional sin pérdidas.
+
+2. Apagamos un router 
+
+![alt text](Imagenes/Simulacion2.png)
+
+En esta simulación:
+ - No hay intercambio de mensajes BGP visibles entre Router0 y Router1.
+ - El tráfico **ICMP** queda atrapado: PC0 genera paquetes que nunca llegan a destino (PC2), y no hay respuestas
+ - Solo se observan intentos de reenvío o tráfico que rebota entre Switch0 y R0.
+ - Esto demuestra que, al apagar su interfaz, el peering BGP se rompe, las rutas se pierden y los dispositivos quedan incomunicados entre AS.
+
+3. Encendemos nuevamente el router
+![alt text](Imagenes/Simulacion3.png)
+En esta captura, se observa:
+ - BGP vuelve a intercambiar mensajes entre R0 y R1 (en violeta), lo que indica que la sesión de peering se restablece automáticamente
+ - Tráfico ICMP desde Pc0 a Pc2 vuelve a ser exitoso, demostrando que la conectividad entre AS100 y AS200 se ha restaurado
+ - TCP aparece nuevamente, ya que BGP se monta sobre este protocolo
+
+ Con esto vemos el comportamiento real del protocolo BGP, donde se necesita un corto tiempo para reestablecer la sesión y volver a propagar rutas. Durante ese proceso, los paquetes ICMP se pueden perder, pero se recupera la conexión automáticamente sin intervención manual adicional.
