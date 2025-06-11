@@ -1,3 +1,16 @@
 2025-06-11 13:51:22,431 - INFO - [2025-06-11 13:51:22] Intentando conectar a 127.168.1.5:65432...
 2025-06-11 13:51:24,474 - ERROR - [2025-06-11 13:51:24] Error: La conexión fue rechazada. Asegúrate de que el servidor esté corriendo en 127.168.1.5:65432.
 2025-06-11 13:51:24,475 - INFO - [2025-06-11 13:51:24] Cliente finalizado.
+2025-06-11 13:53:19,439 - INFO - [2025-06-11 13:53:19] Intentando conectar a 192.168.1.5:65432...
+2025-06-11 13:53:19,461 - INFO - [2025-06-11 13:53:19] Conectado al servidor.
+2025-06-11 13:53:19,461 - INFO - [2025-06-11 13:53:19.461] Enviando: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-11 13:53:19,465 - INFO - [2025-06-11 13:53:19.465] Recibido del servidor: ACK: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-11 13:53:20,466 - INFO - [2025-06-11 13:53:20.466] Enviando: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-11 13:53:20,484 - INFO - [2025-06-11 13:53:20.484] Recibido del servidor: ACK: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-11 13:53:21,485 - INFO - [2025-06-11 13:53:21.485] Enviando: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-11 13:53:21,509 - INFO - [2025-06-11 13:53:21.509] Recibido del servidor: ACK: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-11 13:53:22,510 - INFO - [2025-06-11 13:53:22.509] Enviando: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-11 13:53:22,531 - INFO - [2025-06-11 13:53:22.531] Recibido del servidor: ACK: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-11 13:53:23,531 - INFO - [2025-06-11 13:53:23.531] Enviando: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-11 13:53:23,556 - INFO - [2025-06-11 13:53:23.556] Recibido del servidor: ACK: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-11 13:53:23,556 - INFO - [2025-06-11 13:53:23] Cliente finalizado.
