@@ -20,7 +20,7 @@
 
 ## Desarrollo
 
-### 1. Desarrollo de Scripts y Configuración de Computadoras
+### 1. Desarrollo de Scripts y Configuración de Computadoras (TCP)
 
 #### a. Prueba de Script entre dos Computadoras
 
@@ -122,7 +122,22 @@ Avg: 28.214 ms
 Jitter (StdDev): 24.874 ms
 ```
 
-### 2.
+### 2. Desarrollo de Scripts (UDP)
+
+UDP es un protocolo sin conexión, lo que significa que no establece una conexión persistente como TCP. Cada paquete (datagrama) se envía de forma independiente, y no hay garantías de entrega, orden ni detección de errores incorporadas en el protocolo mismo. Esto lo hace más rápido y con menos sobrecarga, pero requiere que la aplicación maneje la confiabilidad si es necesaria.
+
+Dado que UDP no tiene ACKs incorporados, tendremos que implementar nuestro propio mecanismo de ACK a nivel de aplicación para poder calcular la latencia y el jitter de manera análoga.
+
+Cambios realizados para la implementación de UDP:
+
+1. **Cambio de Protocolo**: Se cambió el protocolo de TCP a UDP en los scripts del cliente y del servidor.
+
+Esto se logra utilizando el socket `SOCK_DGRAM` en lugar de `SOCK_STREAM`.
+
+```python
+socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+```
+
 
 ### 3.
 
