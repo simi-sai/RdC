@@ -16,7 +16,7 @@
 **Profesores**
 
 - Santiago M. Henn.
-- Facundo N. 0. Cuneo.
+- Facundo N. O. Cuneo.
 
 ## Desarrollo
 
