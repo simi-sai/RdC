@@ -1,0 +1,218 @@
+2025-06-11 13:51:50,738 - INFO - [2025-06-11 13:51:50] Servidor escuchando en 0.0.0.0:65432...
+2025-06-11 13:54:07,539 - INFO - [2025-06-11 13:54:07] Conectado por 192.168.1.4:52883
+2025-06-11 13:54:07,539 - INFO - [2025-06-11 13:54:07.539] Recibido de 192.168.1.4:52883: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-11 13:54:07,540 - INFO - [2025-06-11 13:54:07.539] Enviado a 192.168.1.4:52883: ACK: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-11 13:54:08,557 - INFO - [2025-06-11 13:54:08.557] Recibido de 192.168.1.4:52883: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-11 13:54:08,558 - INFO - [2025-06-11 13:54:08.558] Enviado a 192.168.1.4:52883: ACK: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-11 13:54:09,581 - INFO - [2025-06-11 13:54:09.581] Recibido de 192.168.1.4:52883: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-11 13:54:09,582 - INFO - [2025-06-11 13:54:09.582] Enviado a 192.168.1.4:52883: ACK: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-11 13:54:10,605 - INFO - [2025-06-11 13:54:10.605] Recibido de 192.168.1.4:52883: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-11 13:54:10,606 - INFO - [2025-06-11 13:54:10.606] Enviado a 192.168.1.4:52883: ACK: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-11 13:54:11,631 - INFO - [2025-06-11 13:54:11.630] Recibido de 192.168.1.4:52883: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-11 13:54:11,631 - INFO - [2025-06-11 13:54:11.631] Enviado a 192.168.1.4:52883: ACK: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-11 13:54:11,634 - INFO - [2025-06-11 13:54:11] Cliente 192.168.1.4:52883 cerró la conexión.
+2025-06-11 13:54:11,634 - INFO - [2025-06-11 13:54:11] Desconectado de 192.168.1.4:52883
+2025-06-11 14:11:50,286 - INFO - [2025-06-11 14:11:50] Servidor escuchando en 0.0.0.0:65432...
+2025-06-11 14:11:58,042 - INFO - [2025-06-11 14:11:58] Conectado por 192.168.1.4:53580
+2025-06-11 14:11:58,042 - INFO - [2025-06-11 14:11:58.042] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-11 14:11:58,043 - INFO - [2025-06-11 14:11:58.043] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-11 14:11:59,062 - INFO - [2025-06-11 14:11:59.062] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-11 14:11:59,063 - INFO - [2025-06-11 14:11:59.062] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-11 14:12:00,086 - INFO - [2025-06-11 14:12:00.086] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-11 14:12:00,087 - INFO - [2025-06-11 14:12:00.087] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-11 14:12:01,111 - INFO - [2025-06-11 14:12:01.111] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-11 14:12:01,112 - INFO - [2025-06-11 14:12:01.112] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-11 14:12:02,134 - INFO - [2025-06-11 14:12:02.134] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-11 14:12:02,135 - INFO - [2025-06-11 14:12:02.134] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-11 14:12:03,159 - INFO - [2025-06-11 14:12:03.159] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-006
+2025-06-11 14:12:03,159 - INFO - [2025-06-11 14:12:03.159] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-006
+2025-06-11 14:12:04,182 - INFO - [2025-06-11 14:12:04.182] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-007
+2025-06-11 14:12:04,182 - INFO - [2025-06-11 14:12:04.182] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-007
+2025-06-11 14:12:05,206 - INFO - [2025-06-11 14:12:05.206] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-008
+2025-06-11 14:12:05,206 - INFO - [2025-06-11 14:12:05.206] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-008
+2025-06-11 14:12:06,230 - INFO - [2025-06-11 14:12:06.230] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-009
+2025-06-11 14:12:06,230 - INFO - [2025-06-11 14:12:06.230] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-009
+2025-06-11 14:12:07,356 - INFO - [2025-06-11 14:12:07.356] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-010
+2025-06-11 14:12:07,356 - INFO - [2025-06-11 14:12:07.356] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-010
+2025-06-11 14:12:08,380 - INFO - [2025-06-11 14:12:08.380] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-011
+2025-06-11 14:12:08,380 - INFO - [2025-06-11 14:12:08.380] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-011
+2025-06-11 14:12:09,508 - INFO - [2025-06-11 14:12:09.508] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-012
+2025-06-11 14:12:09,508 - INFO - [2025-06-11 14:12:09.508] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-012
+2025-06-11 14:12:10,530 - INFO - [2025-06-11 14:12:10.530] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-013
+2025-06-11 14:12:10,531 - INFO - [2025-06-11 14:12:10.530] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-013
+2025-06-11 14:12:11,554 - INFO - [2025-06-11 14:12:11.554] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-014
+2025-06-11 14:12:11,554 - INFO - [2025-06-11 14:12:11.554] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-014
+2025-06-11 14:12:12,578 - INFO - [2025-06-11 14:12:12.578] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-015
+2025-06-11 14:12:12,578 - INFO - [2025-06-11 14:12:12.578] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-015
+2025-06-11 14:12:13,602 - INFO - [2025-06-11 14:12:13.602] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-016
+2025-06-11 14:12:13,602 - INFO - [2025-06-11 14:12:13.602] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-016
+2025-06-11 14:12:14,626 - INFO - [2025-06-11 14:12:14.626] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-017
+2025-06-11 14:12:14,627 - INFO - [2025-06-11 14:12:14.627] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-017
+2025-06-11 14:12:15,650 - INFO - [2025-06-11 14:12:15.650] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-018
+2025-06-11 14:12:15,650 - INFO - [2025-06-11 14:12:15.650] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-018
+2025-06-11 14:12:16,673 - INFO - [2025-06-11 14:12:16.673] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-019
+2025-06-11 14:12:16,674 - INFO - [2025-06-11 14:12:16.674] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-019
+2025-06-11 14:12:17,677 - INFO - [2025-06-11 14:12:17.677] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-020
+2025-06-11 14:12:17,678 - INFO - [2025-06-11 14:12:17.678] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-020
+2025-06-11 14:12:18,722 - INFO - [2025-06-11 14:12:18.721] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-021
+2025-06-11 14:12:18,722 - INFO - [2025-06-11 14:12:18.722] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-021
+2025-06-11 14:12:19,745 - INFO - [2025-06-11 14:12:19.745] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-022
+2025-06-11 14:12:19,746 - INFO - [2025-06-11 14:12:19.746] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-022
+2025-06-11 14:12:20,769 - INFO - [2025-06-11 14:12:20.769] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-023
+2025-06-11 14:12:20,770 - INFO - [2025-06-11 14:12:20.770] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-023
+2025-06-11 14:12:21,793 - INFO - [2025-06-11 14:12:21.793] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-024
+2025-06-11 14:12:21,793 - INFO - [2025-06-11 14:12:21.793] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-024
+2025-06-11 14:12:22,818 - INFO - [2025-06-11 14:12:22.817] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-025
+2025-06-11 14:12:22,818 - INFO - [2025-06-11 14:12:22.818] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-025
+2025-06-11 14:12:23,841 - INFO - [2025-06-11 14:12:23.841] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-026
+2025-06-11 14:12:23,841 - INFO - [2025-06-11 14:12:23.841] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-026
+2025-06-11 14:12:24,865 - INFO - [2025-06-11 14:12:24.865] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-027
+2025-06-11 14:12:24,866 - INFO - [2025-06-11 14:12:24.866] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-027
+2025-06-11 14:12:25,870 - INFO - [2025-06-11 14:12:25.869] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-028
+2025-06-11 14:12:25,870 - INFO - [2025-06-11 14:12:25.870] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-028
+2025-06-11 14:12:26,873 - INFO - [2025-06-11 14:12:26.873] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-029
+2025-06-11 14:12:26,874 - INFO - [2025-06-11 14:12:26.874] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-029
+2025-06-11 14:12:27,878 - INFO - [2025-06-11 14:12:27.878] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-030
+2025-06-11 14:12:27,879 - INFO - [2025-06-11 14:12:27.879] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-030
+2025-06-11 14:12:28,883 - INFO - [2025-06-11 14:12:28.883] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-031
+2025-06-11 14:12:28,883 - INFO - [2025-06-11 14:12:28.883] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-031
+2025-06-11 14:12:29,984 - INFO - [2025-06-11 14:12:29.984] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-032
+2025-06-11 14:12:29,985 - INFO - [2025-06-11 14:12:29.985] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-032
+2025-06-11 14:12:31,008 - INFO - [2025-06-11 14:12:31.008] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-033
+2025-06-11 14:12:31,008 - INFO - [2025-06-11 14:12:31.008] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-033
+2025-06-11 14:12:32,013 - INFO - [2025-06-11 14:12:32.013] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-034
+2025-06-11 14:12:32,014 - INFO - [2025-06-11 14:12:32.013] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-034
+2025-06-11 14:12:33,018 - INFO - [2025-06-11 14:12:33.018] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-035
+2025-06-11 14:12:33,018 - INFO - [2025-06-11 14:12:33.018] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-035
+2025-06-11 14:12:34,081 - INFO - [2025-06-11 14:12:34.081] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-036
+2025-06-11 14:12:34,081 - INFO - [2025-06-11 14:12:34.081] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-036
+2025-06-11 14:12:35,104 - INFO - [2025-06-11 14:12:35.104] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-037
+2025-06-11 14:12:35,104 - INFO - [2025-06-11 14:12:35.104] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-037
+2025-06-11 14:12:36,128 - INFO - [2025-06-11 14:12:36.127] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-038
+2025-06-11 14:12:36,128 - INFO - [2025-06-11 14:12:36.128] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-038
+2025-06-11 14:12:37,152 - INFO - [2025-06-11 14:12:37.151] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-039
+2025-06-11 14:12:37,152 - INFO - [2025-06-11 14:12:37.152] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-039
+2025-06-11 14:12:38,176 - INFO - [2025-06-11 14:12:38.176] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-040
+2025-06-11 14:12:38,177 - INFO - [2025-06-11 14:12:38.177] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-040
+2025-06-11 14:12:39,199 - INFO - [2025-06-11 14:12:39.199] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-041
+2025-06-11 14:12:39,200 - INFO - [2025-06-11 14:12:39.200] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-041
+2025-06-11 14:12:40,223 - INFO - [2025-06-11 14:12:40.223] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-042
+2025-06-11 14:12:40,224 - INFO - [2025-06-11 14:12:40.223] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-042
+2025-06-11 14:12:41,247 - INFO - [2025-06-11 14:12:41.247] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-043
+2025-06-11 14:12:41,247 - INFO - [2025-06-11 14:12:41.247] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-043
+2025-06-11 14:12:42,373 - INFO - [2025-06-11 14:12:42.373] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-044
+2025-06-11 14:12:42,374 - INFO - [2025-06-11 14:12:42.374] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-044
+2025-06-11 14:12:43,397 - INFO - [2025-06-11 14:12:43.397] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-045
+2025-06-11 14:12:43,398 - INFO - [2025-06-11 14:12:43.398] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-045
+2025-06-11 14:12:44,421 - INFO - [2025-06-11 14:12:44.421] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-046
+2025-06-11 14:12:44,421 - INFO - [2025-06-11 14:12:44.421] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-046
+2025-06-11 14:12:45,426 - INFO - [2025-06-11 14:12:45.426] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-047
+2025-06-11 14:12:45,426 - INFO - [2025-06-11 14:12:45.426] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-047
+2025-06-11 14:12:46,473 - INFO - [2025-06-11 14:12:46.473] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-048
+2025-06-11 14:12:46,474 - INFO - [2025-06-11 14:12:46.474] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-048
+2025-06-11 14:12:47,493 - INFO - [2025-06-11 14:12:47.493] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-049
+2025-06-11 14:12:47,493 - INFO - [2025-06-11 14:12:47.493] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-049
+2025-06-11 14:12:48,518 - INFO - [2025-06-11 14:12:48.518] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-050
+2025-06-11 14:12:48,519 - INFO - [2025-06-11 14:12:48.519] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-050
+2025-06-11 14:12:49,541 - INFO - [2025-06-11 14:12:49.540] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-051
+2025-06-11 14:12:49,541 - INFO - [2025-06-11 14:12:49.541] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-051
+2025-06-11 14:12:50,567 - INFO - [2025-06-11 14:12:50.567] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-052
+2025-06-11 14:12:50,568 - INFO - [2025-06-11 14:12:50.568] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-052
+2025-06-11 14:12:51,588 - INFO - [2025-06-11 14:12:51.588] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-053
+2025-06-11 14:12:51,589 - INFO - [2025-06-11 14:12:51.589] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-053
+2025-06-11 14:12:52,612 - INFO - [2025-06-11 14:12:52.612] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-054
+2025-06-11 14:12:52,613 - INFO - [2025-06-11 14:12:52.613] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-054
+2025-06-11 14:12:53,636 - INFO - [2025-06-11 14:12:53.636] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-055
+2025-06-11 14:12:53,637 - INFO - [2025-06-11 14:12:53.636] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-055
+2025-06-11 14:12:54,661 - INFO - [2025-06-11 14:12:54.661] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-056
+2025-06-11 14:12:54,661 - INFO - [2025-06-11 14:12:54.661] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-056
+2025-06-11 14:12:55,684 - INFO - [2025-06-11 14:12:55.684] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-057
+2025-06-11 14:12:55,685 - INFO - [2025-06-11 14:12:55.684] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-057
+2025-06-11 14:12:56,708 - INFO - [2025-06-11 14:12:56.708] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-058
+2025-06-11 14:12:56,708 - INFO - [2025-06-11 14:12:56.708] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-058
+2025-06-11 14:12:57,732 - INFO - [2025-06-11 14:12:57.732] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-059
+2025-06-11 14:12:57,732 - INFO - [2025-06-11 14:12:57.732] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-059
+2025-06-11 14:12:58,756 - INFO - [2025-06-11 14:12:58.756] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-060
+2025-06-11 14:12:58,756 - INFO - [2025-06-11 14:12:58.756] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-060
+2025-06-11 14:12:59,780 - INFO - [2025-06-11 14:12:59.780] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-061
+2025-06-11 14:12:59,780 - INFO - [2025-06-11 14:12:59.780] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-061
+2025-06-11 14:13:00,804 - INFO - [2025-06-11 14:13:00.804] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-062
+2025-06-11 14:13:00,804 - INFO - [2025-06-11 14:13:00.804] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-062
+2025-06-11 14:13:01,828 - INFO - [2025-06-11 14:13:01.827] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-063
+2025-06-11 14:13:01,828 - INFO - [2025-06-11 14:13:01.828] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-063
+2025-06-11 14:13:02,852 - INFO - [2025-06-11 14:13:02.852] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-064
+2025-06-11 14:13:02,852 - INFO - [2025-06-11 14:13:02.852] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-064
+2025-06-11 14:13:03,875 - INFO - [2025-06-11 14:13:03.875] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-065
+2025-06-11 14:13:03,876 - INFO - [2025-06-11 14:13:03.876] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-065
+2025-06-11 14:13:04,900 - INFO - [2025-06-11 14:13:04.900] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-066
+2025-06-11 14:13:04,900 - INFO - [2025-06-11 14:13:04.900] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-066
+2025-06-11 14:13:05,923 - INFO - [2025-06-11 14:13:05.923] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-067
+2025-06-11 14:13:05,923 - INFO - [2025-06-11 14:13:05.923] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-067
+2025-06-11 14:13:06,947 - INFO - [2025-06-11 14:13:06.947] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-068
+2025-06-11 14:13:06,947 - INFO - [2025-06-11 14:13:06.947] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-068
+2025-06-11 14:13:07,971 - INFO - [2025-06-11 14:13:07.971] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-069
+2025-06-11 14:13:07,971 - INFO - [2025-06-11 14:13:07.971] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-069
+2025-06-11 14:13:08,995 - INFO - [2025-06-11 14:13:08.995] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-070
+2025-06-11 14:13:08,995 - INFO - [2025-06-11 14:13:08.995] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-070
+2025-06-11 14:13:10,019 - INFO - [2025-06-11 14:13:10.019] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-071
+2025-06-11 14:13:10,019 - INFO - [2025-06-11 14:13:10.019] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-071
+2025-06-11 14:13:11,042 - INFO - [2025-06-11 14:13:11.042] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-072
+2025-06-11 14:13:11,043 - INFO - [2025-06-11 14:13:11.043] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-072
+2025-06-11 14:13:12,066 - INFO - [2025-06-11 14:13:12.066] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-073
+2025-06-11 14:13:12,067 - INFO - [2025-06-11 14:13:12.067] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-073
+2025-06-11 14:13:13,071 - INFO - [2025-06-11 14:13:13.070] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-074
+2025-06-11 14:13:13,071 - INFO - [2025-06-11 14:13:13.071] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-074
+2025-06-11 14:13:14,115 - INFO - [2025-06-11 14:13:14.115] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-075
+2025-06-11 14:13:14,116 - INFO - [2025-06-11 14:13:14.116] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-075
+2025-06-11 14:13:15,149 - INFO - [2025-06-11 14:13:15.149] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-076
+2025-06-11 14:13:15,150 - INFO - [2025-06-11 14:13:15.150] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-076
+2025-06-11 14:13:16,265 - INFO - [2025-06-11 14:13:16.265] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-077
+2025-06-11 14:13:16,265 - INFO - [2025-06-11 14:13:16.265] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-077
+2025-06-11 14:13:17,288 - INFO - [2025-06-11 14:13:17.288] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-078
+2025-06-11 14:13:17,289 - INFO - [2025-06-11 14:13:17.289] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-078
+2025-06-11 14:13:18,312 - INFO - [2025-06-11 14:13:18.312] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-079
+2025-06-11 14:13:18,313 - INFO - [2025-06-11 14:13:18.313] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-079
+2025-06-11 14:13:19,336 - INFO - [2025-06-11 14:13:19.336] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-080
+2025-06-11 14:13:19,337 - INFO - [2025-06-11 14:13:19.337] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-080
+2025-06-11 14:13:20,360 - INFO - [2025-06-11 14:13:20.360] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-081
+2025-06-11 14:13:20,360 - INFO - [2025-06-11 14:13:20.360] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-081
+2025-06-11 14:13:21,384 - INFO - [2025-06-11 14:13:21.384] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-082
+2025-06-11 14:13:21,385 - INFO - [2025-06-11 14:13:21.385] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-082
+2025-06-11 14:13:22,408 - INFO - [2025-06-11 14:13:22.408] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-083
+2025-06-11 14:13:22,408 - INFO - [2025-06-11 14:13:22.408] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-083
+2025-06-11 14:13:23,432 - INFO - [2025-06-11 14:13:23.432] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-084
+2025-06-11 14:13:23,432 - INFO - [2025-06-11 14:13:23.432] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-084
+2025-06-11 14:13:24,456 - INFO - [2025-06-11 14:13:24.456] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-085
+2025-06-11 14:13:24,456 - INFO - [2025-06-11 14:13:24.456] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-085
+2025-06-11 14:13:25,480 - INFO - [2025-06-11 14:13:25.480] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-086
+2025-06-11 14:13:25,480 - INFO - [2025-06-11 14:13:25.480] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-086
+2025-06-11 14:13:26,504 - INFO - [2025-06-11 14:13:26.504] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-087
+2025-06-11 14:13:26,505 - INFO - [2025-06-11 14:13:26.504] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-087
+2025-06-11 14:13:27,528 - INFO - [2025-06-11 14:13:27.527] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-088
+2025-06-11 14:13:27,528 - INFO - [2025-06-11 14:13:27.528] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-088
+2025-06-11 14:13:28,552 - INFO - [2025-06-11 14:13:28.551] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-089
+2025-06-11 14:13:28,552 - INFO - [2025-06-11 14:13:28.552] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-089
+2025-06-11 14:13:29,556 - INFO - [2025-06-11 14:13:29.556] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-090
+2025-06-11 14:13:29,556 - INFO - [2025-06-11 14:13:29.556] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-090
+2025-06-11 14:13:30,599 - INFO - [2025-06-11 14:13:30.599] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-091
+2025-06-11 14:13:30,599 - INFO - [2025-06-11 14:13:30.599] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-091
+2025-06-11 14:13:31,624 - INFO - [2025-06-11 14:13:31.624] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-092
+2025-06-11 14:13:31,624 - INFO - [2025-06-11 14:13:31.624] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-092
+2025-06-11 14:13:32,647 - INFO - [2025-06-11 14:13:32.647] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-093
+2025-06-11 14:13:32,647 - INFO - [2025-06-11 14:13:32.647] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-093
+2025-06-11 14:13:33,671 - INFO - [2025-06-11 14:13:33.671] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-094
+2025-06-11 14:13:33,671 - INFO - [2025-06-11 14:13:33.671] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-094
+2025-06-11 14:13:34,695 - INFO - [2025-06-11 14:13:34.695] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-095
+2025-06-11 14:13:34,695 - INFO - [2025-06-11 14:13:34.695] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-095
+2025-06-11 14:13:35,720 - INFO - [2025-06-11 14:13:35.720] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-096
+2025-06-11 14:13:35,720 - INFO - [2025-06-11 14:13:35.720] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-096
+2025-06-11 14:13:36,845 - INFO - [2025-06-11 14:13:36.845] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-097
+2025-06-11 14:13:36,845 - INFO - [2025-06-11 14:13:36.845] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-097
+2025-06-11 14:13:37,869 - INFO - [2025-06-11 14:13:37.869] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-098
+2025-06-11 14:13:37,869 - INFO - [2025-06-11 14:13:37.869] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-098
+2025-06-11 14:13:38,893 - INFO - [2025-06-11 14:13:38.893] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-099
+2025-06-11 14:13:38,894 - INFO - [2025-06-11 14:13:38.894] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-099
+2025-06-11 14:13:39,917 - INFO - [2025-06-11 14:13:39.917] Recibido de 192.168.1.4:53580: Hola, soy el paquete Lenox Legends v2.0-100
+2025-06-11 14:13:39,917 - INFO - [2025-06-11 14:13:39.917] Enviado a 192.168.1.4:53580: ACK: Hola, soy el paquete Lenox Legends v2.0-100
+2025-06-11 14:13:39,920 - INFO - [2025-06-11 14:13:39] Cliente 192.168.1.4:53580 cerró la conexión.
+2025-06-11 14:13:39,921 - INFO - [2025-06-11 14:13:39] Desconectado de 192.168.1.4:53580
