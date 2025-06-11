@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger('client_logger')
 
 # --- Configuración del Cliente ---
-SERVER_HOST = '127.168.1.5'         # La dirección IP del servidor
+SERVER_HOST = '192.168.1.5'         # La dirección IP del servidor
 SERVER_PORT = 65432                 # El puerto del servidor
 GROUP_NAME = 'Lenox Legends v2.0'   # Nombre identificatorio del grupo
 SEND_INTERVAL_SECONDS = 1           # Intervalo de tiempo entre envíos en segundos

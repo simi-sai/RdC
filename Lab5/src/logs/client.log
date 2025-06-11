@@ -1,0 +1,3 @@
+2025-06-11 13:51:22,431 - INFO - [2025-06-11 13:51:22] Intentando conectar a 127.168.1.5:65432...
+2025-06-11 13:51:24,474 - ERROR - [2025-06-11 13:51:24] Error: La conexión fue rechazada. Asegúrate de que el servidor esté corriendo en 127.168.1.5:65432.
+2025-06-11 13:51:24,475 - INFO - [2025-06-11 13:51:24] Cliente finalizado.
