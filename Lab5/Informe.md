@@ -138,11 +138,32 @@ Esto se logra utilizando el socket `SOCK_DGRAM` en lugar de `SOCK_STREAM`.
 socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 ```
 
+2. **Operaciones de Envío y Recepción**: Se modificaron las operaciones de envío y recepción para adaptarse al protocolo UDP. En lugar de usar `sendall` y `recv`, se utilizan `sendto` y `recvfrom`. El cliente ya no tiene `s.connect()` porque UDP es sin conexión. Ahora el cliente recibe un pseudo ACK del servidor para cada paquete enviado, esto para poder calcular la latencia y el jitter.
+
+3. **Mecanismo de ACK (A nivel de Aplicación)**:
+
+Dado que UDP no tiene ACKs automáticos, implementamos un ACK simple: el servidor envía de vuelta el mensaje original precedido por "ACK: ". El cliente espera este ACK y, si lo recibe, calcula la latencia.
+
+4. **Manejo de Pérdidas y Timeout (Cliente)**:
+
+UDP no garantiza la entrega. Si un datagrama se pierde en la red (o su ACK de retorno), el cliente nunca recibirá una respuesta. Por eso, `s.settimeout(RECEIVE_TIMEOUT_SECONDS)` es aún más crítico en UDP. Si el timeout expira, el cliente asume que el paquete (o el ACK) se perdió y no se añade a la lista de latencias.
+`El RECEIVE_TIMEOUT_SECONDS` se ha ajustado a 2 segundos para asegurar que haya tiempo suficiente para recibir el ACK, siendo mayor que `SEND_INTERVAL_SECONDS`.
+
+5. **Logging**:
+
+Los archivos de log se diferencian con prefijos `udp_`. Adaptamos los mensajes de log para reflejar que es una comunicación UDP.
+
+6. **Elección de Protocolo**: 
+
+Ahora al ejecutar el script, se puede elegir entre TCP y UDP. Esto se logro utilizando la libreria `argparse` de Python para manejar los argumentos de línea de comandos.
+
 
 ### 3.
 
 ### 4. Encriptacion
+
 #### ENCRIPTADO SIMETRICO
+
 El cifrado simétrico es un tipo de cifrado en el que se utiliza la misma clave para cifrar y descifrar los datos. 
 
 Al utilizar una única clave, el proceso es sencillo por lo que se consigue un buen rendimiento con un bajo consumo de recursos. Pero esto tambien hace que sea menos seguro que el encriptado asimetrico.
@@ -156,6 +177,7 @@ Algunos ejemplos de cifrado simetrico son:
 * **3DES(Triple DES):** Mejora la seguridad de DES al aplicar el algoritmo tres veces con diferentes claves. Es mas seguro que DES pero tambien es mas lento.
 
 #### ENCRIPTADO ASIMETRICO
+
 A diferencia de la encriptación simétrica, la encriptación de clave asimétrica utiliza una clave pública y una clave privada para encriptar y desencriptar datos. Este metodo elimina la necesidad de compartir la misma clave, ya que una clave(la pública) se utiliza para cifrar, y la otra (la privada) para descifrar. 
 
 Este cifrado, tambien conocido como **criptografia de clave publica**, se utiliza habitualmente para comunicaciones seguras en línea, firmas digitales, y protocolos SSL/TLS para establecer conexiones seguras entre navegadores web y servidores.
@@ -170,7 +192,7 @@ Algunos algoritmos de encriptacion asimétrica muy utilizados son:
 
 #### COMPARACION ENTRE CIFRADO SIMETRICO Y ASIMETRICO.
 
-|                        | **Cifrado simétrico**                                   | **Cifrado asimétrico**                                 |
+|                        | **Cifrado Simétrico**                                   | **Cifrado Asimétrico**                                 |
 |------------------------|----------------------------------------------------------|----------------------------------------------------------|
 | **Claves de uso**      | Misma clave para encriptar y desencriptar               | Par de claves pública y privada                         |
 | **Distribución de llaves** | Requiere un intercambio de claves seguro entre las partes | La clave pública puede compartirse abiertamente         |
@@ -187,6 +209,7 @@ Para nuestro desarrollo, usamos la libreria de Python `cryptography`, que es la 
 Para nuestro caso, elegimos la encriptacion simetrica AES.
 
 #### Caracteristicas de **AES**:
+
 Elegimos AES porque destaca en muchas metricas clave de rendimiento. Sus principales caracteristicas son:
 
 

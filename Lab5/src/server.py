@@ -1,47 +1,50 @@
 import socket
 import threading
-import datetime
 import logging
 import os
+import argparse
 
 # --- Configuración de Logging ---
 LOG_DIR = 'logs'
-SERVER_LOG_FILE = os.path.join(LOG_DIR, 'server.log')
-
-# Asegurarse de que el directorio de logs exista
 os.makedirs(LOG_DIR, exist_ok=True)
 
-# Configurar el logger del servidor
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(SERVER_LOG_FILE),
-        logging.StreamHandler() # También imprime en la consola
-    ]
-)
-logger = logging.getLogger('server_logger')
+# Configuración base del logger (se complementará con el nombre del protocolo)
+def setup_server_logger(protocol):
+    log_file = os.path.join(LOG_DIR, f'{protocol}_server.log')
+    logger = logging.getLogger(f'{protocol}_server_logger')
+    logger.setLevel(logging.INFO)
+    
+    # Evitar añadir handlers múltiples veces si la función se llama más de una vez
+    if not logger.handlers:
+        formatter = logging.Formatter('%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+        
+        file_handler = logging.FileHandler(log_file)
+        file_handler.setFormatter(formatter)
+        logger.addHandler(file_handler)
+        
+        stream_handler = logging.StreamHandler()
+        stream_handler.setFormatter(formatter)
+        logger.addHandler(stream_handler)
+    
+    return logger
 
 # --- Configuración del Servidor ---
-HOST = '0.0.0.0'  # Escucha en todas las interfaces disponibles
-PORT = 65432      # Puerto arbitrario
+HOST = '0.0.0.0'
+PORT = 65432
 
-def handle_client(conn, addr):
-    """Maneja la comunicación con un cliente individual."""
+def handle_tcp_client(conn, addr, logger):
     client_id = f"{addr[0]}:{addr[1]}"
-    logger.info(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Conectado por {client_id}")
+    logger.info(f"Conectado por {client_id}")
     try:
         while True:
-            data = conn.recv(1024)  # Recibe hasta 1024 bytes
+            data = conn.recv(1024)
             if not data:
-                logger.info(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Cliente {client_id} cerró la conexión.")
-                break  # El cliente cerró la conexión
+                logger.info(f"Cliente {client_id} cerró la conexión.")
+                break
             
             message = data.decode('utf-8')
-            timestamp_received = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3] # ms
-            logger.info(f"[{timestamp_received}] Recibido de {client_id}: {message}")
+            logger.info(f"Recibido de {client_id}: {message}")
 
-            # Extraer el contenido identificatorio (por ejemplo, "GRUPO_XYZ-001")
             try:
                 group_name, seq_num_str = message.rsplit('-', 1)
                 logger.debug(f"    Nombre de grupo: {group_name}, Número secuencial: {seq_num_str}")
@@ -50,32 +53,64 @@ def handle_client(conn, addr):
 
             response = f"ACK: {message}"
             conn.sendall(response.encode('utf-8'))
-            timestamp_sent = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3] # ms
-            logger.info(f"[{timestamp_sent}] Enviado a {client_id}: {response}")
+            logger.info(f"Enviado a {client_id}: {response}")
 
     except ConnectionResetError:
-        logger.warning(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Conexión con {client_id} reseteada por el cliente.")
+        logger.warning(f"Conexión con {client_id} reseteada por el cliente.")
     except Exception as e:
-        logger.error(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Error manejando cliente {client_id}: {e}")
+        logger.error(f"Error manejando cliente {client_id}: {e}")
     finally:
-        logger.info(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Desconectado de {client_id}")
+        logger.info(f"Desconectado de {client_id}")
         conn.close()
 
 def start_server():
-    """Inicia el servidor TCP."""
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) # Permite reusar la dirección
+    parser = argparse.ArgumentParser(description="Servidor TCP/UDP unificado.")
+    parser.add_argument('--protocol', type=str, default='tcp', choices=['tcp', 'udp'],
+                        help="Protocolo a usar: 'tcp' o 'udp'. Por defecto: tcp")
+    args = parser.parse_args()
+
+    protocol = args.protocol.upper()
+    logger = setup_server_logger(args.protocol)
+    
+    if protocol == 'TCP':
+        sock_type = socket.SOCK_STREAM
+    elif protocol == 'UDP':
+        sock_type = socket.SOCK_DGRAM
+    else:
+        logger.critical("Protocolo no válido. Use 'tcp' o 'udp'.")
+        return
+
+    with socket.socket(socket.AF_INET, sock_type) as s:
+        s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         try:
             s.bind((HOST, PORT))
-            s.listen()
-            logger.info(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Servidor escuchando en {HOST}:{PORT}...")
-            while True:
-                conn, addr = s.accept()
-                # Inicia un nuevo hilo para manejar cada conexión de cliente
-                client_thread = threading.Thread(target=handle_client, args=(conn, addr))
-                client_thread.start()
+            
+            if protocol == 'TCP':
+                s.listen()
+                logger.info(f"Servidor {protocol} escuchando en {HOST}:{PORT}...")
+                while True:
+                    conn, addr = s.accept()
+                    client_thread = threading.Thread(target=handle_tcp_client, args=(conn, addr, logger))
+                    client_thread.start()
+            elif protocol == 'UDP':
+                logger.info(f"Servidor {protocol} escuchando en {HOST}:{PORT}...")
+                while True:
+                    data, addr = s.recvfrom(1024)
+                    message = data.decode('utf-8')
+                    logger.info(f"Recibido de {addr[0]}:{addr[1]}: {message}")
+
+                    try:
+                        group_name, seq_num_str = message.rsplit('-', 1)
+                        logger.debug(f"    Nombre de grupo: {group_name}, Número secuencial: {seq_num_str}")
+                    except ValueError:
+                        logger.warning(f"    Formato de mensaje no reconocido de {addr[0]}:{addr[1]}: {message}")
+
+                    response = f"ACK: {message}"
+                    s.sendto(response.encode('utf-8'), addr)
+                    logger.info(f"Enviado ACK a {addr[0]}:{addr[1]}: {response}")
+
         except Exception as e:
-            logger.critical(f"[{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Falló el inicio del servidor: {e}")
+            logger.critical(f"Falló el inicio o la operación del servidor {protocol}: {e}")
 
 if __name__ == '__main__':
     start_server()
