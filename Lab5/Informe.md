@@ -153,10 +153,19 @@ UDP no garantiza la entrega. Si un datagrama se pierde en la red (o su ACK de re
 
 Los archivos de log se diferencian con prefijos `udp_`. Adaptamos los mensajes de log para reflejar que es una comunicación UDP.
 
-6. **Elección de Protocolo**: 
+6. **Elector de Protocolo**: 
 
 Ahora al ejecutar el script, se puede elegir entre TCP y UDP. Esto se logro utilizando la libreria `argparse` de Python para manejar los argumentos de línea de comandos.
 
+Luego de realizar los cambios, se ejecutaron los scripts y se verificó que la comunicación funcionara correctamente.
+
+!["Imagen de la prueba de comunicación UDP"](./Imagenes/UDP-Funcionando-C.png)
+
+!["Imagen de la prueba de comunicación UDP"](./Imagenes/UDP-Funcionando-S.png)
+
+Luego se capturo un paquete UDP con Wireshark para ver el payload.
+
+!["Imagen de un paquete UDP capturado"](./Imagenes/Wireshark-UDP-Packet.png)
 
 ### 3.
 
