@@ -163,11 +163,26 @@ Luego de realizar los cambios, se ejecutaron los scripts y se verificó que la c
 
 !["Imagen de la prueba de comunicación UDP"](./Imagenes/UDP-Funcionando-S.png)
 
+La latencia y el jitter calculados para UDP fueron los siguientes (para ver completo el log, ver carpeta `Logs`):
+
+```plaintext
+--- Estad�sticas de Latencia y Jitter para 100 paquetes (UDP) ---
+Min: 3.791 ms
+Max: 127.540 ms
+Avg: 28.766 ms
+Jitter (StdDev): 23.189 ms
+```
+
 Luego se capturo un paquete UDP con Wireshark para ver el payload.
 
 !["Imagen de un paquete UDP capturado"](./Imagenes/Wireshark-UDP-Packet.png)
 
-### 3.
+### 3. Comparativa de Paquetes TCP y UDP
+
+El archivo Paquetes-UDP-TCP.pcapng contiene una captura de paquetes que contiene tanto paquetes TCP como UDP captados mediante nuestros scripts.
+
+>[!NOTE]
+>COMPLETAR
 
 ### 4. Encriptacion
 
