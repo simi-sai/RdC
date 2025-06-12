@@ -1,0 +1,256 @@
+2025-06-11 23:35:37.973 - INFO - Intentando conectar a 127.0.0.1:65432 usando TCP...
+2025-06-11 23:35:37.974 - INFO - Conectado al servidor.
+2025-06-11 23:35:37.974 - ERROR - Ocurrió un error en el cliente TCP: Invalid key size (216) for AES.
+2025-06-11 23:35:37.974 - INFO - Cliente TCP finalizado.
+2025-06-11 23:35:37.974 - WARNING - No se recibieron ACKs válidos para calcular latencias/jitter.
+2025-06-11 23:39:54.956 - INFO - Intentando conectar a 127.0.0.1:65432 usando TCP...
+2025-06-11 23:39:54.956 - INFO - Conectado al servidor.
+2025-06-11 23:39:54.956 - ERROR - Ocurrió un error en el cliente TCP: Invalid key size (216) for AES.
+2025-06-11 23:39:54.956 - INFO - Cliente TCP finalizado.
+2025-06-11 23:39:54.956 - WARNING - No se recibieron ACKs válidos para calcular latencias/jitter.
+2025-06-11 23:40:58.805 - INFO - Intentando conectar a 127.0.0.1:65432 usando TCP...
+2025-06-11 23:40:58.805 - INFO - Conectado al servidor.
+2025-06-11 23:40:58.857 - INFO - Enviando: lnGeX9yzWLCqFb20UOm93SXPDgAWmgMZfkV8TP/gLqtu5Krl812Efzwh8hRsAgGV72EQyOuf/ferjqAWkT+Cjw==
+2025-06-11 23:40:58.869 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-001 | Latencia: 63.217 ms
+2025-06-11 23:40:59.869 - INFO - Enviando: rclB6FC2Wz4KcUiGsJL6erVeqSSET+zk/HO5hh48iIqfyyRGIUyK5zA6PDJaVKEg19Yjmlpq9trFlWxEFftXlg==
+2025-06-11 23:40:59.870 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-002 | Latencia: 0.817 ms
+2025-06-11 23:41:00.870 - INFO - Enviando: yDcOEixfeSwqVQR5cSMIYBAj2FRqZ9l3ne4rA3b0ZSReO3PzNautUmFGUbAauO7vWCpEkBaDjaR+3V2F8Y7gXw==
+2025-06-11 23:41:00.871 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-003 | Latencia: 0.765 ms
+2025-06-11 23:41:01.872 - INFO - Enviando: PlSZIcDgTgIcaETQvpAnLY2ep812XnBbKONgCzZ72dVz4aWTcQi0SARA/1+GugOxEuhd3ufvojOQwFThu8PO+w==
+2025-06-11 23:41:01.872 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-004 | Latencia: 0.825 ms
+2025-06-11 23:41:02.873 - INFO - Enviando: QSuXkxfDD0bPPJZq+fqcGrJxz68YLvolB7Sgg1P8xaiILUT7iAm1uL4kMG4obvpg5Uxdn7vD7zTe9yRh0eQlvA==
+2025-06-11 23:41:02.873 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-005 | Latencia: 0.819 ms
+2025-06-11 23:41:03.874 - INFO - Enviando: L0mU4TXSHD8smkJ7ps4HnIJFfuYIDa0p35igk7632hBBQbWsIKhjiwsF4WXbSin12tGdY21SNZoZF1HkB1kUpw==
+2025-06-11 23:41:03.874 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-006 | Latencia: 0.910 ms
+2025-06-11 23:41:04.875 - INFO - Enviando: 9Z7AP7lnsNfIAhn3vixTMm1Fx1VxMi74ZDK1ph9XPQ4DXD5x7Bb6i7hedV6pz24g5LmVUF5XvPS3oYtsQOqgAg==
+2025-06-11 23:41:04.875 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-007 | Latencia: 0.695 ms
+2025-06-11 23:41:05.876 - INFO - Enviando: oh7omuJjuU7jnTJVwlOBw41KG4HqIS9ASS3U5Uyi/puVlbjoWP3DlIFONn9822oGWUCZZiViDjCh+ctZ6CMV9w==
+2025-06-11 23:41:05.876 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-008 | Latencia: 0.561 ms
+2025-06-11 23:41:06.877 - INFO - Enviando: HHCeW0F/01ONY7V1gCqI7r1ITQFl8HiZ2pOnmeo6owLUK723nJ5klbOEsYm+QAAjKLbWVW8Vhxnpe4o2e/1cxQ==
+2025-06-11 23:41:06.878 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-009 | Latencia: 1.348 ms
+2025-06-11 23:41:07.878 - INFO - Enviando: LiyCKz0eLiczwH0KG3iXdtyu75f3ZbO43w3n7EGFBPtLAoDz8MdU+I5Kb8yBTBXeC4mVBGotfA5aYV2Dp3pQpQ==
+2025-06-11 23:41:07.879 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-010 | Latencia: 1.357 ms
+2025-06-11 23:41:08.880 - INFO - Enviando: kEvPHQqSEseHchMr72o9XLL0RbCYl5ePBXB+b7oUjxDk325+2rxZ+HAQ3tP5yBq/T4JcgVkV2RHnYGl2rDq9YA==
+2025-06-11 23:41:08.881 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-011 | Latencia: 1.020 ms
+2025-06-11 23:41:09.882 - INFO - Enviando: AERNugWKaZ+pt2sl92YqDWqy9QrRgtwX+N9UBtJ/0jFnZfuKuacy/NtIixiK4m9dW6ZKcCVbVwf7d33r8U1BpQ==
+2025-06-11 23:41:09.883 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-012 | Latencia: 1.687 ms
+2025-06-11 23:41:10.884 - INFO - Enviando: JY9heQ7700EQcyM2bj7NUAwyjwe0L1wc+bRqmKWdBpafzYMnCg3aPQyo/UmFB0S5ra5QNCcywoCpNbvWX55wIA==
+2025-06-11 23:41:10.885 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-013 | Latencia: 1.406 ms
+2025-06-11 23:41:11.886 - INFO - Enviando: CDQOw7M57WfGCIsEMn++SH4DLmHiDzA8rynYoFHKnfBOfegUZWSY7d2i/iqfrn5OSuUFgSnPDeMYOZcNWdgX+A==
+2025-06-11 23:41:11.886 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-014 | Latencia: 1.213 ms
+2025-06-11 23:41:12.887 - INFO - Enviando: vSZjERiTgRmSAZrwOmp3Z/u7lsjIPmsgR+EQPXxlSzM8SQ3B/yQi3FiVi7Wvvdmn11jJACndHZthd3lfG5VmSw==
+2025-06-11 23:41:12.888 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-015 | Latencia: 1.434 ms
+2025-06-11 23:41:13.889 - INFO - Enviando: 5rdDW3+jho7Y4kXkmP1GF5X6UTumjSQb87aTBv0Y/rnOYuDR6Ar/LFoNqKX3T6h9yeJMa7ChfsVnK1PnuV68/w==
+2025-06-11 23:41:13.890 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-016 | Latencia: 1.280 ms
+2025-06-11 23:41:14.890 - INFO - Enviando: 0ubIAMdjB4Dy1L6KT4LWwUfl/LQBIki684jfd/9Wpzq38l4TfancDDFOX3On6FN/2qs4eB/qxwLmoiTVa6lioQ==
+2025-06-11 23:41:14.891 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-017 | Latencia: 0.933 ms
+2025-06-11 23:41:15.892 - INFO - Enviando: lobFeuWh/OiphxADInTOIdxNfYj4BQjaogiz6uKYOS1TwJh7yQh0dBe+y9b6bCAkyBReqEkSJ4zPRbDO1hMssA==
+2025-06-11 23:41:15.893 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-018 | Latencia: 1.353 ms
+2025-06-11 23:41:16.893 - INFO - Enviando: zEE/1/qIkrowBXXvmDRmrfJVeaYZeA/s7UvtWElgZyAWHa6Wypps322G96pgaM8Uo7s6170OeRSHusoJZT6ciw==
+2025-06-11 23:41:16.894 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-019 | Latencia: 1.355 ms
+2025-06-11 23:41:17.895 - INFO - Enviando: KCGMsJoRzkJUXbh95BXTFoMp2cbTCxsuWyhHSr8OPUT6+Mn/IG3i3veAGjCh04smh1HQ4WRfEg6NkcbtrSKzTg==
+2025-06-11 23:41:17.896 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-020 | Latencia: 1.516 ms
+2025-06-11 23:41:18.897 - INFO - Enviando: VYqVx131Ig2DicPrmr3DSxxv4czSIFBuX2QrP6Tu2LcbedSUEKLVXi02h975OtQkYtlrdmb49XGcPk9wP/f46A==
+2025-06-11 23:41:18.898 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-021 | Latencia: 1.589 ms
+2025-06-11 23:41:19.900 - INFO - Enviando: E0QrtPmYesLDbXaqhC345LVNRt+quuKA/3GI/YmFrZg9IdOyiWO7oBT65MNLk3OFuHz3lhXRD4/d+exrtPj5FA==
+2025-06-11 23:41:19.901 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-022 | Latencia: 1.525 ms
+2025-06-11 23:41:20.901 - INFO - Enviando: w/Q40N3hbV2OY65WTKC1UsLG3ZOUT8m/eXK4nq5hBjbo199QXVZs9lBkMNNMc38fRKlKmGsa17kj2blSurmKIQ==
+2025-06-11 23:41:20.902 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-023 | Latencia: 1.246 ms
+2025-06-11 23:41:21.903 - INFO - Enviando: c2/PvbHUIj8j0/KjussGGv0ku1ZzyBurRZ7DzWxYTfskF3IncQ1bWN/aW4lFKGnyRaAzi9fEZTnDmtH0dMy2dQ==
+2025-06-11 23:41:21.904 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-024 | Latencia: 1.294 ms
+2025-06-11 23:41:22.905 - INFO - Enviando: Oy+XHDx0mP45R/iC3L5Quc7F0wpSQ6NJAa+Pdtmx+N8YrcCptHpeCoMtqaz+t2WFio6SEdXVOO6G8xjbk/K+eA==
+2025-06-11 23:41:22.906 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-025 | Latencia: 1.428 ms
+2025-06-11 23:41:23.908 - INFO - Enviando: MJN6LXV2p71WyH6RtnKXwmkeAP632o/oO4+WJCXC3MgSOJitZ0YiHyRwdxr3Jw2DVcORK9IAZFemogrZhZxuXA==
+2025-06-11 23:41:23.909 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-026 | Latencia: 1.456 ms
+2025-06-11 23:41:24.910 - INFO - Enviando: 5o5xtvLnzbjRTDiStCwokFjKGh06gFiS/Bm5xfKAlKp8xg9sYob2AXyfJ7rltRds85tju1/xC4KmQDge3l7lSA==
+2025-06-11 23:41:24.911 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-027 | Latencia: 1.446 ms
+2025-06-11 23:41:25.912 - INFO - Enviando: Ch0zWwX/CIfHIYURrs78Fe9yUDe1CheJdqqK/+/aXaweMjwc1A/hmcPjOtn9BYKa8RFpxqoXapPlO47+Fsp3pQ==
+2025-06-11 23:41:25.913 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-028 | Latencia: 1.443 ms
+2025-06-11 23:41:26.913 - INFO - Enviando: 99SO3ynaeKI/Z3c6jZYq5Xstlw93fgOgmKfNOq5/OMD/7JEFlRb78C1bhBD2/jax31G73mdokAZBx2aqotPcHw==
+2025-06-11 23:41:26.914 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-029 | Latencia: 1.258 ms
+2025-06-11 23:41:27.915 - INFO - Enviando: U1KiSwcsdS6R58A1LQirkHpeXQaVbF1/Vkcf5Wo3N64+JpmeTP+kTTDTbUWGEqO3RQsJvq6GlwyeBZJa8E0qDw==
+2025-06-11 23:41:27.916 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-030 | Latencia: 1.305 ms
+2025-06-11 23:41:28.917 - INFO - Enviando: KKWGJD/ZXIC6yeW8+CaX6GarxOLJDnvvAAL5V9U8L/tV0MlAnkeMlezUBpk1adYKe/kD3pfx/6qljdrDj7Bc4Q==
+2025-06-11 23:41:28.918 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-031 | Latencia: 1.425 ms
+2025-06-11 23:41:29.918 - INFO - Enviando: tEKzH1V3LqNzsL7SCNR/jMeGcjcvqB5FZsO0L9EFDHJ5gIvDIOREdtuBdg7t+TKjuZgl29Oql9lJaXU+aDVBRQ==
+2025-06-11 23:41:29.919 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-032 | Latencia: 1.204 ms
+2025-06-11 23:41:30.920 - INFO - Enviando: gqtFwyYU+jvnGiirUUiPqqaKQc1mWx6C2un6maTgcqsNv1D0QKjmJKfpJftNaitVm+1SetqgOsm0Q0teHy7oGw==
+2025-06-11 23:41:30.921 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-033 | Latencia: 1.130 ms
+2025-06-11 23:41:31.922 - INFO - Enviando: jqZNHeV5KsmgPzHU93F6vMXnhOlikgsSdXcTrulUj9WCRgtIwa6C+91RLMoyda/i28QebdSWfgWern/5i/Ajug==
+2025-06-11 23:41:31.923 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-034 | Latencia: 1.237 ms
+2025-06-11 23:41:32.924 - INFO - Enviando: sa25nXSJN7LWeeNqvg2qZ+L16f4dHtz6FxthrREAw92Lgpz1ax15gOxsE1xciCxc+xYDkuZQLXy9hv/E/eN9GA==
+2025-06-11 23:41:32.925 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-035 | Latencia: 1.330 ms
+2025-06-11 23:41:33.926 - INFO - Enviando: GioW/CDnCWmGZ+jmr1qu9rWVh+RKLkbKabKDnsAcoIeoBJih8ytG+E5Z6N6V3W5s8imzXjJ7RYupDgqEeJde9w==
+2025-06-11 23:41:33.927 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-036 | Latencia: 1.328 ms
+2025-06-11 23:41:34.928 - INFO - Enviando: k3glk9S6VoMr9H8v9ZXzlH4z2ThF3XdBqOm9KHQLPViLXekGyUv3f9hZknQj9RoZ9xUgqEjDxuWC8vgxCI3Bkg==
+2025-06-11 23:41:34.929 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-037 | Latencia: 1.183 ms
+2025-06-11 23:41:35.930 - INFO - Enviando: UCbjkFhscwp1GAZLbzMxp2B9UU1AqCCo8ZnzI9Xr94r6J7zkahcN8elTZXZ6NkVPfRRfyDkC/+/tk8JWy+WsHg==
+2025-06-11 23:41:35.931 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-038 | Latencia: 1.309 ms
+2025-06-11 23:41:36.932 - INFO - Enviando: 4jE3L2QxI1d1OgNFEe6lLyqrnEdnfC0ObwtFXVVJRjw505hQbZK6qOfEEXsi26loRwAiwQM7AMsfn/rmrwvpRg==
+2025-06-11 23:41:36.933 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-039 | Latencia: 1.365 ms
+2025-06-11 23:41:37.934 - INFO - Enviando: lpjJ0wEuG2A4AgwvuRl7cjT57xVm34sXzjBFkeabnt9TS7X2hDLW4/2ck3POoAEAljXvue7TP8eqM9j5dY5zWw==
+2025-06-11 23:41:37.935 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-040 | Latencia: 1.312 ms
+2025-06-11 23:41:38.936 - INFO - Enviando: D+L2yuHe83O6n0ZIR4JdVZ2eA2xqeIsSz8cfmQ7B6UJIBK7C2ywcNcYUVVzINsCn5IKhCiXjdcUOHQxADmlZNQ==
+2025-06-11 23:41:38.937 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-041 | Latencia: 1.370 ms
+2025-06-11 23:41:39.938 - INFO - Enviando: RawaPtl3FcytOkyXNVKO0Ybt+LR2zg5jnlBxEITpkCfhodhXr8hyJ1PxaCtXMGmNBU4D4F1fcXmUoDGpNWmRJg==
+2025-06-11 23:41:39.939 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-042 | Latencia: 1.430 ms
+2025-06-11 23:41:40.940 - INFO - Enviando: w/jb2Vk/vzxN3BHPZgU58kWXuSibRbGCSLFLrH5RcxhXi7Hoa0mytXRI1gysQG/924JFd5mk4JqKs+Pi+UueZQ==
+2025-06-11 23:41:40.941 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-043 | Latencia: 1.272 ms
+2025-06-11 23:41:41.942 - INFO - Enviando: 9CYTEL9QGthYEVHO/okqlFxCGtuV3X51RfVltqTvIx15p0MEzpryVPxmtBIE701fLL89tUS6sh0P7Nb5nw2qSw==
+2025-06-11 23:41:41.943 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-044 | Latencia: 1.427 ms
+2025-06-11 23:41:42.944 - INFO - Enviando: dV+sJVfyaCns5ITedurIrDQqod4ziVmD+APDochj2j141khKnZOB9UQlX/Cn2u3X2rAhzO0trPu0SA2PnzlZZw==
+2025-06-11 23:41:42.944 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-045 | Latencia: 1.152 ms
+2025-06-11 23:41:43.945 - INFO - Enviando: Zjk75310C0w01PM/DSyjF0/pyJV298SlWWuMgyV+AzL+4QKiAKmVoCmaRP8doQ9hJ4gBKskOIN64QAiIsHRmaA==
+2025-06-11 23:41:43.946 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-046 | Latencia: 1.259 ms
+2025-06-11 23:41:44.947 - INFO - Enviando: sqQKK2vogLbwscubtzw2t17Nhhq8dPUwExziBRhPZ4XIaMyNf74kDslIorWmdXqefre0F3sm1JN4cFqM/YpIYw==
+2025-06-11 23:41:44.948 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-047 | Latencia: 1.432 ms
+2025-06-11 23:41:45.949 - INFO - Enviando: L+QbuSF0YvZNGDNQwqSBEpcCgfQ7M3uz//q+mgLahVH6lGoIXIBnn9AzwcmGeFMsFvk+U6B82/vd2fQjkFxIYA==
+2025-06-11 23:41:45.949 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-048 | Latencia: 0.850 ms
+2025-06-11 23:41:46.950 - INFO - Enviando: r7SmBTlqpmNsgJVQRULIfv+HWArO/8tuqFNnFw0BLqnlKzfey6i/DeX2wtLqNQBIwisdYPcK8gYcJxU3NbJ0VA==
+2025-06-11 23:41:46.951 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-049 | Latencia: 1.308 ms
+2025-06-11 23:41:47.952 - INFO - Enviando: IR7GJjGlpYcfGrqjbTiv+U7pb88UOxLnkAm1d61kWcm6wueOk7sfPuaSH0OKVdp4OJCQqfbdKK13Yj5rdJMFvQ==
+2025-06-11 23:41:47.953 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-050 | Latencia: 1.342 ms
+2025-06-11 23:41:48.955 - INFO - Enviando: x9khqFBqF8h6c1DE3ngR4b1VikohxvESLlPISOUa6U7GQ1A8LYRfRo5GAQocAPoT4tmeShLrmb5na+RVPyGbUQ==
+2025-06-11 23:41:48.955 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-051 | Latencia: 1.327 ms
+2025-06-11 23:41:49.957 - INFO - Enviando: Z4f+N4ZMEVnj3I8ZHwy4wzFHFYJa9fzAHpkR3mP1mXlx8R0ZuqC7rgomN2xiC0KWRmC8wINoXNT+TJq17p6sNg==
+2025-06-11 23:41:49.960 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-052 | Latencia: 4.082 ms
+2025-06-11 23:41:50.961 - INFO - Enviando: o6UelEp31FgmSMoLfZTiyjtrR+IzAkffSlAMEm/WJ52LNQVOtmWqiRHfPS6oHEOsPz07bkQQCF+qtigrsIwSTw==
+2025-06-11 23:41:50.962 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-053 | Latencia: 1.055 ms
+2025-06-11 23:41:51.962 - INFO - Enviando: 7FQRFMRDE9VbkNvetDerWZjcwKhq4zOgbVSrm3xM8AafzuCXiWObYDapfAhzAfoEA2+Dd270vdEoBAymo/2F6g==
+2025-06-11 23:41:51.963 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-054 | Latencia: 1.046 ms
+2025-06-11 23:41:52.964 - INFO - Enviando: QWtR1SM+5Das31lYpSiUsSI2DbRldmnHLWmsQHri+1/cdY0RK1pdAKI5/ZROWYQYzNy8vn6Ox3eeGo1CTsSdgw==
+2025-06-11 23:41:52.965 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-055 | Latencia: 1.269 ms
+2025-06-11 23:41:53.966 - INFO - Enviando: dSvXS8d3ocJdNVpHIyHcmGZn9WQP4fG1Bi+EEyrZu4TDotmpjig02kggSeDQ4GmX9CJtP8bba8GefPSuvb8zkg==
+2025-06-11 23:41:53.966 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-056 | Latencia: 1.646 ms
+2025-06-11 23:41:54.967 - INFO - Enviando: ApCafmjxTEO0a2jJbXSgMWX/xtPOFYyKUzD1/vgVWw0XJpB5d649WA63dZdcSWgqAqNOjHdETk29t/KH1EsqFg==
+2025-06-11 23:41:54.968 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-057 | Latencia: 1.186 ms
+2025-06-11 23:41:55.969 - INFO - Enviando: icMrgUj4MJCQfkdKiHPusc08Jk3xBzGA5rWztYraKMuyvEhHtDLZHZYBOrzXG/4L6lLy969PPiSXKIJStfzY7w==
+2025-06-11 23:41:55.970 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-058 | Latencia: 1.472 ms
+2025-06-11 23:41:56.971 - INFO - Enviando: u81ll0/We3nA/K9bQI3MvhSYz3Nr5OILHgIxbD0eKaLpWq+wd+uOVRhsF2Gml75aR3LYBhbpI8MRnutU3M9Jvg==
+2025-06-11 23:41:56.972 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-059 | Latencia: 1.454 ms
+2025-06-11 23:41:57.973 - INFO - Enviando: +2tQGIwnA890g+B5d6izQLnqTIPzLBSC15hAblQ1ozyw97/MZnfkSGdUym7KgUFo5D4aCPf6IpzHsApLroZbWA==
+2025-06-11 23:41:57.974 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-060 | Latencia: 1.122 ms
+2025-06-11 23:41:58.974 - INFO - Enviando: wSQM24E9EDJHoFxYn7rZbrUPbWNnKaEkt6zSV8a89VbIyk9zeb2H9wXS4LZtw43ql5Jnvvop8yplRyadS8hqyQ==
+2025-06-11 23:41:58.975 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-061 | Latencia: 0.869 ms
+2025-06-11 23:41:59.976 - INFO - Enviando: cUGkm2K5hMDqYMAQmbz8YbWSkd42Oa0F9GJPSridxHaXc4XawZlitKY8E39Ab5r7lim7ljGg/BEc4ti74K/qqg==
+2025-06-11 23:41:59.976 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-062 | Latencia: 0.981 ms
+2025-06-11 23:42:00.977 - INFO - Enviando: YnFhnQYCtU/SDkCZne/TEwDQLHEr7nUccBSHc78NbarPI8n27olNWqZfSG/nbXhe0tJGFvQaUds17eA4Zjz+7Q==
+2025-06-11 23:42:00.978 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-063 | Latencia: 1.268 ms
+2025-06-11 23:42:01.979 - INFO - Enviando: 7TrPyxXjhVyFSg3bu9Pd4Wtp0zme4dlteVppQHJS/hXVKouSH9yO4dshv6QgKBOsMpDGp535GgvWRnBEjHvDow==
+2025-06-11 23:42:01.980 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-064 | Latencia: 1.346 ms
+2025-06-11 23:42:02.981 - INFO - Enviando: D7tsU1onJDgHmxbCj6DOH6Xm297+owWDcURB6HKShmKt7NaQQvCqIiPYNNO3Sz0azsL0bEhvxhuRr2sifCCxuw==
+2025-06-11 23:42:02.982 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-065 | Latencia: 1.338 ms
+2025-06-11 23:42:03.983 - INFO - Enviando: Ojs5xoY7H8F0v/l8O2qN4dbpTkjXMpoew9ILPWXRwSt7sqv5ZHaSrLLJwhuNeMvhyAqiTVAcHeF3sRxApixtIQ==
+2025-06-11 23:42:03.984 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-066 | Latencia: 1.305 ms
+2025-06-11 23:42:04.985 - INFO - Enviando: IgXtDNvd7bdqz7WbCJMSvazn81VcdKq1amM00RPmoK7+t/dosKdGZA6d6bU78CO10LJy+bwT2tyJqMwYIKcLCQ==
+2025-06-11 23:42:04.986 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-067 | Latencia: 1.232 ms
+2025-06-11 23:42:05.987 - INFO - Enviando: Ut36AEpJ2PZ6x/2mzfc5CS4s0rL5ByKgXjOlZXFToO2Iq145bdriZLGtFMeVWEHOqtimoZlhJcwvb3LARIgCcQ==
+2025-06-11 23:42:05.987 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-068 | Latencia: 1.089 ms
+2025-06-11 23:42:06.988 - INFO - Enviando: RHcUqGqPIOygzrNy5RjN038SOyHVmD0NAQumYkVIyr75dlQv7XuySKQenJsCuaii1NndiKais/JMSmHzcJhvpw==
+2025-06-11 23:42:06.989 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-069 | Latencia: 1.392 ms
+2025-06-11 23:42:07.990 - INFO - Enviando: Nf8K2m9BR3afClJugiy+XVnElCnJpGImU3M4fqYwzoj1uuB+fLvSrjgdTBkZwtG1GYoz4JPdD8zwDb8A00kelw==
+2025-06-11 23:42:07.991 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-070 | Latencia: 1.474 ms
+2025-06-11 23:42:08.993 - INFO - Enviando: 9vVdyvyXiCcPQd7K2LIZt4ABwUk73vsvfZe/US3VpMMxhzxc0nSvXuAYXxyexWUh/xe/ebkRoqGnVkeARkfhyw==
+2025-06-11 23:42:08.994 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-071 | Latencia: 1.489 ms
+2025-06-11 23:42:09.995 - INFO - Enviando: aJcuRR+Ntxyy+JrN074vhDl+5A9hTox6s5bL+niuc2ayc5OcQtxn7w9stvT7Xv2IxJV2AsV1UswDdFllaNrxyQ==
+2025-06-11 23:42:09.996 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-072 | Latencia: 1.459 ms
+2025-06-11 23:42:10.997 - INFO - Enviando: 3pOHK2ntc6ellKakDQipAfLXcI8l8XrWoXdwz1DV7r4JCnGWLNggyxCT5DrXVJHWboLyBL/Zz6VZT7wfEN6BIg==
+2025-06-11 23:42:10.998 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-073 | Latencia: 1.512 ms
+2025-06-11 23:42:11.999 - INFO - Enviando: IXXm3zVmMBsImuAnD16ZDe4905sGSl8zvnXwL93F2UJ40zcb2riv2mlxyW1bBssbpLzz1UNhswrg4BScpcylHA==
+2025-06-11 23:42:11.999 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-074 | Latencia: 1.421 ms
+2025-06-11 23:42:13.000 - INFO - Enviando: 0gJS4O49upoyTweGiXlw24r08BGuyhIE2dczlOaAWrC+hGch+HwK+h4xA+XV6e4iIfXuNFWPYa1n0Y++o8T2ew==
+2025-06-11 23:42:13.001 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-075 | Latencia: 1.550 ms
+2025-06-11 23:42:14.002 - INFO - Enviando: ASNNVR/DMsbPSVg9zf0g4Einr9DjGRdAoac+vH73tovqaYmTPhXkJND+BCLAz84bghV7i/v72+DmK/dvaqLsJg==
+2025-06-11 23:42:14.003 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-076 | Latencia: 1.270 ms
+2025-06-11 23:42:15.004 - INFO - Enviando: +hopfFJLBX66EJCALuzgGTZ7AP/WaoE1emYzIS7MPXCf1epyUlG9jBIhzgFeCWWql2MdW+oXmVE8xbzdeUSZEA==
+2025-06-11 23:42:15.005 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-077 | Latencia: 1.262 ms
+2025-06-11 23:42:16.006 - INFO - Enviando: CLCmZZFZwBIrXQP3Ll9lHcMLypxuMBHXa1fX2o9UKPJtV0GKRwTfgvattstb7C5aMeO38Oc83+xFM4PjyRiWwQ==
+2025-06-11 23:42:16.007 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-078 | Latencia: 1.244 ms
+2025-06-11 23:42:17.008 - INFO - Enviando: bUmZc34n7WIOTwAwtysSkKUu+QTGWcUryft1Yji4jJUfRCgJgezHVzHv2s7LQ1in6iXeZ+cElrGF0amkvilavg==
+2025-06-11 23:42:17.009 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-079 | Latencia: 1.200 ms
+2025-06-11 23:42:18.010 - INFO - Enviando: kaelCrahxkOK3c9x6Fw1BdGvcrKzMNLHJNpv2cim87Tj6HoaupZNvItaqLzUqhz4OE5PicOQ1ko62ngLP+VkdQ==
+2025-06-11 23:42:18.011 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-080 | Latencia: 1.346 ms
+2025-06-11 23:42:19.012 - INFO - Enviando: Zc47ebVscBIOzG7BgWT8e3kJ0sM8eCuaf4IgqvJc7q0zF9hljLTY6KX+0poT3L0Y5PchYlcRRuyZyMl8cGSgXQ==
+2025-06-11 23:42:19.013 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-081 | Latencia: 1.442 ms
+2025-06-11 23:42:20.013 - INFO - Enviando: MKQ6gJoVq80FHB8GeFUyeIlgo3nP+m3DkZFwXLSMQg0l3+WbtM0/HgMN59FkfXgDn6JHD9sg05wIaO6oR/A6mg==
+2025-06-11 23:42:20.014 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-082 | Latencia: 1.143 ms
+2025-06-11 23:42:21.015 - INFO - Enviando: p11CkgdJYb+DkbWSyBhuZyg7vw99xvZw0PV3ift5jNHUWbd1Az/FTQHzBeqwb/rAS+sCLhPtwVjKc8qnZ5EDhg==
+2025-06-11 23:42:21.019 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-083 | Latencia: 3.912 ms
+2025-06-11 23:42:22.019 - INFO - Enviando: CfUONbChvwT2praxDAWt7YiTgZD3iXunHkDU7LBFBkiAPohoKK0PVz37ts+bb9yb2yAweeTEe6tV+gPtfGL5Pg==
+2025-06-11 23:42:22.020 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-084 | Latencia: 0.811 ms
+2025-06-11 23:42:23.020 - INFO - Enviando: +hOBfJ02+Z2o6DqtaODHeH2u+5F3pWWAWW1BJayCKOUvQRWkshJHdZUCvcM0kLPkH15OAn6nb6wBK3h39TCxtA==
+2025-06-11 23:42:23.021 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-085 | Latencia: 0.926 ms
+2025-06-11 23:42:24.022 - INFO - Enviando: DV4CoEDtya7drLHPTk2op9OWL/nO8km8HhK+cNTnjEij2/UcPL2sGogQwiLuuGgjRvtuI7b9TtfnhAPoO1ByvQ==
+2025-06-11 23:42:24.023 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-086 | Latencia: 1.541 ms
+2025-06-11 23:42:25.024 - INFO - Enviando: jiKXeaA6OufAHWaWszpB+Knq+qCyZGxsyZZOhaUUrshchT7kxufpzeE9MMv744N82y4dkmO/3T5zdWh9PdT0JQ==
+2025-06-11 23:42:25.025 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-087 | Latencia: 1.507 ms
+2025-06-11 23:42:26.025 - INFO - Enviando: pqn4hl1vA15DYRmCPRWTSQu7rwMdh/vTS5UBlVaENtaMg+nGnNgwVI5TIYnwBjKh0ZonDgQjJXj3RzI/YYvs/w==
+2025-06-11 23:42:26.029 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-088 | Latencia: 3.814 ms
+2025-06-11 23:42:27.029 - INFO - Enviando: /T9vAARguebCNUC+inSYc6BDuRpiA3lg4D4lkuWyoGgazomzN+sIhWlVdE8Gl2XTQ2jIcu+Tb57ictT4PAXI6g==
+2025-06-11 23:42:27.030 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-089 | Latencia: 0.783 ms
+2025-06-11 23:42:28.031 - INFO - Enviando: d/Up2cvozHbBdjMbBecUz71PgACHGFJ1aYY59PGKajQZgTiSkiUsbaNoqssRYfwMXzbXdHqE7bSrNhXwgZndiQ==
+2025-06-11 23:42:28.031 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-090 | Latencia: 1.074 ms
+2025-06-11 23:42:29.032 - INFO - Enviando: 6RMmg1wxiFb9v5E03yoAh31qUril2lLOdlneQg6rq1Yh/WmnYiostd/AUC7sThG28D5qCsJ2e3TDVd/kczom7A==
+2025-06-11 23:42:29.033 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-091 | Latencia: 1.383 ms
+2025-06-11 23:42:30.034 - INFO - Enviando: Enq4GqQvFB9+7rBE4UCscTi9Y4DAzZ6j60N/jgWGbN70726bK61yf0uQkn3UBr1XxUZIYPH90aAilRszNauMFg==
+2025-06-11 23:42:30.035 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-092 | Latencia: 1.612 ms
+2025-06-11 23:42:31.036 - INFO - Enviando: IKozjntFAjnDhKWI7KNg1qlzpDOTvcMvqL5zd8CGgRiBSkbiyiZxxVlPdKilTlPxWCqQTlq17lbTgLjcAcVdPQ==
+2025-06-11 23:42:31.037 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-093 | Latencia: 1.537 ms
+2025-06-11 23:42:32.038 - INFO - Enviando: Ds6k6mGDNue+RbVsrt+87QgXedpEaulzb31WFW4pSrR/tx/Vi+ErkGU9Nem55kHnqW0kYk0Oa0v5+DblqgjhwQ==
+2025-06-11 23:42:32.039 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-094 | Latencia: 1.210 ms
+2025-06-11 23:42:33.039 - INFO - Enviando: TusxbpZHKcK2qe4yaaCfzP1Ig63Zsy1Bg+TPS3GAvzRQbztT6IKATAewuqlSxgMnohzbxfK0rp+6RuJOrgy6hw==
+2025-06-11 23:42:33.040 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-095 | Latencia: 1.435 ms
+2025-06-11 23:42:34.041 - INFO - Enviando: 8LaycrIoVIQuZMGGVYVmMH8EZ3NCzXa6hL8JODRrIV7L8oNV+1dMcuT8a6G8ud2vQ3oa0iJSxC4j6KisrUXHvw==
+2025-06-11 23:42:34.042 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-096 | Latencia: 1.272 ms
+2025-06-11 23:42:35.043 - INFO - Enviando: zAsS1S3suX60D9zHcMHddw9g+XfgZjJrynP9mY+3LG8f5tXAW+q20m/AEMaBEaFD0A8SvZCx+UyHBs09LmgT3Q==
+2025-06-11 23:42:35.044 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-097 | Latencia: 1.533 ms
+2025-06-11 23:42:36.045 - INFO - Enviando: WCydlbhvyeBnIdDs61HEEGkqwwoeKSjdGAi9O0Yi7Yc9/TehPgSE+7cPDxsJz30f/m/NWyby7M8kdy4+mr0izA==
+2025-06-11 23:42:36.045 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-098 | Latencia: 1.052 ms
+2025-06-11 23:42:37.046 - INFO - Enviando: j+AQ4OFeACS+DnJD78HhXAz4CSVFF2a+Fzmca3mxAjEArAp+3XFCYLdfQTS78N3CEdnJJ5OUq56vSphDH4n65w==
+2025-06-11 23:42:37.047 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-099 | Latencia: 1.335 ms
+2025-06-11 23:42:38.048 - INFO - Enviando: zxzTeX73qWz69XneqOqM/mHvFTOUGNI1KxMHVaDBRYvEIduh4ien0KWtKWXDKgU60qy220WWyNDS30W+yBlm/g==
+2025-06-11 23:42:38.049 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-100 | Latencia: 1.517 ms
+2025-06-11 23:42:38.050 - INFO - Cliente TCP finalizado.
+2025-06-11 23:42:38.050 - INFO - --- Estadísticas de Latencia y Jitter para 100 paquetes (TCP) ---
+2025-06-11 23:42:38.050 - INFO - Latencia Mínima: 0.561 ms
+2025-06-11 23:42:38.050 - INFO - Latencia Máxima: 63.217 ms
+2025-06-11 23:42:38.050 - INFO - Latencia Promedio: 1.967 ms
+2025-06-11 23:42:38.050 - INFO - Jitter (Desviación Estándar): 6.208 ms
+2025-06-11 23:42:38.050 - INFO - --------------------------------------------------
+2025-06-12 01:04:01.014 - INFO - Intentando conectar a 127.0.0.1:65432 usando TCP...
+2025-06-12 01:04:01.014 - INFO - Conectado al servidor.
+2025-06-12 01:04:01.058 - INFO - Enviando: O2VPjE9FSTKptKKbAA+lO7mGphGfHiLvNaf7lhaQYkrjphQfR9GwNO2JfOe9qlUfyB2mbH6FnfQ7k1nmMVO5zQ==
+2025-06-12 01:04:01.067 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-001 | Latencia: 52.798 ms
+2025-06-12 01:04:02.068 - INFO - Enviando: mzq6WenLV5Se4aIdc5KoE4AuD6T2sxXApYqeZuko7+oCL4vpyUGwS1ZLW1YV3GTuPSIXfMktUDe/VNkEJ6F0PQ==
+2025-06-12 01:04:02.069 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-002 | Latencia: 1.307 ms
+2025-06-12 01:04:03.070 - INFO - Enviando: IkTOzyqeM5Y/7gtNG6jxjt2FQIyitT4q+eB/04EsZ/hiiuIc2bl2CsA7ihafzd+ZeQg5RmkufYre9n2f9ZxHug==
+2025-06-12 01:04:03.071 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-003 | Latencia: 1.362 ms
+2025-06-12 01:04:04.072 - INFO - Enviando: ffNPI2euG84ap0gy5QtB3aZy9682ZTLHamorWcQs9AXC/IGcDV6bLNTv8AcopWcMA/sTuaF/liOUuP97nbcWMQ==
+2025-06-12 01:04:04.072 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-004 | Latencia: 0.989 ms
+2025-06-12 01:04:05.074 - INFO - Enviando: GDGmrzwK9Z6cnRiwKCoi9sn4IHkD8mCA13P2fID6lPqyTxvW+FZyAVM4gAtzEZam2tw4j8WJou1DwK9mv4o9bw==
+2025-06-12 01:04:05.074 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-005 | Latencia: 1.322 ms
+2025-06-12 01:04:06.076 - INFO - Enviando: H6mZsHFf3OLCczFlGcB8v9gXOcDy/3/V7kGFeloN46REoWr/xf0li3D5w2qz76zrNy75mFveIJ6AeyWmoGum4w==
+2025-06-12 01:04:06.076 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-006 | Latencia: 1.101 ms
+2025-06-12 01:04:07.077 - INFO - Enviando: 47iXe2RkA/U2DlU/eyyldGubCX2CvaWqhfNIubjrTNfJs76nZE+LFyYSqILXY1vQMW+es5sXsOhAeiB4SwvXxg==
+2025-06-12 01:04:07.079 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-007 | Latencia: 1.421 ms
+2025-06-12 01:04:08.079 - INFO - Enviando: d05wT5r52C0Wbvbwd2Jc2ZNkpNSrDzu304568H0bB1hq2xnd4COGrP550uWxtxtM1CNX2bARA2o7rinpRwIEbA==
+2025-06-12 01:04:08.080 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-008 | Latencia: 0.973 ms
+2025-06-12 01:04:09.081 - INFO - Enviando: kmrLpmIzJfjQWLuxU9AdTJkwppjfi6EiMKO6C+7h/DHPn8Qgr0FhlQ0ZTmKD+bYrokZZgozPvwN746mr2WEaFw==
+2025-06-12 01:04:09.081 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-009 | Latencia: 0.896 ms
+2025-06-12 01:04:10.082 - INFO - Enviando: mi8sIpQVJvOr0aJZERrGj7TTxwZvNdPm7LIkZynM1CRaIwJZJxA29HMcJn0B5fRKp+gcc+bb/9XJS5PqggnzWA==
+2025-06-12 01:04:10.083 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-010 | Latencia: 1.105 ms
+2025-06-12 01:04:11.083 - INFO - Enviando: o1GO2waGKzGa7uNSdAUoVcAg1/z0UOMMUKVvi10T1DN60g8rfJJa+lmEVrfduwPPZAs2Rpw3+X/ocBHMrKVQnw==
+2025-06-12 01:04:11.111 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-011 | Latencia: 28.108 ms
+2025-06-12 01:04:12.112 - INFO - Enviando: Q/x5PDkk91swLrbQiUGbu0Zy/bFeruZxTojUWaMTPIdxsSh5sd/D16lSLZR+ZricA031o09WxB91Tq3joz2H7w==
+2025-06-12 01:04:12.113 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-012 | Latencia: 0.965 ms
+2025-06-12 01:04:13.113 - INFO - Enviando: AWUKep6Ws72ns53JclVfLzYJ8ttxgUa4xzeQnsYL24tTmaCFnm1O/hwn/6+oR8m7j2ZU1CiCiG2dnZxGLGkdEA==
+2025-06-12 01:04:13.114 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-013 | Latencia: 0.972 ms
+2025-06-12 01:04:14.114 - INFO - Enviando: Huv7zsebGejNwGuDsWRmYqWka54baqk2uYAEW59+jc3+IIw0ZGfa7bniGbOvsgma9oEiawoTzyvWKl4M7MEVZg==
+2025-06-12 01:04:14.115 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-014 | Latencia: 1.295 ms
+2025-06-12 01:04:14.149 - INFO - Cliente TCP finalizado.
+2025-06-12 01:04:14.150 - INFO - --- Estadísticas de Latencia y Jitter para 14 paquetes (TCP) ---
+2025-06-12 01:04:14.150 - INFO - Latencia Mínima: 0.896 ms
+2025-06-12 01:04:14.150 - INFO - Latencia Máxima: 52.798 ms
+2025-06-12 01:04:14.150 - INFO - Latencia Promedio: 6.758 ms
+2025-06-12 01:04:14.150 - INFO - Jitter (Desviación Estándar): 15.075 ms
+2025-06-12 01:04:14.150 - INFO - --------------------------------------------------
