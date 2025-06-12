@@ -308,6 +308,28 @@ Log de Ciente:
 !["Log de cliente con encriptacion"](./Imagenes/client-log-e.png)
 
 Log de Server:
-!["Log de cliente con encriptacion"](./Imagenes/server-log-e.png)
+!["Log de servidor con encriptacion"](./Imagenes/server-log-e.png)
 
 Se puede observar que el cliente envia los mensajes encriptados, y que el Servidor los recibe correctamente, al igual que las respuestas.
+
+Con wireshark vamos a capturar los paquetes.
+
+!["wireshark encrypt"](./Imagenes/wireshark-e.png)
+
+Viendo uno de los paquetes, podemos verificar que ahora no se puede leer claramente el mensaje, lo que nos confirma que los mensajes estan siendo correctamente cifrados.
+
+!["wireshark encrypt2"](./Imagenes/wireshark-e2.png)
+
+#### PREGUNTA PROPUESTA:
+#### ¿Cómo harías para encriptar la comunicación entre las dos computadoras si las mismas se encuentran a kilómetros de distancia y nunca intercambiaron información en el pasado ? Explicar conceptualmente cómo implementarías esto en tus scripts (pero no hace falta que lo programes).
+
+Para encriptar la comunicacion entre dos computadoras que nunca intercambiaron informacion, podemos usar el cifrado asimetrico. Este cifrado, como mencionamos anteriormente, tiene dos claves: publica y privada, lo que permite que dos computadoras establezcan una comunicacion segura sin haberse conocido previamente.
+
+Conceptualmente, se seguirian los siguientes pasos:
+1) Cada computadora genera un par de claves.
+2) Ambas computadoras se envian sus claves publicas a traves de la red.
+3) Usando un algoritmo como DIffle-Hellman o ECDH, cada parte puede calcular la misma clave secreta de la sesion usando su clave privada y la clave publica de la otra parte.
+4) A partir de ahi, toda la comunicacion se cifra usando Criptografia simetrica (por ejemplo, usando AES.)
+
+##### Implementacion en los scripts
+Para implementar esta propuesta en los scripts actuales, generariamos los pares de claves (publica,privada) en el arranque del cliente y del servidor. Despues, con ECDH derivariamos una clave compartida. Finalmente usariamos esa clave compartida para cifrar y descifrar los mensajes con AES, tal como ya lo hacemos actualmente en los scripts.
