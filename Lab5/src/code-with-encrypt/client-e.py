@@ -4,6 +4,7 @@ import logging
 import os
 import statistics
 import argparse
+from crypto_utils import encrypt_message, decrypt_message
 
 # --- Configuración de Logging ---
 LOG_DIR = 'logs'
@@ -81,6 +82,8 @@ def start_client():
                 start_time = time.perf_counter()
                 
                 if protocol == 'TCP':
+                    message = encrypt_message(message)  # Encriptar el mensaje antes de enviarlo
+                    logger.debug(f"Mensaje encriptado: {message}")
                     s.sendall(message.encode('utf-8'))
                 elif protocol == 'UDP':
                     s.sendto(message.encode('utf-8'), (SERVER_HOST, SERVER_PORT))
@@ -95,7 +98,8 @@ def start_client():
                         if not data: # TCP closed
                             logger.warning(f"El servidor cerró la conexión inesperadamente.")
                             break
-                        response = data.decode('utf-8')
+                        response = decrypt_message(data.decode('utf-8'))  # Decriptar el mensaje recibido
+
                     elif protocol == 'UDP':
                         data, addr = s.recvfrom(1024)
                         response = data.decode('utf-8')

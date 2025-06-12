@@ -236,5 +236,100 @@ Para nuestro caso, elegimos la encriptacion simetrica AES.
 
 Elegimos AES porque destaca en muchas metricas clave de rendimiento. Sus principales caracteristicas son:
 
+| Característica        | Detalle                                                               |
+| --------------------- | --------------------------------------------------------------------- |
+| **Tipo de cifrado**   | **Simétrico** – usa la misma clave para cifrar y descifrar            |
+| **Algoritmo**         | AES (Advanced Encryption Standard) reemplazó a DES                    |
+| **Tamaño de clave**   | 128, 192 o 256 bits (AES-128, AES-192, AES-256)                       |
+| **Bloque de datos**   | Opera sobre bloques de **128 bits** (16 bytes)                        |
+| **Modo de operación** | ECB, CBC, CFB, OFB, GCM, etc. – define cómo se aplican los bloques    |
+| **Velocidad**         | Muy rápida, ideal para grandes volúmenes de datos                     |
+| **Seguridad**         | Muy alta si se usa bien (clave segura + modo correcto como CBC o GCM) |
+| **Uso típico**        | Cifrado de archivos, comunicaciones seguras, VPNs, almacenamiento     |
+| **Estándar**          | Estándar oficial del gobierno de EE.UU. (FIPS-197, 2001)              |
 
+#### Aplicacion
 
+vamos a trabajar con los mismos codigos, pero en el directorio `src/code-with-encrypt`y aplicando la encriptacion solo para TCP.
+
+Antes de instalar, vamos a crear un entorno virtual de python con venv en nuestro espacio de trabajo:
+```bash
+sudo apt install python3-venv python3-full
+python3 -m venv venv
+```
+Para activar el entorno virtual: 
+```bash
+source venv/bin/activate
+```
+Ahora si, podemos instalar la libreria `cryptography`
+```bash
+pip install cryptography
+```
+Dentro de `src/code-with-encrypt` creamos el archivo `crypto_utils.py` donde desarrollaremos las funciones necesarias para AES-256. Las funciones que se implementaron son:
+* `encrypt_message(message)`y `decrypt_message(message)`: estas funciones las usaremos en los codigos de cliente y servidor.
+
+Tambien se encontrara la clave para el cifrado, la cual es la siguiente:
+```py
+SECRET_KEY = b'EstaEsUnaKeyDeLenoxLegends2025!!'  # 32 bytes
+```
+Encriptamos no solo los mensajes, sino tambien los ACK
+##### Aplicacion en `client-e.py`:
+```py
+message = encrypt_message(message)  # Encriptar el mensaje antes de enviarlo
+logger.debug(f"Mensaje encriptado: {message}")
+s.sendall(message.encode('utf-8'))
+#
+#
+#
+#
+if protocol == 'TCP':
+                        data = s.recv(1024)
+                        if not data: # TCP closed
+                            logger.warning(f"El servidor cerró la conexión inesperadamente.")
+                            break
+                        response = decrypt_message(data.decode('utf-8'))  # Decriptar el mensaje recibido
+```
+##### Aplicacion en `server-e.py`:
+Mensaje recibido:
+```py
+message = decrypt_message(data.decode('utf-8'))
+logger.info(f"Recibido de {client_id}: {message}")
+```
+Envio de respuesta: 
+```py
+response = encrypt_message(f"ACK: {message}")
+logger.debug(f"    Respuesta cifrada: {response}")
+conn.sendall(response.encode('utf-8'))
+logger.info(f"Enviado a {client_id}: {response}")
+```
+
+#### Resultados
+Log de Ciente:
+!["Log de cliente con encriptacion"](./Imagenes/client-log-e.png)
+
+Log de Server:
+!["Log de servidor con encriptacion"](./Imagenes/server-log-e.png)
+
+Se puede observar que el cliente envia los mensajes encriptados, y que el Servidor los recibe correctamente, al igual que las respuestas.
+
+Con wireshark vamos a capturar los paquetes.
+
+!["wireshark encrypt"](./Imagenes/wireshark-e.png)
+
+Viendo uno de los paquetes, podemos verificar que ahora no se puede leer claramente el mensaje, lo que nos confirma que los mensajes estan siendo correctamente cifrados.
+
+!["wireshark encrypt2"](./Imagenes/wireshark-e2.png)
+
+#### PREGUNTA PROPUESTA:
+#### ¿Cómo harías para encriptar la comunicación entre las dos computadoras si las mismas se encuentran a kilómetros de distancia y nunca intercambiaron información en el pasado ? Explicar conceptualmente cómo implementarías esto en tus scripts (pero no hace falta que lo programes).
+
+Para encriptar la comunicacion entre dos computadoras que nunca intercambiaron informacion, podemos usar el cifrado asimetrico. Este cifrado, como mencionamos anteriormente, tiene dos claves: publica y privada, lo que permite que dos computadoras establezcan una comunicacion segura sin haberse conocido previamente.
+
+Conceptualmente, se seguirian los siguientes pasos:
+1) Cada computadora genera un par de claves.
+2) Ambas computadoras se envian sus claves publicas a traves de la red.
+3) Usando un algoritmo como DIffle-Hellman o ECDH, cada parte puede calcular la misma clave secreta de la sesion usando su clave privada y la clave publica de la otra parte.
+4) A partir de ahi, toda la comunicacion se cifra usando Criptografia simetrica (por ejemplo, usando AES.)
+
+##### Implementacion en los scripts
+Para implementar esta propuesta en los scripts actuales, generariamos los pares de claves (publica,privada) en el arranque del cliente y del servidor. Despues, con ECDH derivariamos una clave compartida. Finalmente usariamos esa clave compartida para cifrar y descifrar los mensajes con AES, tal como ya lo hacemos actualmente en los scripts.

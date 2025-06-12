@@ -1,0 +1,173 @@
+2025-06-11 22:56:32.297 - INFO - Intentando conectar a 192.168.1.5:65432 usando TCP...
+2025-06-11 22:57:51.516 - INFO - Cliente TCP finalizado.
+2025-06-11 22:57:51.517 - WARNING - No se recibieron ACKs válidos para calcular latencias/jitter.
+2025-06-11 22:57:57.591 - INFO - Intentando conectar a 192.168.1.5:65432 usando TCP...
+2025-06-11 22:58:01.418 - INFO - Cliente TCP finalizado.
+2025-06-11 22:58:01.418 - WARNING - No se recibieron ACKs válidos para calcular latencias/jitter.
+2025-06-11 23:00:25.024 - INFO - Intentando conectar a 192.168.0.255:65432 usando TCP...
+2025-06-11 23:00:25.024 - ERROR - Ocurrió un error en el cliente TCP: [Errno 101] Network is unreachable
+2025-06-11 23:00:25.024 - INFO - Cliente TCP finalizado.
+2025-06-11 23:00:25.024 - WARNING - No se recibieron ACKs válidos para calcular latencias/jitter.
+2025-06-11 23:01:45.809 - INFO - Intentando conectar a 192.168.1.5:65432 usando TCP...
+2025-06-11 23:03:01.306 - INFO - Cliente TCP finalizado.
+2025-06-11 23:03:01.306 - WARNING - No se recibieron ACKs válidos para calcular latencias/jitter.
+2025-06-11 23:03:02.528 - INFO - Intentando conectar a 127.0.0.1:65432 usando TCP...
+2025-06-11 23:03:02.528 - INFO - Conectado al servidor.
+2025-06-11 23:03:02.528 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-11 23:03:02.529 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-001 | Latencia: 1.026 ms
+2025-06-11 23:03:03.529 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-11 23:03:03.530 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-002 | Latencia: 0.544 ms
+2025-06-11 23:03:04.530 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-11 23:03:04.530 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-003 | Latencia: 0.311 ms
+2025-06-11 23:03:05.531 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-11 23:03:05.531 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-004 | Latencia: 0.406 ms
+2025-06-11 23:03:06.532 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-11 23:03:06.533 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-005 | Latencia: 0.718 ms
+2025-06-11 23:03:07.534 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-006
+2025-06-11 23:03:07.534 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-006 | Latencia: 0.440 ms
+2025-06-11 23:03:08.535 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-007
+2025-06-11 23:03:08.535 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-007 | Latencia: 0.667 ms
+2025-06-11 23:03:09.536 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-008
+2025-06-11 23:03:09.537 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-008 | Latencia: 0.554 ms
+2025-06-11 23:03:10.537 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-009
+2025-06-11 23:03:10.538 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-009 | Latencia: 0.393 ms
+2025-06-11 23:03:11.538 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-010
+2025-06-11 23:03:11.539 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-010 | Latencia: 0.505 ms
+2025-06-11 23:03:12.540 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-011
+2025-06-11 23:03:12.540 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-011 | Latencia: 0.526 ms
+2025-06-11 23:03:13.541 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-012
+2025-06-11 23:03:13.542 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-012 | Latencia: 0.609 ms
+2025-06-11 23:03:14.542 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-013
+2025-06-11 23:03:14.543 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-013 | Latencia: 0.303 ms
+2025-06-11 23:03:15.546 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-014
+2025-06-11 23:03:15.546 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-014 | Latencia: 0.241 ms
+2025-06-11 23:03:16.546 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-015
+2025-06-11 23:03:16.546 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-015 | Latencia: 0.269 ms
+2025-06-11 23:03:17.547 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-016
+2025-06-11 23:03:17.547 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-016 | Latencia: 0.544 ms
+2025-06-11 23:03:18.548 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-017
+2025-06-11 23:03:18.548 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-017 | Latencia: 0.414 ms
+2025-06-11 23:03:19.549 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-018
+2025-06-11 23:03:19.549 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-018 | Latencia: 0.529 ms
+2025-06-11 23:03:20.550 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-019
+2025-06-11 23:03:20.550 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-019 | Latencia: 0.616 ms
+2025-06-11 23:03:21.551 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-020
+2025-06-11 23:03:21.551 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-020 | Latencia: 0.528 ms
+2025-06-11 23:03:22.552 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-021
+2025-06-11 23:03:22.552 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-021 | Latencia: 0.370 ms
+2025-06-11 23:03:23.552 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-022
+2025-06-11 23:03:23.553 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-022 | Latencia: 0.502 ms
+2025-06-11 23:03:24.554 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-023
+2025-06-11 23:03:24.554 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-023 | Latencia: 0.575 ms
+2025-06-11 23:03:25.555 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-024
+2025-06-11 23:03:25.556 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-024 | Latencia: 0.592 ms
+2025-06-11 23:03:26.556 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-025
+2025-06-11 23:03:26.557 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-025 | Latencia: 0.528 ms
+2025-06-11 23:03:27.557 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-026
+2025-06-11 23:03:27.557 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-026 | Latencia: 0.291 ms
+2025-06-11 23:03:28.559 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-027
+2025-06-11 23:03:28.559 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-027 | Latencia: 0.241 ms
+2025-06-11 23:03:29.559 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-028
+2025-06-11 23:03:29.560 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-028 | Latencia: 0.479 ms
+2025-06-11 23:03:30.561 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-029
+2025-06-11 23:03:30.561 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-029 | Latencia: 0.743 ms
+2025-06-11 23:03:31.562 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-030
+2025-06-11 23:03:31.563 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-030 | Latencia: 0.479 ms
+2025-06-11 23:03:32.563 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-031
+2025-06-11 23:03:32.563 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-031 | Latencia: 0.260 ms
+2025-06-11 23:03:33.564 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-032
+2025-06-11 23:03:33.564 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-032 | Latencia: 0.254 ms
+2025-06-11 23:03:34.564 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-033
+2025-06-11 23:03:34.565 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-033 | Latencia: 0.492 ms
+2025-06-11 23:03:35.565 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-034
+2025-06-11 23:03:35.566 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-034 | Latencia: 0.542 ms
+2025-06-11 23:03:36.566 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-035
+2025-06-11 23:03:36.566 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-035 | Latencia: 0.268 ms
+2025-06-11 23:03:37.567 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-036
+2025-06-11 23:03:37.567 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-036 | Latencia: 0.486 ms
+2025-06-11 23:03:38.568 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-037
+2025-06-11 23:03:38.568 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-037 | Latencia: 0.579 ms
+2025-06-11 23:03:39.569 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-038
+2025-06-11 23:03:39.569 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-038 | Latencia: 0.303 ms
+2025-06-11 23:03:40.570 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-039
+2025-06-11 23:03:40.570 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-039 | Latencia: 0.552 ms
+2025-06-11 23:03:41.571 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-040
+2025-06-11 23:03:41.571 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-040 | Latencia: 0.415 ms
+2025-06-11 23:03:42.571 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-041
+2025-06-11 23:03:42.572 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-041 | Latencia: 0.320 ms
+2025-06-11 23:03:43.572 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-042
+2025-06-11 23:03:43.573 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-042 | Latencia: 0.499 ms
+2025-06-11 23:03:44.573 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-043
+2025-06-11 23:03:44.574 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-043 | Latencia: 0.299 ms
+2025-06-11 23:03:45.574 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-044
+2025-06-11 23:03:45.575 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-044 | Latencia: 0.538 ms
+2025-06-11 23:03:46.575 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-045
+2025-06-11 23:03:46.576 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-045 | Latencia: 0.429 ms
+2025-06-11 23:03:47.576 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-046
+2025-06-11 23:03:47.577 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-046 | Latencia: 0.340 ms
+2025-06-11 23:03:48.578 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-047
+2025-06-11 23:03:48.578 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-047 | Latencia: 0.506 ms
+2025-06-11 23:03:49.579 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-048
+2025-06-11 23:03:49.579 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-048 | Latencia: 0.561 ms
+2025-06-11 23:03:50.580 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-049
+2025-06-11 23:03:50.581 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-049 | Latencia: 0.571 ms
+2025-06-11 23:03:51.582 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-050
+2025-06-11 23:03:51.582 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-050 | Latencia: 0.508 ms
+2025-06-11 23:03:52.583 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-051
+2025-06-11 23:03:52.584 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-051 | Latencia: 0.618 ms
+2025-06-11 23:03:53.584 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-052
+2025-06-11 23:03:53.585 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-052 | Latencia: 0.732 ms
+2025-06-11 23:03:54.585 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-053
+2025-06-11 23:03:54.586 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-053 | Latencia: 0.456 ms
+2025-06-11 23:03:55.586 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-054
+2025-06-11 23:03:55.586 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-054 | Latencia: 0.283 ms
+2025-06-11 23:03:56.587 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-055
+2025-06-11 23:03:56.588 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-055 | Latencia: 0.500 ms
+2025-06-11 23:03:57.589 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-056
+2025-06-11 23:03:57.589 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-056 | Latencia: 0.633 ms
+2025-06-11 23:03:58.590 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-057
+2025-06-11 23:03:58.590 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-057 | Latencia: 0.282 ms
+2025-06-11 23:03:59.590 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-058
+2025-06-11 23:03:59.591 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-058 | Latencia: 0.507 ms
+2025-06-11 23:04:00.591 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-059
+2025-06-11 23:04:00.591 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-059 | Latencia: 0.309 ms
+2025-06-11 23:04:01.592 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-060
+2025-06-11 23:04:01.593 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-060 | Latencia: 0.538 ms
+2025-06-11 23:04:02.594 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-061
+2025-06-11 23:04:02.594 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-061 | Latencia: 0.566 ms
+2025-06-11 23:04:03.595 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-062
+2025-06-11 23:04:03.596 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-062 | Latencia: 0.728 ms
+2025-06-11 23:04:04.597 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-063
+2025-06-11 23:04:04.597 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-063 | Latencia: 0.507 ms
+2025-06-11 23:04:05.598 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-064
+2025-06-11 23:04:05.599 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-064 | Latencia: 0.622 ms
+2025-06-11 23:04:06.359 - INFO - Cliente TCP finalizado.
+2025-06-11 23:04:06.359 - INFO - --- Estadísticas de Latencia y Jitter para 64 paquetes (TCP) ---
+2025-06-11 23:04:06.359 - INFO - Latencia Mínima: 0.241 ms
+2025-06-11 23:04:06.360 - INFO - Latencia Máxima: 1.026 ms
+2025-06-11 23:04:06.360 - INFO - Latencia Promedio: 0.484 ms
+2025-06-11 23:04:06.360 - INFO - Jitter (Desviación Estándar): 0.151 ms
+2025-06-11 23:04:06.360 - INFO - --------------------------------------------------
+2025-06-11 23:12:39.826 - INFO - Intentando conectar a 127.0.0.1:65432 usando TCP...
+2025-06-11 23:12:39.827 - INFO - Conectado al servidor.
+2025-06-11 23:12:39.827 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-11 23:12:39.827 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-001 | Latencia: 0.705 ms
+2025-06-11 23:12:40.828 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-11 23:12:40.828 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-002 | Latencia: 0.499 ms
+2025-06-11 23:12:41.829 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-11 23:12:41.830 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-003 | Latencia: 0.655 ms
+2025-06-11 23:12:42.830 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-11 23:12:42.830 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-004 | Latencia: 0.467 ms
+2025-06-11 23:12:43.831 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-11 23:12:43.831 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-005 | Latencia: 0.317 ms
+2025-06-11 23:12:44.833 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-006
+2025-06-11 23:12:44.833 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-006 | Latencia: 0.532 ms
+2025-06-11 23:12:45.836 - INFO - Enviando: Hola, soy el paquete Lenox Legends v2.0-007
+2025-06-11 23:12:45.837 - INFO - Recibido ACK: ACK: Hola, soy el paquete Lenox Legends v2.0-007 | Latencia: 0.543 ms
+2025-06-11 23:12:46.797 - INFO - Cliente TCP finalizado.
+2025-06-11 23:12:46.798 - INFO - --- Estadísticas de Latencia y Jitter para 7 paquetes (TCP) ---
+2025-06-11 23:12:46.798 - INFO - Latencia Mínima: 0.317 ms
+2025-06-11 23:12:46.798 - INFO - Latencia Máxima: 0.705 ms
+2025-06-11 23:12:46.798 - INFO - Latencia Promedio: 0.531 ms
+2025-06-11 23:12:46.798 - INFO - Jitter (Desviación Estándar): 0.127 ms
+2025-06-11 23:12:46.798 - INFO - --------------------------------------------------

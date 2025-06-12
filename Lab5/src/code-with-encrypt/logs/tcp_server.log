@@ -1,0 +1,815 @@
+2025-06-11 23:35:23.002 - INFO - Servidor TCP escuchando en 0.0.0.0:65432...
+2025-06-11 23:35:37.974 - INFO - Conectado por 127.0.0.1:60846
+2025-06-11 23:35:37.974 - INFO - Cliente 127.0.0.1:60846 cerró la conexión.
+2025-06-11 23:35:37.975 - INFO - Desconectado de 127.0.0.1:60846
+2025-06-11 23:39:54.957 - INFO - Conectado por 127.0.0.1:55418
+2025-06-11 23:39:54.957 - INFO - Cliente 127.0.0.1:55418 cerró la conexión.
+2025-06-11 23:39:54.957 - INFO - Desconectado de 127.0.0.1:55418
+2025-06-11 23:40:48.143 - INFO - Servidor TCP escuchando en 0.0.0.0:65432...
+2025-06-11 23:40:56.104 - INFO - Servidor TCP escuchando en 0.0.0.0:65432...
+2025-06-11 23:40:58.806 - INFO - Conectado por 127.0.0.1:60944
+2025-06-11 23:40:58.868 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-11 23:40:58.869 - INFO - Enviado a 127.0.0.1:60944: VDx6UbtHxcTzeKouBVnZvPfaRjBlXoSdoK9iYzd+ItykeqUkTH1ZJy07GbAVe01LndhgFmlekkhb8/9cyL2Jtc6Kryud79GJ3RRwcodEBrw=
+2025-06-11 23:40:59.869 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-11 23:40:59.870 - INFO - Enviado a 127.0.0.1:60944: TCJLGwLXd3a1przcOJhgbBIFxYkvQN+40psrbZ/4w/kOEMbVcuqZQJtMDAXWiXGK+b+Da0hBFJeBMdv6J5kk0EXZKWfMz5h+HwbT921WfJc=
+2025-06-11 23:41:00.871 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-11 23:41:00.871 - INFO - Enviado a 127.0.0.1:60944: Dm9nFNVoA3RWjK1C7451yvGehnxaTDILseoTd1GlQ7Uk4O9StfeTXORI/nzylQAU9+Ciq5DL6jbC/xwGsuiHSPVEHK1jz/ucc4z0hPJsZX4=
+2025-06-11 23:41:01.872 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-11 23:41:01.872 - INFO - Enviado a 127.0.0.1:60944: upN65wYCQslIb1nIjzgdJ8/F1KJfQE9iuuAbB0w7odAFX2rQlZHDsloEyN5KFXAyxnJQQmRlc5IoRSezMBzAuGkoUOUDhQIZFFvNvaPAgCA=
+2025-06-11 23:41:02.873 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-11 23:41:02.873 - INFO - Enviado a 127.0.0.1:60944: zV7hLo9uQqZuaxeu6tayV0C+t75Kdxtngsms9NL/Ss2ux8uPkJgssBB2ypQtx5GFajGnT5zHEKKTHTPwTrI6fn9p02TRuatw7n4vgRpCR+k=
+2025-06-11 23:41:03.874 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-006
+2025-06-11 23:41:03.874 - INFO - Enviado a 127.0.0.1:60944: yPvcO8ysy4mmkJamvKNt0MwU8fQLipefGwepbL05AAd15kG+o3Lmihn6R+FmEEFPATLHfAmnxtK5u9cJmxNzoEqLIzadw7NCyp+QLZ/cWkg=
+2025-06-11 23:41:04.875 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-007
+2025-06-11 23:41:04.875 - INFO - Enviado a 127.0.0.1:60944: XllOF0rO5QOPVIy+pe7WU+OgKSiR+LoWt4qSJ9MyuE9wT8N1fr3Ufpmy2Bg96S77gKlqOsZY59/E4e5MGV5vHlk+5upmBaVox/KKwhIgANQ=
+2025-06-11 23:41:05.876 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-008
+2025-06-11 23:41:05.876 - INFO - Enviado a 127.0.0.1:60944: edzawiki4Wb7DHKhLNfQz/m4/SICIMJDmptRWjx47FGI7Vgcx2U9yedXt5AWtnQ4uw88/g+k8p6jk7UGLvPF9cMi850TsqI31tjlp4mPCx8=
+2025-06-11 23:41:06.877 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-009
+2025-06-11 23:41:06.877 - INFO - Enviado a 127.0.0.1:60944: BUwf6V+XdOor9NLdUCb9weRuHykj15EFynsgmwjTHPTfklZ/B8XPw8DhVjKY+M2/eqk8+JkTypfv8W0I1zgCyP2aUPg54MhUswdQKaN3Cug=
+2025-06-11 23:41:07.879 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-010
+2025-06-11 23:41:07.879 - INFO - Enviado a 127.0.0.1:60944: FzKk4YvVZ79iV5ST3BVt0waBZUj8qM9rM2FfuVxkfsySIEG2NPWfKz5yPmYLSYFIr2piWENuhRO5/uwNd7taVIJGkH9yydrANJJLhNidtsU=
+2025-06-11 23:41:08.880 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-011
+2025-06-11 23:41:08.880 - INFO - Enviado a 127.0.0.1:60944: N+/rx9lm1E5nHWC6Rmgl9+IVZhOklODSQiFoXimdFbtqjhh8Vx6nlzBToxjwjVrRPVZ5Y0qPOg4ZWzpwKLhDqIj5pR0Ju6lIQv9Th6H3xmY=
+2025-06-11 23:41:09.882 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-012
+2025-06-11 23:41:09.883 - INFO - Enviado a 127.0.0.1:60944: PEvDvR3CgmxzZ8DssIGHdzOEbxjS3BJDeEF50R8LS8FB8Jh7tgf18h4J28ZnzhmMogLs2xKGFwiltTKVkFWG4sMR7rlmnD505xPGKZzxd5I=
+2025-06-11 23:41:10.884 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-013
+2025-06-11 23:41:10.885 - INFO - Enviado a 127.0.0.1:60944: fqgzoKv5gQZSo5ogApmq4rJ5reruDa1id2cbMbGGTtMhR+p1sye1o0UH3ZCQQMvubbtl4dBcPIrCiOlBdAcShuXTnW+84NW+a9l9KOZ/x4g=
+2025-06-11 23:41:11.886 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-014
+2025-06-11 23:41:11.886 - INFO - Enviado a 127.0.0.1:60944: KP5fuw9YS+CcGJBD3c92VP6BoPgLK6EJEZok0dhAZnToUx2j/6FTfrEuYJs7e97R021/EUgNtHlWReZlTbeX8/5DdYe7lzDcmIkPyciCfcs=
+2025-06-11 23:41:12.888 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-015
+2025-06-11 23:41:12.888 - INFO - Enviado a 127.0.0.1:60944: ltOT1rXmEXnnkQYbORJiw7bNR91l+EiqlLL0UqdMHIwjDN79GHf+rGplnoG5+NA0uMkn8tc+9ERG0PbUt6VN9ulSkNbSiYT9jIchkKrdRDQ=
+2025-06-11 23:41:13.889 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-016
+2025-06-11 23:41:13.890 - INFO - Enviado a 127.0.0.1:60944: r32/XtjBQyfdZR2tnkinNR2DxLzFcMDKzcbQhHeThWGvU2aQy+DYn+K3aUdMhQacfbQzH/q0QCejqPc+OaPymbJhFdRjT2axgKVHRlh2Uxw=
+2025-06-11 23:41:14.891 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-017
+2025-06-11 23:41:14.891 - INFO - Enviado a 127.0.0.1:60944: CWDnSiat2R9/4IiEYhiY9HdtDGUm80XvUoWY4Sgc662RtWKA8ZD6d1z5DI1egT8E5+NTjJMyCgP9iqD5qHk6oNgbwfW1yL2Ay6Rx+u1Ue78=
+2025-06-11 23:41:15.892 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-018
+2025-06-11 23:41:15.892 - INFO - Enviado a 127.0.0.1:60944: qEXFNcxQmQMRHbdPP1OmUOco2hpd01xGVI5VNeMik9fKJ0vK+N/ySrX2Y491THaPDUKqZd5a/Y2YcBbQv2q93HpDqOJ0wk2RNAn9MiIAlr8=
+2025-06-11 23:41:16.894 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-019
+2025-06-11 23:41:16.894 - INFO - Enviado a 127.0.0.1:60944: mJEN6DC/juGIMAt4lP5FWekB05h9yndHkoyUYiAvr3Gi/0MdDESq4cZjsGFa7ZZ553nHvLCf0Y2pzX9C2qjyH21DdhVjFeAVnE9BDI0wtxI=
+2025-06-11 23:41:17.895 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-020
+2025-06-11 23:41:17.896 - INFO - Enviado a 127.0.0.1:60944: c/gJms9ABTKnfPytBJjCXCXB8hdJbVdvgYwdfirSMsHbnhLKiFsipMyktHmdHYl7aOGmjItvT3KknhcsUTd0msbyx+bWvXH6Wa7a9DKAm2s=
+2025-06-11 23:41:18.897 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-021
+2025-06-11 23:41:18.898 - INFO - Enviado a 127.0.0.1:60944: l/fjIYU62VGRRbIUOBdaj+/BEqxjSbvl69RTRs5GXmGWni5MbiVJYWAECdtknNReswr50SxW6mQABfeKGi1FZXjhCtTMrzvDCuAqLFwm3WM=
+2025-06-11 23:41:19.900 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-022
+2025-06-11 23:41:19.900 - INFO - Enviado a 127.0.0.1:60944: BHKIgUSeSrBO4P7RiuUsGWTLU+FVmap9PS3Cpp9dZZY5r5su7ZSqoH8vrKLSmU11JXIeRVr7vj1DyjzM4SYWWf+qVhebEQt0Y/0KmpD2nkw=
+2025-06-11 23:41:20.901 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-023
+2025-06-11 23:41:20.902 - INFO - Enviado a 127.0.0.1:60944: aI4fclbrt7ESVkI26+S0kfwxUjjTjo09F4Bcv2BLMgkT+RdlvO0DpfkvNqL8BcWyuUCV7nib/158DYxzRs4Z4zF4NEEv67gfZIQKRUqA2jI=
+2025-06-11 23:41:21.904 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-024
+2025-06-11 23:41:21.904 - INFO - Enviado a 127.0.0.1:60944: v/gzOv/ZcDyBLgTaBsTOEY3IOc9SzkdQZ0SImPZqgY1DDQ4bIrbeUQLN4hzRZ7moep17Pexw0JG/lBBc044vrFVQorHqClceE56rLfeYVQ0=
+2025-06-11 23:41:22.906 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-025
+2025-06-11 23:41:22.906 - INFO - Enviado a 127.0.0.1:60944: xOuQoBiC5CLj6oOk0CjNv8Qdc3zHR6ZuTF9Ooit45AT9BPvVlFEx5gyquW3oNkbmtVyVrf0HncLsneeJz+3Zd6cSzHFLEMBWDWeax3HeiZc=
+2025-06-11 23:41:23.908 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-026
+2025-06-11 23:41:23.908 - INFO - Enviado a 127.0.0.1:60944: B1TD0VoYh/X5d+QzZvFYOU5Gb1gOy9QFElCwZgg2+XaCCpPrbIS3dMtvAEVapZH4A70k3KnayaXIGVD7+vzbb4CbXaz2rqsXGBM82yu23hU=
+2025-06-11 23:41:24.910 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-027
+2025-06-11 23:41:24.911 - INFO - Enviado a 127.0.0.1:60944: PNmSBUaODlnoY65vlUC9Ntcq1gRqZc5uRxcJRsDpm3tnn8z3UKqXS805sbBoHwNP98zPYN8k7EkZ4s6PMQ914jHSH0xoyaMF/BlpimQDBRc=
+2025-06-11 23:41:25.912 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-028
+2025-06-11 23:41:25.912 - INFO - Enviado a 127.0.0.1:60944: NZZAJF8Hc6fJZ4BwKjnSiW8KGjIAq0Q+CU1ayS4H2hWczt5s0W5y0//17SzmeG5Kr+dVjWf9maOGk0I3HCyuFa7XKBE/AHThzy1KK3oDJWY=
+2025-06-11 23:41:26.914 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-029
+2025-06-11 23:41:26.914 - INFO - Enviado a 127.0.0.1:60944: jxS4G9bJ8P7CeZyVissPu2P6jNU1m+YVqkQPbeN6MwoltELq3JyyAtDQOb9LVTqmOj7RSsWSYINgoGjkdmbau8dwsGCiyRM0DbuRW4SsQPg=
+2025-06-11 23:41:27.916 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-030
+2025-06-11 23:41:27.916 - INFO - Enviado a 127.0.0.1:60944: EU2iii74Fg8WNns+zrUIVAu2Cop2eILeGm/7Ceh5BFkt44qhYVAIUzbbXYIMLwxQSH07l//9V5UBmk/hLugyzoGk5Bwe4hr6WmWxJp67xqM=
+2025-06-11 23:41:28.917 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-031
+2025-06-11 23:41:28.918 - INFO - Enviado a 127.0.0.1:60944: ForwqXCmA7ej9ie+5NP6s0owBTQtAS67cUxWN1q/JfjJOE78spU5nrTf6UvHtohAVt/Iiap/XCTfzmYZeJa9Ci+PSQrVfRCbuH+yOtf98Nk=
+2025-06-11 23:41:29.919 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-032
+2025-06-11 23:41:29.919 - INFO - Enviado a 127.0.0.1:60944: vq2JUCD/4lr7OIj8JqbsWa3iNizOSXpKDjdbGtHkNzX+Lpb6zyApQILDcFcko1vPMFohG6IlfYlRxiTr6uoy+k7LQvNrICVoK8FtxUMLD+Q=
+2025-06-11 23:41:30.920 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-033
+2025-06-11 23:41:30.921 - INFO - Enviado a 127.0.0.1:60944: VriiHhtxKoICPpQIUG/MY43C9itNZGGqx/hZXeHc30pXEG0x7W6EQ71aDnps9KZDTefpeB6SrxjlekwQ2y62kzh5b5e3mBwkABxjndne5Q0=
+2025-06-11 23:41:31.922 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-034
+2025-06-11 23:41:31.922 - INFO - Enviado a 127.0.0.1:60944: OlYbmVcVP5/XBvQBQToy6CwYvVyAApYfBL6TrmytZR0JudEoXuqOVYp8Kchoogp8SMgpRlSBBIcv3ZBK32Gb+5iCWn/Dc3t+H3PcfLiavk0=
+2025-06-11 23:41:32.924 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-035
+2025-06-11 23:41:32.924 - INFO - Enviado a 127.0.0.1:60944: lQd8TbkBuFxj84PWgf6fD4KL7sAJuNnNoB1efN21myK0ocTvT5zjKfe20IH1OpLR5uyNbJa8fDFRc85wyKW8FljF/p5eQ2jc2GAtfbHhMY4=
+2025-06-11 23:41:33.926 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-036
+2025-06-11 23:41:33.926 - INFO - Enviado a 127.0.0.1:60944: AzcMewgKG1vF4cC7Q2jFAvliWRdTf642iU6f1wKd1KXGqutoDf9o1dm8KXA7I3k3S3pW2XYMpO2waicxYOgRPFSbyIVbfnDBkauWycsaI3I=
+2025-06-11 23:41:34.928 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-037
+2025-06-11 23:41:34.929 - INFO - Enviado a 127.0.0.1:60944: 7N5wx/yiWpr3NUz1WpzU53ieMPYGBHDGSvL7ciC6B6TkEo63U7ffZCS06z+R8uVUqcjl+Ak3Cioj1q+vqn8qhYOqti/NjsJaPd4jnNRe6Ac=
+2025-06-11 23:41:35.930 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-038
+2025-06-11 23:41:35.930 - INFO - Enviado a 127.0.0.1:60944: FVkFsNXrUpkpnjIzvJ/Oc+WMaa+Mzan4mz1KKngjASBNwX6H7TFr1usuk644J+3XehkZzRx/lmEjH/BPV8jFDty78gRb8G9yqhq2ERAd0VU=
+2025-06-11 23:41:36.932 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-039
+2025-06-11 23:41:36.933 - INFO - Enviado a 127.0.0.1:60944: X8htsGWNj1toGB39qjwkXsw3BglvgtYb/Dz9CmuufpCbHu9KaIsZB26M5pA78aanw56X/+9HSkCGtCA0aMLPuOEBOoCP75h+FS5lVyJBrFQ=
+2025-06-11 23:41:37.934 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-040
+2025-06-11 23:41:37.935 - INFO - Enviado a 127.0.0.1:60944: k4dsOS1wu9Mia4bvIuWqXlSIQIjsOWEbDw/4BgP7wQvly0c9vSYZ730/7u2lUFlPs/dmnv6xfAZ8Ur1Z9PA3gC2U7/GktoBAtGsmkxM7jpU=
+2025-06-11 23:41:38.936 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-041
+2025-06-11 23:41:38.937 - INFO - Enviado a 127.0.0.1:60944: G2sr0kvAvPXZBWqO3WZjdDlIOeOzGNcZIQbqe7+Y1UzMeUFful4YgvXjklacrnLPyKVcji05T4cUKzcfUHpw/RFzGL5Vmaft77cKMaHqAhI=
+2025-06-11 23:41:39.938 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-042
+2025-06-11 23:41:39.939 - INFO - Enviado a 127.0.0.1:60944: cjVI3k0t/GXpywYKryf8e5jM6O8To3NtGozYxkBh6OCe0HE97vxakoFWXDQ8tzmphzfbV1srO2Z+ShV+KeJ8JuNzGlTwqd4ehv003q3t/ME=
+2025-06-11 23:41:40.940 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-043
+2025-06-11 23:41:40.940 - INFO - Enviado a 127.0.0.1:60944: Rx/08JuCqcQDMft8qRsq0A0+ScBStiVEsGCL8MYan5o4u5i7w0OcmzwYpRY3ns4nAnYOoJ7LvZPsgBdGutaqiOZ4+FiVk+0oJmOsvnFJ/IA=
+2025-06-11 23:41:41.942 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-044
+2025-06-11 23:41:41.943 - INFO - Enviado a 127.0.0.1:60944: Er/mewcNBEBWhYt3HZxKt3ubRWWX68uDTb+Yy8d+RFIJjMLEGqmYsBayHh2l3oJBoymMvhQWNTlGwlOkThRVPKzzLZ22K43UhLPNpOndWik=
+2025-06-11 23:41:42.944 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-045
+2025-06-11 23:41:42.944 - INFO - Enviado a 127.0.0.1:60944: yuol1GHqmU+eQRxxxys1nP+6SRAILR6wJx5GWOWW2BPAjOGFw2S2bo0xsgQMd9vezEAwL53ZM2YThCIm6JrOYwbjXNCkcWL5dQMNwSRWGro=
+2025-06-11 23:41:43.945 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-046
+2025-06-11 23:41:43.946 - INFO - Enviado a 127.0.0.1:60944: vH06L1MLFl5gT1gV8HKodQxuw796Ln/muQ7biAPRAIjXPU6pEKW8wm4v2qfNZVobpx6rOwPG70wMNuuqV26uH0Qy5dWBniNJAXlteFzav+Y=
+2025-06-11 23:41:44.947 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-047
+2025-06-11 23:41:44.947 - INFO - Enviado a 127.0.0.1:60944: nrE6nWq5tfr2wQIWUR7vE9v3v6IqboeuT1AnAlMQ5Rq0n6z06hA8BiKdlYHxYHYW71Mg2PsRTCAHiQ6/Wf0tEwd+7gn2U3XmzSBcfm5JMTQ=
+2025-06-11 23:41:45.949 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-048
+2025-06-11 23:41:45.949 - INFO - Enviado a 127.0.0.1:60944: TRS+j3Hs/oP+LYrWZRjZ9tq/38R4B6FTvCWYdUEHVaSqjKMGJD4c1aZW1rYr84tUzfBY8R/+avAHgFIDF9XEmlZYKWFt5Sx8qmcNfG7sNsI=
+2025-06-11 23:41:46.950 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-049
+2025-06-11 23:41:46.951 - INFO - Enviado a 127.0.0.1:60944: irFP5/Y4GH2k6gPIXtsZxLBAIDlSq5f2UJFLTbqrpGWMtFBMFOAIDO4CrzisDvtvNVF2lPFKDMFwc7arQp8AbJv4QanXg9kUHn+NY60b464=
+2025-06-11 23:41:47.952 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-050
+2025-06-11 23:41:47.953 - INFO - Enviado a 127.0.0.1:60944: Z6tRTUUGIs0zeUAonWrBhwMgviCrzjHjWV+H3PLlQoWVVlKMCK9KC4Ad/0PgTpiwORz/sh7pXR6/9YLfCqaT34EY8psPnvpA3AEbonbfo/s=
+2025-06-11 23:41:48.955 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-051
+2025-06-11 23:41:48.955 - INFO - Enviado a 127.0.0.1:60944: lI5l0V62xYFaNWwDLZTt8GT8JHiuJIJDb5BfZYPs1gpuSxNLI6f702V0Kt3+VfLz89sUlHsFK28fxDcuONem3rT0+nasUC6+RrqmCYpE6lc=
+2025-06-11 23:41:49.957 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-052
+2025-06-11 23:41:49.960 - INFO - Enviado a 127.0.0.1:60944: 0WMMAyf07FfWOp+P/q115peWbsyMLGs2KDOyGB6kUwm5k49aIax+AHiwanCT1YhYK+jO0c3MBAH8LSTjbmz35aGugXDup/1r5FLtTiZt+NQ=
+2025-06-11 23:41:50.961 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-053
+2025-06-11 23:41:50.961 - INFO - Enviado a 127.0.0.1:60944: Yn0+JD0CggZWLEnS5TmKN7QTVvQQc8rAgSKxr5pWNMDjgrPhBaTIAmp1DmTxi3VCTXpdKi7W+hrsul0Kx9kzAQphLUm+QIttH1F+A5TLkNw=
+2025-06-11 23:41:51.963 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-054
+2025-06-11 23:41:51.963 - INFO - Enviado a 127.0.0.1:60944: v7weCRdlCMSrnheSrg3Y68c6mggxr19einIQq44pvma81lKHS7kWOhQLIlO7xYU184Vp29isskkt3X6/ynnV0MUnPdSw4oiZtJWSTJ75WaI=
+2025-06-11 23:41:52.964 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-055
+2025-06-11 23:41:52.964 - INFO - Enviado a 127.0.0.1:60944: O34j5TunXzsdRx8ZPMPcIRLD+/kMUvljve/qnbMe93NYLoLY6Aj7yDlqbcF3ytOrpNazwGgmw/74/ZqzOL8eBekGpa7X0+tzLHn045uMzeI=
+2025-06-11 23:41:53.966 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-056
+2025-06-11 23:41:53.966 - INFO - Enviado a 127.0.0.1:60944: ai6F8215IVO0v5CBMDB+24N5rLkWB/fMxGrXz1G7NNXB0UaD0t5uEb9363svffcAkMzlADoC8ZZmMyyHif5RYxrsyF2L5kH+DY/Oydcmxio=
+2025-06-11 23:41:54.968 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-057
+2025-06-11 23:41:54.968 - INFO - Enviado a 127.0.0.1:60944: fvYJMxOi+JlGbBYOM6WOCg4RACJQu2O2xvXc9AcyKCoc+qatlgBIF3aVwCxIKEw01Ent8AsdJkra4H8koaN8IcCljriMyHK2GOg7/MrC34Y=
+2025-06-11 23:41:55.969 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-058
+2025-06-11 23:41:55.970 - INFO - Enviado a 127.0.0.1:60944: x84Xxd5viw9h8cxZchD9R5aiBOfGeDbu/23Ya0qi7LPR0ADN9XiNL9539b9F1a924fzqQOfyvT7YODgosfbApWZBMMBWKQuPvbiYBYZC2FQ=
+2025-06-11 23:41:56.971 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-059
+2025-06-11 23:41:56.972 - INFO - Enviado a 127.0.0.1:60944: 2KsDrv1Q5YjA3HBQtBInrQnyqP9A3N5QYII33Je+ErXfWGaWOpi7RrVvm3b9CJEmkLWWo5STt1xUE51F5Rv0TFpa+b4AXKYMUPClQFqcEgw=
+2025-06-11 23:41:57.973 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-060
+2025-06-11 23:41:57.973 - INFO - Enviado a 127.0.0.1:60944: 5A+U8d4yWLiZBLfp0TVHC9Ht2nSIAkCQuMqv/4L5l2L9JiciwHd/uQ8snF9gb/vF8aWd2V9EqFd67LvPX6AgN/124zW9kBB2iTfp1fpxtPs=
+2025-06-11 23:41:58.975 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-061
+2025-06-11 23:41:58.975 - INFO - Enviado a 127.0.0.1:60944: 31BKHbLwaS28B42PVEwKcX1CmI2bsLFTlnZLGHnOydzfEsgCF9htLtAsFHOFOFlv//mScxctvriXNr+TLMqxvsTY7KNi2iKgd8ugjstu/Vs=
+2025-06-11 23:41:59.976 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-062
+2025-06-11 23:41:59.976 - INFO - Enviado a 127.0.0.1:60944: /BuQyq8gvURsVNjH0Ew6lpOyiG9Yz4yh2ePZnndhgjERoBDauwXa3LwTQNyTO/CQsL65y7pSR/FUqEa3g0fgklQ1jYnHrdpnEZX4wUpAdBE=
+2025-06-11 23:42:00.978 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-063
+2025-06-11 23:42:00.978 - INFO - Enviado a 127.0.0.1:60944: rU3Xp5UFNAf6uAe2o2EI7fmOmM++5h0eWE8aoPEqVoeOEVvnXVRldzIyW8pE4f3aMjUsmmjExeAcaKzkITHFCTywXt/bAlCxhu0wthMqftk=
+2025-06-11 23:42:01.980 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-064
+2025-06-11 23:42:01.980 - INFO - Enviado a 127.0.0.1:60944: 0GMJIQ4OEsYz61C6bC+EyvHcY/ToZQd0+/LF3/YM4jE4jzpijtucvyETXuR5VbYgK94X6Lru7M8BXQAQ0nlWKJFBdstkf77khbC2gRJkgXE=
+2025-06-11 23:42:02.981 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-065
+2025-06-11 23:42:02.982 - INFO - Enviado a 127.0.0.1:60944: AHdF4OQkBKRg1OHAKf0GMtgxLPdY1klundjhvMNnfG0jnmU6PNTyZR98SUwA7kgILhLT8H+PAv+oVK/eA2IyuN70j/ukU8mPR2wtgbmNcyk=
+2025-06-11 23:42:03.984 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-066
+2025-06-11 23:42:03.984 - INFO - Enviado a 127.0.0.1:60944: +nhAtULj4Qd9/TGZnnnmaTqbUKwC0msH7ApmUtCR5vQYNaEZYr3dIBOgTjK6dDHWuFXfVsp8icoUof8EoqREP5sA8NG5nnZTr0z6jNpRKRg=
+2025-06-11 23:42:04.986 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-067
+2025-06-11 23:42:04.986 - INFO - Enviado a 127.0.0.1:60944: yK55ENX0rGpSVZGZfM9k5fBbRrHkilrjgr9X6UUjYIYH9WBBAhDGpvkVO510tG/z3fwIsZsdb2Xn1zG/NgmO4SZ+GgLQXrxmIBYz3LeoOBQ=
+2025-06-11 23:42:05.987 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-068
+2025-06-11 23:42:05.987 - INFO - Enviado a 127.0.0.1:60944: 0UBrtFhRMAzhm1w1EE/9ClaFBjHlRqNXa9iTQ0BPx+gaKS7pb5CIe3zgTFZihtD9qLPsiKp03WxoJVq0Bbgu/To8AiIt3ROKeaWoUcFbqD8=
+2025-06-11 23:42:06.988 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-069
+2025-06-11 23:42:06.989 - INFO - Enviado a 127.0.0.1:60944: 99uMUlhfrcy/bPXfwhL6hVBuKVm6qTAn00TWxN/iiinwkxtHSOlMtb6blbAlxoGEuXCw7yptYW0qj+ibcIq7mA2ATmrAmXfnU7ozF5tLeYo=
+2025-06-11 23:42:07.991 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-070
+2025-06-11 23:42:07.991 - INFO - Enviado a 127.0.0.1:60944: JCDixnlXAKF7AX3yuT2erOB9/YM9jQfEX2GzAhX2AJk2wPJXdbnn7M0V5mFiwQQfZb5OYkrXbWPKMSzM/5lo04ZJ2rxlAJ/IZ5oIV0G1CTY=
+2025-06-11 23:42:08.993 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-071
+2025-06-11 23:42:08.993 - INFO - Enviado a 127.0.0.1:60944: XeqTOwgNC4Yt8iCGsJpsJxidGLjp+zvjup3cZt6iFCrJkehBiRwDrF+J7jkdSIQnF8id3xwR40lsq21kj7LRw20OdPFJFHncOuYB9N7/4pc=
+2025-06-11 23:42:09.995 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-072
+2025-06-11 23:42:09.996 - INFO - Enviado a 127.0.0.1:60944: hYfaEKhUuH5J3f/HcX2yyZml+tI0Mz9iQm2lGmSWEMyjAduHHd/sq27RvVTh8c3o9EXGnXUj1K12tCLXxnXHkzwdW8sTaM56ah4U7jmHzFY=
+2025-06-11 23:42:10.997 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-073
+2025-06-11 23:42:10.997 - INFO - Enviado a 127.0.0.1:60944: j74gXp/Icxf0MFll1QeknPDK1LzgdA2CXzfFVc7IeYkAxNwMNHSstCL7/rlCaDWJ86Zx3tHsNqBwkJElrRJ5Bk+4cqLKNvJBl1IDHXOm+QU=
+2025-06-11 23:42:11.999 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-074
+2025-06-11 23:42:11.999 - INFO - Enviado a 127.0.0.1:60944: LU1CLv8oPTQIUqqWxmGGh7qhi0d6GS0cx9obDt4SNRTuQ6Nwd4Rqw/YzK7xAZkzfC2VwQdIFTI4M/1CJBvLxHka4kDPJim5JTHAuepHyoDU=
+2025-06-11 23:42:13.001 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-075
+2025-06-11 23:42:13.001 - INFO - Enviado a 127.0.0.1:60944: /oo1XjlxwrRSBV+yyh7JSoKl1bWv2+1QRVpNfw88AX9JlLTvVEkj3a12I2ysHtLCuCEHOJTyqtec4SWELevQak2S8KSrKzLavMnn8QU8Qi4=
+2025-06-11 23:42:14.002 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-076
+2025-06-11 23:42:14.003 - INFO - Enviado a 127.0.0.1:60944: Vl5eDDNfpESAxWvsulyKg4nu3af8wI+PBvAUXUGLVpT44QCJOIL5hDz+zt/ZR6CciPcDDJm+rMl3wkABLDHYoUft+w1Xy9crKzhqw9bTBwM=
+2025-06-11 23:42:15.004 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-077
+2025-06-11 23:42:15.005 - INFO - Enviado a 127.0.0.1:60944: b7biDlC7THyrXBN3ZQQJnfP30q09n8XKsxvxljquXH3m0TF2Olf9AZOwC+hjFkFOPItD57kyCE86bGaXaz4BxAr1jpejzNKvdcuULa3RR8o=
+2025-06-11 23:42:16.006 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-078
+2025-06-11 23:42:16.007 - INFO - Enviado a 127.0.0.1:60944: PNtPSmC0g7ingbvgW6evuPtzExt+tnWtrP83hwrQnN7O8+HGXenTK0ZFwWbzP3hIbMY1ACvHdJfGZZdkHflaiin4tMn8eL7NBOn1erDELa0=
+2025-06-11 23:42:17.008 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-079
+2025-06-11 23:42:17.008 - INFO - Enviado a 127.0.0.1:60944: ChhV6fmJFXv5CVzRUIoIyTSTt/W9KN+AT4jmLL53NHSWUvTV2QKOUwOYdEAmUydX2vF3xRY4BsT7OpsjgQWRqem2rjiSKlvdwhJWcdN8xJU=
+2025-06-11 23:42:18.010 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-080
+2025-06-11 23:42:18.011 - INFO - Enviado a 127.0.0.1:60944: tiu4fojjlOjeCTLIMOD6aeHpRkCo2ncftgM/bKttCT7jjkYGD7lUqM/eY8CiABcTm3FApfT2keJjtbYZ5uDOKKqsjeMwo+xD4xnZ6WkrXVQ=
+2025-06-11 23:42:19.012 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-081
+2025-06-11 23:42:19.013 - INFO - Enviado a 127.0.0.1:60944: P9UwcWQI8gq7m/KyNs+xNzM0fFUStvq9/la1Io+UPvZgToRUiQ1eSGEDasatYDWtWzoJQfuYca26oSxJEH5WrDQfq/VjuxkU44yRX0v7+pg=
+2025-06-11 23:42:20.014 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-082
+2025-06-11 23:42:20.014 - INFO - Enviado a 127.0.0.1:60944: 2k/EKWo08TAnIHR0Erfh8XSaxIM4yxmKp/MccBxLcrv0gFHsga61ga+xHjH/avH1vlHJG+YElsEoVRHnCy6uXY+/RLFgVeZTkte4CL8ha5Q=
+2025-06-11 23:42:21.016 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-083
+2025-06-11 23:42:21.019 - INFO - Enviado a 127.0.0.1:60944: u3zPx4tlinJNhxMs2Wn8XRjUGby6ywpwFOVFHR63JBgIploUCWVvi+efs3LOnYcYKbtLEBuQQTaSfMc1MZbbIwQnh1+Z9VywAZhyjQ0mbzM=
+2025-06-11 23:42:22.019 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-084
+2025-06-11 23:42:22.020 - INFO - Enviado a 127.0.0.1:60944: yudaqeYJjd3LtJevlJZBPL4nkd7j1f+WEpNWQyP1eWfTMM++BP/xagXLToR6wEkFoCYq9+RY+kGVOkLqo9Px71C4dh9CEY8FKvf2NOikJ0A=
+2025-06-11 23:42:23.021 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-085
+2025-06-11 23:42:23.021 - INFO - Enviado a 127.0.0.1:60944: sbyG8uL0bqBgrJrWJvzm6aXNSLvKAneo6s/9N+9m8Qx378DAkHe3FDyt8FQwQfAJBWqsJ9X8697Dh27TY9lkjs6v7lfESdgUUFhniLzlriI=
+2025-06-11 23:42:24.022 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-086
+2025-06-11 23:42:24.023 - INFO - Enviado a 127.0.0.1:60944: 7ntrOg5dywFSqCUl1bKWiNRW0pPzh3Snh+A5+9jfDGuUL7R2zN5KAXlxvIBvbGztxCkIzx4r+6+UJSNng8Wn10cXbYeTfD30PwEgIrsToBQ=
+2025-06-11 23:42:25.024 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-087
+2025-06-11 23:42:25.024 - INFO - Enviado a 127.0.0.1:60944: d8dbziEywZilZOvnw8wosUP3y1ajgFxdL9DUNUCPS6G/KLfRN+XKn1ulJEofA7vi4KiI0B1MdfI0MT6Vs6VBtgWmz0cYaRQkbxQCB7rk3D8=
+2025-06-11 23:42:26.026 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-088
+2025-06-11 23:42:26.029 - INFO - Enviado a 127.0.0.1:60944: X1pA33YXT1a+wEU6z0nRF4wvRy9gqJcnA9SfdKPEPgj7HB2Ou6ECa9c+xN4f5tBbaAF2d/mnnSC02vQdR+3OWZyvFj12qV3qNnt7h6ummC0=
+2025-06-11 23:42:27.029 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-089
+2025-06-11 23:42:27.030 - INFO - Enviado a 127.0.0.1:60944: F8xFtJRaxQIgwsnoXz/tJJyjM4rPiJ/nNxY83ejx2VFyUdLnbN3GvHNo3adF/yPlydxGlvbBTqShjadIF8AwsqjjzMk7b2dnpb4SyCdFO7U=
+2025-06-11 23:42:28.031 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-090
+2025-06-11 23:42:28.031 - INFO - Enviado a 127.0.0.1:60944: uygDUO88ZiL2dY3lDkW8/xqgTYk6kteXSjqQH8hrJPbmb+ZSPFYnlRYIrDU+I+TsclmEAa8UOfy0DbvANLQQcw45tX3Dc5gVxqW1o9LQnvU=
+2025-06-11 23:42:29.032 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-091
+2025-06-11 23:42:29.033 - INFO - Enviado a 127.0.0.1:60944: D/UPo7wIhj+Cak2Mae8Ej5sjPyMfErmCUjFce1z7wkEqgVTM4vdoknwxwVjOiO0EyHd21YBTsFrQPHmCSmLVWho+8CU1EF+dhpvZYIM75U4=
+2025-06-11 23:42:30.034 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-092
+2025-06-11 23:42:30.035 - INFO - Enviado a 127.0.0.1:60944: nkuZ3O36MvtZYAI+n5ZY/I04HJF8EE4ApEEihDgmUS60Pp4rkzmC7YiQLd/DkX+fV4smx+r80us2UOySMZw6qGGUcwhtxEP779jBGp4Q6ZA=
+2025-06-11 23:42:31.036 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-093
+2025-06-11 23:42:31.037 - INFO - Enviado a 127.0.0.1:60944: 23C8mfFj3+2N8WgYG3MAw+FaLhwqWqT/N2mPUK6nt2jTlLG7xmQCLrpK/cGiMY2Buk87Uv53Hvgvp0uAXsy5MWiwhAkqoMv/pnOkZzKXLPo=
+2025-06-11 23:42:32.038 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-094
+2025-06-11 23:42:32.038 - INFO - Enviado a 127.0.0.1:60944: /kMVLydj50cL1pIwfJ0TDRXOeQIANa6Mfj474cy0DOKhN9xuOShuiXVTRWrx215Tyn8VGXSjkW8xpys8WcH0Y3J+GQPyB3YgEpUrm3B/nuc=
+2025-06-11 23:42:33.040 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-095
+2025-06-11 23:42:33.040 - INFO - Enviado a 127.0.0.1:60944: DM7s3TXC+dI9RYBTezZWU70F6cTzNTi9Zwc2Z8waKHOq9bIwRxYkUoT0yjMTwfkcwPOKY3H9Z1SrcA13E0a9SFK8u592XoEdACtHE74TMpY=
+2025-06-11 23:42:34.041 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-096
+2025-06-11 23:42:34.042 - INFO - Enviado a 127.0.0.1:60944: QpyY/G4sQuRwH/13qwW2ssR4970dWuPXwIco6EIVdM0MgLYnR4DkQ4foNDGNUc/nhtItbnSbWvxPKp3QE1PhVFxbWwYSbs/NY6feILSQyTQ=
+2025-06-11 23:42:35.043 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-097
+2025-06-11 23:42:35.044 - INFO - Enviado a 127.0.0.1:60944: DDIEQny9etaqeFl3aqpiJiTS9ET97f27Su7V98Dc4RFAnfi5XuVO3eFeNdM7pGiUikUntyCw8EV1TVB3R4RK1wM7PWlyp7Aw9lA28NcZspE=
+2025-06-11 23:42:36.045 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-098
+2025-06-11 23:42:36.045 - INFO - Enviado a 127.0.0.1:60944: 6xRhdEtcO4WaPNnB+IHXvH9gCFOzAbptTKLGotzGkEMykhZO5Sxz8saC8k/R983MLHQ0bOm/RZHvAi0j032tzy8y+5HMZiVkbPgHSFx3pRQ=
+2025-06-11 23:42:37.046 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-099
+2025-06-11 23:42:37.047 - INFO - Enviado a 127.0.0.1:60944: bBKFTye63oiIjkABNF7vME0V/3I+tFJ2MfCnUDXv5+AMVySooc30w7l3P3coC625fxnwL0fmilJ+pGhDW4ObwwpuijpVmqWpMRMspvf0B3c=
+2025-06-11 23:42:38.049 - INFO - Recibido de 127.0.0.1:60944: Hola, soy el paquete Lenox Legends v2.0-100
+2025-06-11 23:42:38.049 - INFO - Enviado a 127.0.0.1:60944: jyIzWdtpo3Nf5owNMxxm/KITAoU+UYyXg8/z9na4XQvozUe8TLyWh8KlsuXeLVkqa4pLZWm/Wv6I9tlwEWlCo7WEihNQHtsaiGtNAcpAoUE=
+2025-06-11 23:42:38.050 - INFO - Cliente 127.0.0.1:60944 cerró la conexión.
+2025-06-11 23:42:38.050 - INFO - Desconectado de 127.0.0.1:60944
+2025-06-12 01:03:52.166 - INFO - Servidor TCP escuchando en 0.0.0.0:65432...
+2025-06-12 01:04:01.015 - INFO - Conectado por 127.0.0.1:44318
+2025-06-12 01:04:01.067 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-12 01:04:01.067 - INFO - Enviado a 127.0.0.1:44318: yI2R8g2nBt7y8wIaZmFtuYdPwdEOxf3GTC8Gi6HWEQTZT1pu0I+pwpnrdOKzogcttHzQ8QArGrvSTrwmzhhNRZmPOznLBokIk5aI3J6eqCk=
+2025-06-12 01:04:02.068 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-12 01:04:02.069 - INFO - Enviado a 127.0.0.1:44318: nyTcrqPRRWEKAfuu4JBQkDHgxpAQXJJ5xud6U6YisrbPafuqSu+v62LjFXw1ZInf78qhs8j+JRl5QiTvKzoEv2maJb2s03idfQG21MW8ahE=
+2025-06-12 01:04:03.070 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-12 01:04:03.071 - INFO - Enviado a 127.0.0.1:44318: atLGvDzVyYRfqp3UGW3XXuCaOGT6tyLJU/8ZNVE6VWxlFAx3NjtCNdSVmkcYr0cQShpw+ybQToQ0Z6Xk+fG/mJ/H9KwbN6L4b+NMJGoAh2A=
+2025-06-12 01:04:04.072 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-12 01:04:04.072 - INFO - Enviado a 127.0.0.1:44318: 9CcUmdc+ZROaFkqH+RpGa0E70WGrbBLp+tHuwKeYeO7CKS+aFQ5HPoMFj2K52E4ckrZhcVPA3ysOpipVhw9zTf0oJ1IqYJVRbpv3CzJE2yg=
+2025-06-12 01:04:05.074 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-12 01:04:05.074 - INFO - Enviado a 127.0.0.1:44318: B4RvKPJsWeIouZuwLuUy3J6ieov8XARmQvAcbAzNHVL5EiTxFeSpPY1wX3hZi3Opap7omQdVolJUMeYYEJf7j/dZHL1b5g+RZqr6uYHDeTM=
+2025-06-12 01:04:06.076 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-006
+2025-06-12 01:04:06.076 - INFO - Enviado a 127.0.0.1:44318: 01PPSMtS69YPC0hmCWHiibEmRhxPwxJIpfgsElWvYeMVHN8u29M7IN1h+Hdmh7iRaYCc7O0Vx9rlQUs53sNnni96/GI8LCX3hyEC6crcDmk=
+2025-06-12 01:04:07.078 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-007
+2025-06-12 01:04:07.078 - INFO - Enviado a 127.0.0.1:44318: cRwXHgLjY7nXoJEdI3BTq4V3wp9rF0qPQq6oxNGllJFYvduehswc+xJRyN95q+KaYn9ydLT8w4cVfBLzHFCcNYqNxo7lkD1HJ3pIISoAxkY=
+2025-06-12 01:04:08.079 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-008
+2025-06-12 01:04:08.080 - INFO - Enviado a 127.0.0.1:44318: 8gXO0CSuYkWgosUfVVm2bubCvhmd/vepJGlmgdpM69a5+b/55C/SLppu7aL13ZRMWsOPQG4QchH2cVen6MvPS7GbYZbzb2fnOGm7Xmz9jz4=
+2025-06-12 01:04:09.081 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-009
+2025-06-12 01:04:09.081 - INFO - Enviado a 127.0.0.1:44318: SZx5COi8SPhrUFaLq+qv/e0PbpE+FK3g4q3WtgsFNUWfO3asdXThsiehK+TxeawjnKt3f6ph9BCJBlXs5mXg+vwdKPRUho8bYFMOjhudJLA=
+2025-06-12 01:04:10.082 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-010
+2025-06-12 01:04:10.082 - INFO - Enviado a 127.0.0.1:44318: 9gSQpk1BZfRmjgbAYIkf0K+R1iuN3Azk+eH7qRJiqoDXC40PvFXgYfS+Ql6w7FmWYFc8q4IORYx3bAUdAUIGFkgf6cONuwZcog4UlFWZyas=
+2025-06-12 01:04:11.084 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-011
+2025-06-12 01:04:11.111 - INFO - Enviado a 127.0.0.1:44318: Cq8smddCOv0OreOJOcp1+P6ReTYu8y4xQQncANlSqopsCW7DSPjVw3kMKVteTK6s9R/cPB/Pese2cKmBZjg+NXGG9+f2UqXVYEFwdufZ3tU=
+2025-06-12 01:04:12.112 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-012
+2025-06-12 01:04:12.112 - INFO - Enviado a 127.0.0.1:44318: 7kBZ2R7aolEj/ITNe+pP3yOv3GWeT25jkkHh2vFpDtiT6JF5MVSH/e4LFjxEJIEhkve4OZhBfju/EXj/KmsjgcvxcXpkNkG7fhRGjbIDYVU=
+2025-06-12 01:04:13.113 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-013
+2025-06-12 01:04:13.114 - INFO - Enviado a 127.0.0.1:44318: dPN3Ss01rSrxsimhNgxEnWtY+f5b1HExQs9q+zXBSaIY/WWvjBFqY6Kg8Lp0lQHt/qJz7YsKQqSoaHqLLmyv/o2Vvxphz/c1MPuhnvVoXfk=
+2025-06-12 01:04:14.115 - INFO - Recibido de 127.0.0.1:44318: Hola, soy el paquete Lenox Legends v2.0-014
+2025-06-12 01:04:14.115 - INFO - Enviado a 127.0.0.1:44318: VhRScilgkmc8jl7NV8q9IXIHX8EJyuC5z1n1qmYPoOxdVFGTJ9/oTiZcVUBcBqcbM0FEzcwcMB0Zc32LPmkNuDDJfeii+poYw97a+QtC/fE=
+2025-06-12 01:04:14.151 - INFO - Cliente 127.0.0.1:44318 cerró la conexión.
+2025-06-12 01:04:14.151 - INFO - Desconectado de 127.0.0.1:44318
+2025-06-12 01:21:04.604 - INFO - Servidor TCP escuchando en 0.0.0.0:65432...
+2025-06-12 01:22:36.463 - INFO - Conectado por 192.168.0.166:59004
+2025-06-12 01:22:36.538 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-12 01:22:36.538 - INFO - Enviado a 192.168.0.166:59004: j1eGAIDrTK8gQlJCYYtfiE2eZQDegWB9QafnsgzJNPkKkG2C9s8m5mq/M4Zz/hxhjFgbqPbm0xyHovvx98+SmU8BfYBvklOTEd1BIfiC1n4=
+2025-06-12 01:22:37.546 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-12 01:22:37.546 - INFO - Enviado a 192.168.0.166:59004: lrhE40qZVcPfuNPPAeIDUGMuAjnFxMAd5wO1ls4t3Z81ZnMMyoGeQMsyoNaZWanu8/nNR+SxfWVg2oobMr1mleLDGsKSMw+nsNZBDM6RhCs=
+2025-06-12 01:22:38.553 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-12 01:22:38.554 - INFO - Enviado a 192.168.0.166:59004: 11uX8eyXvevX8I1WBpr2xCDArnbYQN6PvwbAcVOjRw4rd+2JsdIkCz1F4t4dUA47MRSW0G+LoEqpIXBk6Q3eNyCJFNpbPsFjCCLHkutFwA0=
+2025-06-12 01:22:39.561 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-12 01:22:39.561 - INFO - Enviado a 192.168.0.166:59004: HJUiykyS0klU0T7+jwd80x7ELnpPWzvdhppiKtocYS4E0CCXbCI6u3cdHYBCC7PFn182Z0HRy4Xjg++lnJRP9KAcocsslv4QqBlerRWk7OY=
+2025-06-12 01:22:40.568 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-12 01:22:40.569 - INFO - Enviado a 192.168.0.166:59004: PO7SQP1K1/4SyKWqDIU567Se1Ht7bV1sJ+FlpQtNUv/s1u+ZktDtGcLjP+K4n27G29mQfUuzbD1Kjndjoj0wteDmGz4NvQQAVnUdv7sD1lw=
+2025-06-12 01:22:41.576 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-006
+2025-06-12 01:22:41.576 - INFO - Enviado a 192.168.0.166:59004: ytWUJ0u9/jlH6FDm79zorW4MttkG8eU3u94SvCl4m2bGRZ4xZx67Q0V26GwaxunKpY8jmKQ5WrK6QKBFNQUDtOly5y28LyP7Koq8VBp5UJM=
+2025-06-12 01:22:42.584 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-007
+2025-06-12 01:22:42.585 - INFO - Enviado a 192.168.0.166:59004: 6BDuzT9afHjSXrcE3E8mxL4GOSdHIcoZYihxMfRaneRN599dDBh3kdt/f4CXBQHOw7m+4imAI2QCst7Xr+jNSJp6B+yY3kAxazSIiQskUCE=
+2025-06-12 01:22:43.591 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-008
+2025-06-12 01:22:43.591 - INFO - Enviado a 192.168.0.166:59004: UmMA5dqD/KkeCFMNebjOfEB8wXc9PQB+AsinkABsASfwnZkg4WXpCfoYrnr1ocx4XVn0fYaOGkpJP04uwhLCNZIzjn6j90q63QfnE5c3h0Y=
+2025-06-12 01:22:44.597 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-009
+2025-06-12 01:22:44.598 - INFO - Enviado a 192.168.0.166:59004: VpRH+va0C7UAyVX7LQX7UETJSQChuvUMB1QhdiEgBfuEdU/ZoQFAX5itKCNaT54wKCjYzSBcfH/bBpOWAG+jn+tyu5KwNHAIDtOHVcxCMQM=
+2025-06-12 01:22:45.604 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-010
+2025-06-12 01:22:45.604 - INFO - Enviado a 192.168.0.166:59004: FaOUqXIsluPBms9QAxgDke4v/oknYNaQSRYjQ1VLWflN20QEA5gzIs3vR3mACTo3AzoFMb36Jtyy0ZveCWxmmDco3COlcdoFsxG/pNj1cZQ=
+2025-06-12 01:22:46.612 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-011
+2025-06-12 01:22:46.612 - INFO - Enviado a 192.168.0.166:59004: 6vkL/SKrLhRDl4WLrkCzZ6r9/w2iCxnPzan9NFkBEbusaqn2KGyLTdv+r/sF0fgzasKcXunvugvo1UINRZmOQRnkkJg+/OUGVt5LXH9Lo4M=
+2025-06-12 01:22:47.619 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-012
+2025-06-12 01:22:47.619 - INFO - Enviado a 192.168.0.166:59004: qS+qmgnmrgy3l12xGmpQGwjFp6tto0Mv8qblGx+8yb1zHrQxjY4v+mh5SsP159l0FrzlPp1vXOgnk9ObuvRb8xsfnSC0KAxA4NghSR3vtts=
+2025-06-12 01:22:48.625 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-013
+2025-06-12 01:22:48.625 - INFO - Enviado a 192.168.0.166:59004: wkGYjGMh6HID7E1vzLRazT25BbSNlgGWHPMJPbikPTx84Cu57VRS0fg4UEEkae3N872ry7fyk4E+YhuDK8h/xBNpDYlOMv3EaItQQsitc/U=
+2025-06-12 01:22:49.630 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-014
+2025-06-12 01:22:49.630 - INFO - Enviado a 192.168.0.166:59004: OTN72fDdiD1LCsUXBDp9qtuO6ntViYcKlny1a030V5SxeCDzdMxU6Or8xeLTDaddEgzTQ9gyyQVi6CI1iOVgqIbtfryTgCdLCLNi3I1Edhs=
+2025-06-12 01:22:50.635 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-015
+2025-06-12 01:22:50.635 - INFO - Enviado a 192.168.0.166:59004: 0fO4M1hEm5nrV+P5wRIsrTK3irbKKD9UWSPlJ1oz8bu4ytBGZzGGivRlm+kEpUogg0ek8tyGbRFONRy1JCY0cynECUo7rv0EtuG96PoS6Ds=
+2025-06-12 01:22:51.640 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-016
+2025-06-12 01:22:51.640 - INFO - Enviado a 192.168.0.166:59004: aYJxnQnJg1O2Ypr1l5iN594QRHAphxYroGXyxiF1fClz+NwUH6rxnwd7PvghH3pm4ZAolWxjyIt/OT2FpmYYnjheeXDf9OUWqnPP424Jppk=
+2025-06-12 01:22:52.645 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-017
+2025-06-12 01:22:52.645 - INFO - Enviado a 192.168.0.166:59004: nepHDxSO65XA2djf8rgjEhbgTHAy4d3LR8DkzdW0WrN34CLyItfltI6i+5IVf31QRmxbOcnjM3lfE14C6jRCwM+8+AvWEGrz2Lm558gE3b0=
+2025-06-12 01:22:53.649 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-018
+2025-06-12 01:22:53.649 - INFO - Enviado a 192.168.0.166:59004: QNUD3RdXZw9dcx8L+pm5YZ4U4AJPP7rkg2xOUIy+eGuRCSH7te+GqByycLKivnP5ZAhUDT0U5WzAYNajVsC5C0aRthzL23CyXeKSFLG2ihY=
+2025-06-12 01:22:54.657 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-019
+2025-06-12 01:22:54.658 - INFO - Enviado a 192.168.0.166:59004: MH65UOk6XXMXJF0wG3t6a40NDHvja4460RLtsPXSBakPXyN8iaQAV25ck1YFHj0D+5nr+s4SFOO48HA8YtKun1DyH29+juKLzq7eRtKDhWc=
+2025-06-12 01:22:55.662 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-020
+2025-06-12 01:22:55.662 - INFO - Enviado a 192.168.0.166:59004: u6+z+p291VkKfBmJr2hAG+YyM2CZ6WvccJr6mMNyPXccn8cBbHbel2ZDO2iQGr6hS2EOfAiDEKpGQ3wRQllAuCCNHxARMFnqJUhmrXEyUrQ=
+2025-06-12 01:22:56.666 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-021
+2025-06-12 01:22:56.666 - INFO - Enviado a 192.168.0.166:59004: TlUFFp2/grJvGi+TX9zY4v4ZtL/tusiwYJz4GCTY0gSrfj/SBPQ2aiO+7CHDcOVMRpGw/i6vXrFfmAgSF1f8abb5Sqvzjoic/2zkc2UGGgg=
+2025-06-12 01:22:57.672 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-022
+2025-06-12 01:22:57.672 - INFO - Enviado a 192.168.0.166:59004: +kYEUBaG6gPX9IgI+CWvvB907FUhZxjONIjMPyZOADJmC5QF06RCyapmWiNkyPTSTv2ed8BjkEm8MarOuGM19E4aW0EOSZT4vZMwQo4UGnA=
+2025-06-12 01:22:58.677 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-023
+2025-06-12 01:22:58.678 - INFO - Enviado a 192.168.0.166:59004: L1GMtfQMLodMTQbfngOmAIQrDmZwADjmUlZFz/xPzwOLZUv0RQ2xD1rxIptTL3BXohbbM8Rr2gj5FfaJ2pg0wErKWQ6uFHbCnKaMbyOzR3U=
+2025-06-12 01:22:59.683 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-024
+2025-06-12 01:22:59.684 - INFO - Enviado a 192.168.0.166:59004: r25iONIOiNza4k3PXwY7WGTslOV5lf8LiGK7hFuc1HDD7rYK2jR1qofOcqAqw8aLfBOGhrTtpOxwIdxUbZVVDg0XUQHatQckBhIibmSFths=
+2025-06-12 01:23:00.689 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-025
+2025-06-12 01:23:00.689 - INFO - Enviado a 192.168.0.166:59004: 90eRpzgsPJhMAS7cmgrjU5Q1kJpq+hl+b6/+J+bz+M7qNWXkjvgqfVWEwom5PqejI43lmXQjII35cUFH0Gw4epsmJnvuW9iy8YRV4R7SRhw=
+2025-06-12 01:23:01.693 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-026
+2025-06-12 01:23:01.694 - INFO - Enviado a 192.168.0.166:59004: w71bozLe9HaYO/bW6mvcBwv30pUaRjzTYwrLavd2OK5FPn31yrHYKSzrg62h6TOC4egB5BaLREEUr3vvODxGrJbW7xVnRgautDMItUGauyg=
+2025-06-12 01:23:02.698 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-027
+2025-06-12 01:23:02.698 - INFO - Enviado a 192.168.0.166:59004: ecbggT4s3gsKstt65pvVgGpc/E1GmD7PDKUV35fDoW+nyAiCzz99YJaKleVWGbAe+G3vshRbIj7OKdQyCKQaxBL4SrjoIx6DxDiKF8JbXy0=
+2025-06-12 01:23:03.703 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-028
+2025-06-12 01:23:03.703 - INFO - Enviado a 192.168.0.166:59004: Eh3SUBp5D4zvfc4tw/KceL+0JPlYvOMBE1H/fyM3o2zEG2Eu1AC4+xB+fIz6j2cjqapyrXjv5SoQlqvjWgaRMp9JrX2xeI9NaMF8FwzqsO4=
+2025-06-12 01:23:04.708 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-029
+2025-06-12 01:23:04.708 - INFO - Enviado a 192.168.0.166:59004: 7C111cpr3zAmiR9+dKzChdIcheYgD099wz0OU7hzubUHrvUMJ5fFIPf9z4EubopKFpSduIN2WqMgTdAtfqItb8eKQm6NXrK6DtMTlEG4wvA=
+2025-06-12 01:23:05.712 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-030
+2025-06-12 01:23:05.713 - INFO - Enviado a 192.168.0.166:59004: CAc+gRRl21lTe5RIw+6dRHoK6ZQAieqvOX/i/RqmJOeq+hfK7v0IKOGM75gR7wzI8AyspQXsy9+I2BkDMhJc2WtBoslqBo0M/5fJWXBD1R4=
+2025-06-12 01:23:06.717 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-031
+2025-06-12 01:23:06.718 - INFO - Enviado a 192.168.0.166:59004: VU/+ytV//C+xhSHKx+UBxwovUJGPhXWR5HMAGGxI0C3qNDUKpRImQK5pqOCjF+DPFmwe08ru0LajbFyN5XX54v4K4f3m6cg47JlY69i0LrQ=
+2025-06-12 01:23:07.723 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-032
+2025-06-12 01:23:07.723 - INFO - Enviado a 192.168.0.166:59004: Qi+VrPlAEhZOKewuK7UUFtS38oXvYpeecNxDEvY3fnE5kmxV6Aegg1JKRuhQO0o7/CclzIBzLuX7qgDlkadQdM3Bpnk0x6kRn35aV89omEI=
+2025-06-12 01:23:08.728 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-033
+2025-06-12 01:23:08.729 - INFO - Enviado a 192.168.0.166:59004: Qnc06oOYYvIhxVqCaIW/dhPY3VQbqmoxA8SJw6WhyNjbc8t0gzjZICTo3+BPgMesRVgdjTiYx9tQXm96pO7NRm5T1EFtsizJdvetY3wUjD8=
+2025-06-12 01:23:09.734 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-034
+2025-06-12 01:23:09.734 - INFO - Enviado a 192.168.0.166:59004: EZMjj17a+p2JOWl52onQGco5v0qjKP/K4Rjw8fgMipuKWo/oMjGSLXncXSlHGDSKC2Yb4l9i2+g+ZD0dqXAor2avua0bNId46GdRfQ0VoCM=
+2025-06-12 01:23:10.738 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-035
+2025-06-12 01:23:10.739 - INFO - Enviado a 192.168.0.166:59004: dFR16gy26WQEYuspCRQT5J21+EyjElWY1zJNqTudDEbrAsQh4kiwUl5MgQjJ7w/+ajrnyBXTBfkK11KGeOD33U69HADwAGf8mHjedvYKzOM=
+2025-06-12 01:23:11.744 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-036
+2025-06-12 01:23:11.744 - INFO - Enviado a 192.168.0.166:59004: ZxVFrW7gyzVjKhlcvJT7v+HBWFlxo2WKjPVEZ8tUIY5/mZM5Hds5iwwFdVVyquJp36io3aUTn6eWUwJxUQTSO0KL5KGR0Co7vU8VNKZuzpY=
+2025-06-12 01:23:12.748 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-037
+2025-06-12 01:23:12.749 - INFO - Enviado a 192.168.0.166:59004: 3LLYA/A/y8jrGFOkP/PbkbM3Gv9mKkKJjKcy7+VbRiKBB2Ak6uIJDA+xtiSviwjvRy1DAbLnISSC8jDaw3V5+QACFo0GwUY1Y318XZxJHwg=
+2025-06-12 01:23:13.753 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-038
+2025-06-12 01:23:13.754 - INFO - Enviado a 192.168.0.166:59004: 0kceDhs3oMylohuuiM7tp2dqnH8eMs82vzkHhG4R2aXEEvGrLrNtDeVcBrAgM9i+8Edql7PVzDZ0VDuCfVCQt0Dwgat3o1UgrD1oy5ttAQ4=
+2025-06-12 01:23:14.759 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-039
+2025-06-12 01:23:14.759 - INFO - Enviado a 192.168.0.166:59004: ll1o19SE7+NHTKhwvfSrMRZMMg86pH7aC5nTx3B1fbSvpKyrseaM1NlRocw2Lqutst1btLrjNDNoiYxv+p3SheYK2tPbhcX0+cOAhOKav9I=
+2025-06-12 01:23:15.771 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-040
+2025-06-12 01:23:15.771 - INFO - Enviado a 192.168.0.166:59004: +xkknI4yUZ/ODSe8EuxvG7o7TR99jE8PMzaMcJFv1gAcjck1F6u4I/aPuGNe+/urlj6W3cWFaasD1FuRdP669r9S+dtjjRFEHWams2ndZ8E=
+2025-06-12 01:23:16.776 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-041
+2025-06-12 01:23:16.776 - INFO - Enviado a 192.168.0.166:59004: uTldO8vq76OljjAOmvNB024qHeIozNuG4JcbwKklV6TvYXhzCoVEFJK+XgW3c4a80CZGaloTUcU8IrIhE7m9N0c6BJsou39EQ+saO1VJ+Lk=
+2025-06-12 01:23:17.782 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-042
+2025-06-12 01:23:17.782 - INFO - Enviado a 192.168.0.166:59004: ydB1r31+e5IlFb5VZmTbC8KVUYEwEKkX7WRVCbPTatC+jXxVVDk08+L3p95mBYYOeHcL30e+bG6spBD8STzcZbh0Zk4vKIw9FnHJ2xf46z4=
+2025-06-12 01:23:18.787 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-043
+2025-06-12 01:23:18.788 - INFO - Enviado a 192.168.0.166:59004: C6aBzz815HKadVaDWwoiAbdrsR8jTIpHo5gSzscCHsMlfVMCtygsy1lYrEJ8WYkkqNqxOxKpqwCTZc67Sspb0yOAMYcy9HNpEDcK1Oesl2M=
+2025-06-12 01:23:19.793 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-044
+2025-06-12 01:23:19.793 - INFO - Enviado a 192.168.0.166:59004: H9+px7n4KxxTn5my4qcAtRhpx5r6dGlkBJSDxgBOPQ5yIvAiiD1vr1uG5b1HATX2+8+dxSCjBxGviTzhyRdIK2VUWI9uV1egxRLdbELzrUw=
+2025-06-12 01:23:20.797 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-045
+2025-06-12 01:23:20.797 - INFO - Enviado a 192.168.0.166:59004: BEi03sXkPjMoUBQyzpVc/G5ClLw961K0oNmO9uuJQcafAUuKIm2YD5iMHAMuGpLO63hda4G1e9e+PjXrh57owBoD+E783gFGSFjp04hMLBk=
+2025-06-12 01:23:21.802 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-046
+2025-06-12 01:23:21.803 - INFO - Enviado a 192.168.0.166:59004: BMr8zRq/kJtXK49KWyWMJCVy5fOgT9c4B9J8xwcgy0LcIZf+ZybiBWfwa5LhlKmQXLIVRkidqoSTpvDQdW8J61p984p5dSTF2AKB6nITnTQ=
+2025-06-12 01:23:22.807 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-047
+2025-06-12 01:23:22.808 - INFO - Enviado a 192.168.0.166:59004: prMUFDFoqj5PYkauJ/d7eoHgBxTwS7JlnaagsoxQr76cZddTJAnufQ+949vvEa8h5Rx7E7mLtKSjJ/xbOPb2LII0JNF+ydJAhpUB2tf/ji8=
+2025-06-12 01:23:23.813 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-048
+2025-06-12 01:23:23.813 - INFO - Enviado a 192.168.0.166:59004: Ya5gHe2pdca6piMQIEtqfYSJ0YTfgjdFfzQ75F111sJNZm/4GNnpYAbByHdfNZvkqv/HEZ3Xf0esvGkMbqmrjLtnT91N/v4D7Pqsu+QfuW8=
+2025-06-12 01:23:24.818 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-049
+2025-06-12 01:23:24.819 - INFO - Enviado a 192.168.0.166:59004: btm2dV3DcFGkfOs7RSSorAHNCHRTX90WmkbgI/MqwitQQIDVrFaMwfxfL8CEg0Pz/hC1yM6JHNsPkh/MAQTdtEfcRoPN6jqw7RIAcymUHfs=
+2025-06-12 01:23:25.824 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-050
+2025-06-12 01:23:25.824 - INFO - Enviado a 192.168.0.166:59004: cwQaPEPLLcoLo3r6z3R2Yx/OPwC3uZiP2joptCkBnNpFR9/HZ6h2gP+7a7U8qntu0FzIiO/af/1gimASHsz04kdUskdx8c+YND2EDXINl54=
+2025-06-12 01:23:26.828 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-051
+2025-06-12 01:23:26.828 - INFO - Enviado a 192.168.0.166:59004: /zkRG9ueTWTaw6KbufUdGH6uHCn9kG9dKCz62rTABn5zZacp3kB67BudH4xSYV/ZE7GJeplv9Ad7GHvFkxWVYSFT22zsz54p2XjX0uBCxo0=
+2025-06-12 01:23:27.833 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-052
+2025-06-12 01:23:27.834 - INFO - Enviado a 192.168.0.166:59004: zTB45TV7RW9iThRHY9XXXacj9Z/NbFVXjmRWfGk7c6jTA0GbCEDTyMX87k2RYqv3RKSqzBq0qeHP9i2fiuhEh6gjbZD99MEWD5B9WbRT19I=
+2025-06-12 01:23:28.839 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-053
+2025-06-12 01:23:28.839 - INFO - Enviado a 192.168.0.166:59004: ts3XTTpq8C6J9ShepGRxUhfDip69ywTVcoRyLdMXgPxW6FQBBE8EZCqAEs7qu0KJJzTSQajPLI2bwqYPX2pFBKazxLJ4puKcUWYMv9QIlw0=
+2025-06-12 01:23:29.844 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-054
+2025-06-12 01:23:29.844 - INFO - Enviado a 192.168.0.166:59004: cdPcj825lbCiZecITc0TAay7/xXANAIkUUkd3DfQQ1xcavwHThKoMYFxPV7S0Kbtl/9PX0aoxjXVlrBIIyyStPEXBNWU+Fs5k42ANYPwSV0=
+2025-06-12 01:23:30.849 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-055
+2025-06-12 01:23:30.850 - INFO - Enviado a 192.168.0.166:59004: hNfpHWN7vYY1xBsR3xQl1TDh0vD1Wvz8VH9a7vqt6fUHntr1z2uAGAu9PYYTN7jvs0NAOIK65cE45WnHqTBzH0mK8AEEFmwJiR8IDd2eVIo=
+2025-06-12 01:23:31.855 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-056
+2025-06-12 01:23:31.856 - INFO - Enviado a 192.168.0.166:59004: XiKGeM9/yXCyAhGSzmbeNO+uGdgdw5SqhKo8LTHHRllijPj/9IyO9DwtkevW12Sszb3fshshKRKPK5bcy1Y8SI1ZlHXfGNCu45IKJwSwoXM=
+2025-06-12 01:23:32.861 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-057
+2025-06-12 01:23:32.861 - INFO - Enviado a 192.168.0.166:59004: 1g9+oF+1VGsLwy6VbTPO0wlTSus9uBZvudjd4jPkwbbLwqBuUtkJnuzxA+vY4NFPWVzyWbJBXuXRaUiyTo4AS8TsbLbc716OPGRicItzsP8=
+2025-06-12 01:23:33.867 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-058
+2025-06-12 01:23:33.868 - INFO - Enviado a 192.168.0.166:59004: XHYrxlu0FPIs+JR5iQd0++r4wP3JzoY+mIGt3yU0pQhzm2aGwj4O17Xf0Tc7hUWlBc8s5SttPuavabAaJGYlpS8pvooVx10Nqll075jI2bU=
+2025-06-12 01:23:34.873 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-059
+2025-06-12 01:23:34.873 - INFO - Enviado a 192.168.0.166:59004: oCRw5fnOlpJa237WRfn+C7mVA1M0dyNBI11c4m6MWPtScW9IIFZ66Wb8ZsHr7N1vhWfP3Mt59QvLfA1qjAQZxTQIHQPqShcbnB+aLek6Tes=
+2025-06-12 01:23:35.879 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-060
+2025-06-12 01:23:35.879 - INFO - Enviado a 192.168.0.166:59004: THr8KAhDftOti7lhKm2xBQPWXTLSQL1wOEFzRNdjLgy4YkylbrUNPogrry9nMf8/FFCfGiElz8JbvNOstFiMIaK3UQIzIbael6XPv4JUhy0=
+2025-06-12 01:23:36.884 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-061
+2025-06-12 01:23:36.885 - INFO - Enviado a 192.168.0.166:59004: xT646iImeNFPxGo+6p9XXaByiwxhkd1CkrMLpR+zSrhCccmWQS2l1RIMMAw92vgBIdUV9JHAB3lZpdGaDesjRPSW7LIsUHgDJk38iF3X3Bk=
+2025-06-12 01:23:37.890 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-062
+2025-06-12 01:23:37.891 - INFO - Enviado a 192.168.0.166:59004: ngbeq8GnaSBu87VbVDpKPjPfvatS59cCIuED5kEHi/tVGdtbt6upFjQkVuspFnJl7dfJcS7JAwzznpzvZDQpyAApX6RSHwxt34q3FYi0L1k=
+2025-06-12 01:23:38.896 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-063
+2025-06-12 01:23:38.896 - INFO - Enviado a 192.168.0.166:59004: T0FE4EjVSgcKlAwsJ3Z17kyezatAOyvYiZtPFhXKZlMkAY7NggMollokfacbfsG7zX3ALICS0tqRAMyd+O+biuFCl09LrQA1OWqF1n9AUmA=
+2025-06-12 01:23:39.901 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-064
+2025-06-12 01:23:39.901 - INFO - Enviado a 192.168.0.166:59004: u3rwdOV8l5/3oCo3AZ2US9l0pWvbsW/6elcgx6MsUr+BG/USmEu68CjYSQO77S17sqS45x8bwTBJ+ynKY/SFmy8Z7b+faBqkDzjJe2P3VbI=
+2025-06-12 01:23:40.906 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-065
+2025-06-12 01:23:40.906 - INFO - Enviado a 192.168.0.166:59004: xUhW73my8fwxhXf+wETEpDmezAfumTpjHHEDy6N20sIaMS13Ncyy1czTGijej90UsjAMcBmQGmKLlaHS/g9inZK1Q0V/5mNyL8altdsICuU=
+2025-06-12 01:23:41.911 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-066
+2025-06-12 01:23:41.911 - INFO - Enviado a 192.168.0.166:59004: zvQbVf6vr8e7HlHJ+Rav+90JK+pcOS36sX3wUb+fsQO9UarE/D04KNrXz7VgYEuLhHvdN/PdJo97FTpx185+KDQZJpTUvwxafVgAtV9a/1Q=
+2025-06-12 01:23:42.917 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-067
+2025-06-12 01:23:42.917 - INFO - Enviado a 192.168.0.166:59004: yDI0RYk+2z5WJMYyR+vpeZ8FtpjdW994HkeaKKITXYtEhst1XTwu7g6gcdLbpUeFA9z7afcn1dsF5quqsGVgh1mBPmnwumMbuhsX51aOcZk=
+2025-06-12 01:23:43.922 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-068
+2025-06-12 01:23:43.922 - INFO - Enviado a 192.168.0.166:59004: NndSziqWCO0w6CBxKq5X/di3f0OvRt/75K8YoaMC95XrW2KoLXWNDpc28lbDhAD7Ac+idRNE/8NVeyy6Ehur15J2gcdAqgPN9wGAJAOXMcc=
+2025-06-12 01:23:44.926 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-069
+2025-06-12 01:23:44.927 - INFO - Enviado a 192.168.0.166:59004: D6YbXYRqP+19skwwLBl7reuBKBHslbpgZAPtpVG15d0GO6mqJz31+SSPyEPviqhKtUaw9i8U+RQ99VntOdAF9X/bt7bK+Y/A6pgXtMxyv5Y=
+2025-06-12 01:23:45.932 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-070
+2025-06-12 01:23:45.932 - INFO - Enviado a 192.168.0.166:59004: +qFGYAgRJk8HmrUpgltvAw7owi82gg2Wp4dgvd7fzmnDKUuAl4dUn/vtiuB7hLWUL99g7gku8y8G9GFm9jbDinWor5t9mHI1pz5A+oNRYRU=
+2025-06-12 01:23:46.937 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-071
+2025-06-12 01:23:46.938 - INFO - Enviado a 192.168.0.166:59004: FtoowloGbkfeaQaaM9PVOLa21ce9gqrR+eoR7PQi4mMnMg7hWfd6B1Kv1jn52a99XI5UorsmrVW2IAP2rV/WcWGEpG2e41oxPGVaqwaJlc0=
+2025-06-12 01:23:47.942 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-072
+2025-06-12 01:23:47.943 - INFO - Enviado a 192.168.0.166:59004: rmkZuiWKoicBMvDZSguWRarJxJ0ky58SRYMlS4V0U9YfaXjkJrCBhhA6kIUWllb2i8sB79Gez4XxHJSiWV5bHPhD/SW7TDVtHzAEYaE8TwM=
+2025-06-12 01:23:48.947 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-073
+2025-06-12 01:23:48.948 - INFO - Enviado a 192.168.0.166:59004: /nkp7SOp43eleEtS6z6jD14P29kBHf7EZGASufop+gdvvhKOFwTo2ZnUNvths/Ph2Z+5o28JQx8RVZkqVbHG3PMMMbTBR7idyG/6Sk2UFOo=
+2025-06-12 01:23:49.953 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-074
+2025-06-12 01:23:49.953 - INFO - Enviado a 192.168.0.166:59004: Mh1lxtstzFCG6C9K8IKwJQIm9KdjEiRp6g/AEsJvOfeRxWxZRXOTLUsfyxvRo5Hb78vfZ8GXacmZEdy1HD3iPlb8VyissLtR5PKBTdIsvuw=
+2025-06-12 01:23:50.960 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-075
+2025-06-12 01:23:50.960 - INFO - Enviado a 192.168.0.166:59004: qIr/OPsy8ihGsBlgJZFnItece4CO5vQSojzOhtNYLMlyqiBZCDaNW9vVxDs1k/jsr58bRZ0wJAKaiiMT5LUST7IUGSGZLrZJcdPvLqzf4As=
+2025-06-12 01:23:51.966 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-076
+2025-06-12 01:23:51.966 - INFO - Enviado a 192.168.0.166:59004: zzQzPuxegrrL/0e2xZnNqyIgdw8MmS33NDnR6nicLKiLc9U5o4deZgntbe1hey0R6V9XDGoMDXlDPVRI6codilwoy+GlWFpA8Us4d9KZ+fw=
+2025-06-12 01:23:52.973 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-077
+2025-06-12 01:23:52.973 - INFO - Enviado a 192.168.0.166:59004: RMff2cS6zyCVz+XWs2Wu5U9kWg55wEXadKwYmxdhpOl5FW8UDpgBvMG0ygck2ryZsytiUYC/ME6DKV1QEAsk+3kZ0e+PVZ2i2tPQoo6OTio=
+2025-06-12 01:23:53.977 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-078
+2025-06-12 01:23:53.978 - INFO - Enviado a 192.168.0.166:59004: U+qm8Kjp9us4P8UUwBHS3WeKbloqnFZyEUUGWq8ziUd7Whx8OCU1ANmQqEzDPR75M7275gvrljM2pLkPPdHz/fJXxid7tnRNXTEvGU2m9Nw=
+2025-06-12 01:23:54.983 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-079
+2025-06-12 01:23:54.983 - INFO - Enviado a 192.168.0.166:59004: yp21c7XKZ3pIxD04qFwL+r+xD3MKgxd7BzqEoPbgb8Alqe0p6ou4LF9b2WBZw9oi5zRqyBKtE32+QjZJUpdiirbusbBTOIcrwmzXF5k63nU=
+2025-06-12 01:23:55.989 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-080
+2025-06-12 01:23:55.989 - INFO - Enviado a 192.168.0.166:59004: EY6cma0l6sLpHj4NEH4S9S0WSKOKrpQ1dzbV5KtzUhEwCxzOeVsCM63TER7YLwAVZUUDDWWCGDZfX8H+gP/sM0fHQbO2mLss9qVoxEG0SA4=
+2025-06-12 01:23:56.992 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-081
+2025-06-12 01:23:56.992 - INFO - Enviado a 192.168.0.166:59004: 15IKd4yFuHdQMM9yt7ia19PTJ0vrt2O67jX4ChRFxVq9yL4bLQFLITKFOqp8mexd6xbTlBWZooFhUQRpI4oqCNEqBv4AqKNRvT8j9BaMgaQ=
+2025-06-12 01:23:57.996 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-082
+2025-06-12 01:23:57.996 - INFO - Enviado a 192.168.0.166:59004: CBnowb43TwdrxsvWp+RhFvMZEfx5JFm2RLXJqFwkn/LnylSn8Rr7tlLiAl8PdghUjTSnxeDID+CyE1GyErLsp+Y5wRVkQJO86P2eT+ShQj0=
+2025-06-12 01:23:59.002 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-083
+2025-06-12 01:23:59.002 - INFO - Enviado a 192.168.0.166:59004: 8oOSSI11f7QqlbpjFrmIZt8zgaXVZtXmbdo8CEIPyKyrMKAplYDjoa3L5+MmaPIZmfc+15HSlwFOTLM7Av7AcMHLUN/zAZm1nL4H1cA7z38=
+2025-06-12 01:24:00.008 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-084
+2025-06-12 01:24:00.009 - INFO - Enviado a 192.168.0.166:59004: io5sNUgWJd02cw9U+MFzMrMuRPCc7o+dk9HPIo6SDxC5MGnGc7VXporkUFsXp+zmoX2N5l0xdB4SttM3iD3yGEvxU3p1v8PWGa7aRf+Kyag=
+2025-06-12 01:24:01.014 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-085
+2025-06-12 01:24:01.015 - INFO - Enviado a 192.168.0.166:59004: qblW4mo6i7+X7Q8TCKzCWjsgPFmw0gtJT6CCBIO84Hg3DaDN8BQKBS8IWDWumhph5QfdaPWEX6uJNmZRhoJD6+7aPRKOynH2rSurm8pF/M0=
+2025-06-12 01:24:02.020 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-086
+2025-06-12 01:24:02.020 - INFO - Enviado a 192.168.0.166:59004: 4DXo8EJEq0azwaIFIooXWkwjV8YTSRiTRI2WGCasrARbKxl7Fl3DrAKwlyD/fYNHk7DyC8Q/yEiLaDoMIiNsopuG5Mri12mQnaB+ZvwvvMc=
+2025-06-12 01:24:03.025 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-087
+2025-06-12 01:24:03.026 - INFO - Enviado a 192.168.0.166:59004: P4fv3UVBjom7d86kRI80Jw6NLZuhlheZEnG81Qdvx3q4nyjrUKE9lYOiv0S0fuJCE9yMYVeQOS89u2TFVnRC8EpldhZ8kQQBI6ILQk+lbqI=
+2025-06-12 01:24:04.031 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-088
+2025-06-12 01:24:04.031 - INFO - Enviado a 192.168.0.166:59004: 4hPHPveLDQYTTatHZGlyIEejtajmzz7whD8WsomKXCmuvS3r+Kj6upefGikJ0bE+uSxDOCz0JHjmiXsp4NeZmFz/YKSqbwOPXNR7LMzJaFI=
+2025-06-12 01:24:05.035 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-089
+2025-06-12 01:24:05.036 - INFO - Enviado a 192.168.0.166:59004: uov/EljrFmEFTLRxFr6e67XoBtmV//gQ3Zk147HsRPd7WI6lDrDQ0npnqy52/C1bLtnsQJZB8aIk/ZaB0eWNUc6ULGHFwo456PcMVr6N+rU=
+2025-06-12 01:24:06.040 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-090
+2025-06-12 01:24:06.040 - INFO - Enviado a 192.168.0.166:59004: RddthMjEFf9W1KOicMc1beIJX/bnSGx/2P+ZGfbZPRIDDpYBX1PgNKGKXdiIWrK6MNPepX3ZzylFPA+BeTQuKbPw0oE5FtRiuZr3RMEnwwY=
+2025-06-12 01:24:07.044 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-091
+2025-06-12 01:24:07.044 - INFO - Enviado a 192.168.0.166:59004: YE5N+Z+82t/nq58A/s4KTaVBc+xs4wXv/qaPGG4vsMqqprW0jtkw88Qci4KldIBjwGrOtWZi3qiWyZ/SSGaAU+OlGGqUsKMSUXiUtQiHKAo=
+2025-06-12 01:24:08.050 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-092
+2025-06-12 01:24:08.050 - INFO - Enviado a 192.168.0.166:59004: fZ/CpznSSQJnGH2x9M0noRO+Z3RpVn5MIjB20y9nRgWpmBvAZO5ZbMamWbfVuhzdtbvbXFg7e1reUoNLA4l5SBkqOvGkN2pp276iPmrr4H8=
+2025-06-12 01:24:09.055 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-093
+2025-06-12 01:24:09.056 - INFO - Enviado a 192.168.0.166:59004: KKHptYVCk4cNWRT9+VK/aKNT8BCHw5T2A2Qx50zBPFmyBDSqzdSr3Ekr+FQryMBS2ZK5RupL0nAqY+brGxzD6kROie6LPqSqluijkY5TQsM=
+2025-06-12 01:24:10.062 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-094
+2025-06-12 01:24:10.063 - INFO - Enviado a 192.168.0.166:59004: +UoO53UGRMZMIUBMqT8geRGtsYiZyXaIxUD7dB6r/frno3KVnL1Ry8AfV1r9vl9rrJUmD3mZkmwJZNBCwef7dMRwTRK1eQM+QSwDVq6ZBXI=
+2025-06-12 01:24:11.067 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-095
+2025-06-12 01:24:11.068 - INFO - Enviado a 192.168.0.166:59004: XRTatUYAhSgLYrUOFQCD2l/l+PC0fG7zV2J34pq1Vcqya08tURBHDcBHt7LgTTVXdnJX5KYnRuoOiULrqVgkGFo3sFqO9e4yyR//vbzxWtQ=
+2025-06-12 01:24:12.073 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-096
+2025-06-12 01:24:12.074 - INFO - Enviado a 192.168.0.166:59004: razd8Hu7cGQFgkAXRQ3eAWGEv2m2i+zKthmi46oIVkUWqpXLcxyrD5Rj0PC6PW2FkAvZk8aDLTia8tOAjNZ6O5ConcZKU2uZlVQlKUvkQnU=
+2025-06-12 01:24:13.079 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-097
+2025-06-12 01:24:13.080 - INFO - Enviado a 192.168.0.166:59004: uoQR/tVwykRHUKnb7CJBftXQyUJ29blPwEiMzQySjIYQjF7QSMkSRiZ/RPONPAIUYPSpMvqEWhdBtb4hm4dT27Yehn+fbdjeq/l1nIDJ9Yg=
+2025-06-12 01:24:14.085 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-098
+2025-06-12 01:24:14.085 - INFO - Enviado a 192.168.0.166:59004: 4SOX5wxWcoYu38/UpEyBP+5rbINYwh33rdhtugPR2V+JtUGAkT9xGy7HEtjwzYn6l7M0hKsEEs2RVlGcWMoza+Ho6+FWn/QCax75x4Y3YFI=
+2025-06-12 01:24:15.090 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-099
+2025-06-12 01:24:15.091 - INFO - Enviado a 192.168.0.166:59004: CCsWH8g5d7XQ6DvIqutvlvjnN1KUfb4gv5Y3POHCviL4eXwuUWvs1EE/Hc83GLyr65SNKW3Q9Ir9xxQSrQE45SVMybiSG5Uy/bxxFMWgrEM=
+2025-06-12 01:24:16.095 - INFO - Recibido de 192.168.0.166:59004: Hola, soy el paquete Lenox Legends v2.0-100
+2025-06-12 01:24:16.095 - INFO - Enviado a 192.168.0.166:59004: AlTGtxyVaAlbpa1vstRti1QsBkGl7wBTdYTinYm07pUeL3gS5tmA3t9N12gKq+jVFifK3PnEpBs4ZBtGNu6B0oX5J9/0qHCgvrFqNRHYqKo=
+2025-06-12 01:24:16.122 - INFO - Cliente 192.168.0.166:59004 cerró la conexión.
+2025-06-12 01:24:16.123 - INFO - Desconectado de 192.168.0.166:59004
+2025-06-12 01:25:46.463 - INFO - Conectado por 192.168.0.166:47758
+2025-06-12 01:25:46.529 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-12 01:25:46.530 - INFO - Enviado a 192.168.0.166:47758: 7gxwWxf9SojoXwyYkqtmV0a6teDSR02oaFvDk98C5h/Fjsglu2PSxA19u0zSlos6i0mPj3K3qEJfScjVUOfuUXBGHaqlxY31WXAU3zQfK+o=
+2025-06-12 01:25:47.538 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-12 01:25:47.538 - INFO - Enviado a 192.168.0.166:47758: 7VuL89GF7dqn6j++yRC7ukhz29EHOKIuUqNxsGFGJjzeG5R6JHe2BcLP1WDAHry3pH0oJiwqrQ0s4srkFRT6ATppgH8qU5ViBzuIINPwb+g=
+2025-06-12 01:25:48.545 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-12 01:25:48.546 - INFO - Enviado a 192.168.0.166:47758: SkLEfQP/J9l2JFMfkJbGzpXjArx0VJK00Q7DruLHxFHO6vDrw8hd8lZBzXVflp7DfS1iIIASHIHTrqYJkitdGbfi07xnHBX4L3zrihvWLDs=
+2025-06-12 01:25:49.553 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-12 01:25:49.553 - INFO - Enviado a 192.168.0.166:47758: pv97Dr+mzK0FSi5o+x0syJgj80GXUb8ZtHIQ1RPPxxC5HDOLMlvk1i10Rk4C74qxNoLblbobs/jqw9y+q3RjOESpuY8fNRduY71InEDZouI=
+2025-06-12 01:25:50.560 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-12 01:25:50.561 - INFO - Enviado a 192.168.0.166:47758: bvXNNiI6e4aSMUW8BzvHBc7hiJj6GyMzq/GCvGfFKYX0b0vDb8VzS3XfKCeKDJR0b5WOxPg2383Dk6yny0buMl+4kI2adcYnVY/cJ+qvdoI=
+2025-06-12 01:25:51.569 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-006
+2025-06-12 01:25:51.569 - INFO - Enviado a 192.168.0.166:47758: xUcvZgGsk0ukMm/Y95msYKtdXQh9vCkTKJO6PiZhRkQHPqyI3uD5LjaPWNmag/Wi/dotlDHzwMnaph9bdNXqRK0RfOJqsNqjFYPZ6fHWJRk=
+2025-06-12 01:25:52.576 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-007
+2025-06-12 01:25:52.577 - INFO - Enviado a 192.168.0.166:47758: HqP6mTDmACZyh1QUDrAcYckScu2bZQZpggAFLb5bvyR7WFFpe0OtfapTvQeFYFArjul0HReL9y5NI00dz99ngSVQ2z0IWeP1dUZfYusF660=
+2025-06-12 01:25:53.583 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-008
+2025-06-12 01:25:53.583 - INFO - Enviado a 192.168.0.166:47758: i0jsdkGqMbOyMZNcYxUis8t6dLbYna9RobXwPtxXapyfxXWTxDN6YyT7HFXAeF89bW/4kNq2A27BWc8//7yREPJtlGUMubjD6LZ70cy9tyE=
+2025-06-12 01:25:54.589 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-009
+2025-06-12 01:25:54.590 - INFO - Enviado a 192.168.0.166:47758: 9w7baLDKwBck/i8dMMthWihGepC8FhKY15FAI/v4c+LTERhS9L4ozn21jR1yBEwAzxEHTyF4hIgM8pqUt1RS/7HKc1l4S+Sxz9mu0ho7LZ8=
+2025-06-12 01:25:55.597 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-010
+2025-06-12 01:25:55.597 - INFO - Enviado a 192.168.0.166:47758: O0ntuedAD805bV/0y1lTX11zUU5JLk0WL3zwfFcz/w7/JVb++2wvHXfURIwG50DXt7GhdJQILgjdZ0JkqEBY0LpTgVk7+sLScCKIn3iliNs=
+2025-06-12 01:25:56.603 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-011
+2025-06-12 01:25:56.603 - INFO - Enviado a 192.168.0.166:47758: OZU5ofuSmZ5Pl5LF+2AsESdr47ho5BQ72ysiWXTNTW9AliKQSUbq+eGxwm19nrEnJ1qqT9S2ZwpwRwy5xI8tuvvmzK+HVBWLJRDR/AUrOes=
+2025-06-12 01:25:57.610 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-012
+2025-06-12 01:25:57.610 - INFO - Enviado a 192.168.0.166:47758: xnp9u49qU0j6DQ+sIMr07qtcF8mNHT4WZM9y7r323um0+w1TiVzqIBhXv0aYLHQYNYnQAKoW44OweX5kZft/eg+9ADCXrj4TBLv2WnTRLpg=
+2025-06-12 01:25:58.616 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-013
+2025-06-12 01:25:58.619 - INFO - Enviado a 192.168.0.166:47758: cseAX6wtF9Bxms7yTqOjgjb9nFftMumjT0gOE6D7E+YHDJ7tNhdN+mIk8DmRYn1hA6y8eGrrK64ZGzZOcExZG4KyzR4MKulqooLTX3sEKA0=
+2025-06-12 01:25:59.626 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-014
+2025-06-12 01:25:59.626 - INFO - Enviado a 192.168.0.166:47758: 3Y+c+AdEP2wbzwy5hr0IE5tVT3uz1SYlNwhVcgOutxRWC4H7yFy95gnP3P07jfhaZWS2jaQXCuZ5ppi5gz1ql3Y/1IZ/OBNN6F6t5mkjUSA=
+2025-06-12 01:26:00.630 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-015
+2025-06-12 01:26:00.630 - INFO - Enviado a 192.168.0.166:47758: Q3bT9Nx5KTgu7ixQ1z8RRKpoY6aBAmftYnUVsYdLcDStI4Z7NgUJnzkoJ1IE7zqcTIMC4NWd6y6e7occYi65QWl84hPuMUuHWXtSL0fMBGE=
+2025-06-12 01:26:01.635 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-016
+2025-06-12 01:26:01.636 - INFO - Enviado a 192.168.0.166:47758: HlF07dGGDiQRDM5pDXz+tffQ1SugtR2Qe7DS5ddXvM8TTE5ZVzHBjeasdzan6DQ9ri4e9ia68nmv35kgRYFK3PBn/9T7pzN8PJ1+5eIQNNc=
+2025-06-12 01:26:02.640 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-017
+2025-06-12 01:26:02.640 - INFO - Enviado a 192.168.0.166:47758: rzAQUi0FXdUnC3s9A0H22nyS7MABWjS92HBJ37h+pI3ImY3uLOF6+WndPMcIgZo0+VCkSGl/XZqs2CEmyGX6ApEX3bsr0nuOhffuob3EkN4=
+2025-06-12 01:26:03.644 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-018
+2025-06-12 01:26:03.645 - INFO - Enviado a 192.168.0.166:47758: t4BdX97gl2no5bwZpVvr/7C2O6kX2CEQz69z107Ymyp7hv8I/JOoygTvkPCGhWjU0G9k15C+EgCW5hIe/TEixgdsDJ3yc5uF2Ho+7pX6ozI=
+2025-06-12 01:26:04.649 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-019
+2025-06-12 01:26:04.649 - INFO - Enviado a 192.168.0.166:47758: AXZ/lXCnhps9v/5jurEnJMyM66dIUAXzBSLaJikF+8esisHZgJasfHeDbb7tgAOLJcAs+icsClS8ZLnhcxBSnGNacitUQqgJKh5Fh6qaS4A=
+2025-06-12 01:26:05.656 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-020
+2025-06-12 01:26:05.656 - INFO - Enviado a 192.168.0.166:47758: 3u1wv3VBeRrJP8ZquGQe1AOBXKZq9FWbsiStCRw/eY6+ASv/ylLmJx7zZILY793B/QLQznKKF/d7E4Y5edHQ20w+cCPRKCRb8NeJE0vxoMk=
+2025-06-12 01:26:06.660 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-021
+2025-06-12 01:26:06.660 - INFO - Enviado a 192.168.0.166:47758: t6hSG32PD9FQR1Au6nv5g0Bv6rCulL2RLawcZCSQkaaw9P++GdxNQuPDgMQjcE4E+tEb7Crwwa1o4WbIO03UPKj/PFJYiAV4A6HWgt2tfUw=
+2025-06-12 01:26:07.667 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-022
+2025-06-12 01:26:07.667 - INFO - Enviado a 192.168.0.166:47758: +gTnGR4GTi0QC5DgQ0dEFH9UH2SHJlqKMoYM7YyNnT6y9zU89EM9hdgf3KHQ6k/FABt6TlCeIMRR+C2vLCcOKKijcU1ItGNwqFKg55PNDzY=
+2025-06-12 01:26:08.672 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-023
+2025-06-12 01:26:08.673 - INFO - Enviado a 192.168.0.166:47758: G0OnFbUxKML14udfLtUNlOJXDGGIkH2O1sQghY67oqyT6ooJO80mgrcTEmhEscTUM8vQVChS9TDx6g5xllK6ijuIxX1vVVDCYFUtr6Lm/Zk=
+2025-06-12 01:26:09.678 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-024
+2025-06-12 01:26:09.679 - INFO - Enviado a 192.168.0.166:47758: ng05zz3HeAZa1OUCG9K4w9UP7mXvTZPg0LFTyLX0foYCRV0ewQ+9Nju6gLIO/D3T/DtbCibL6NkU+GWdgBzsV2RYLmnrVI4O0PwA8rgjU/Q=
+2025-06-12 01:26:10.684 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-025
+2025-06-12 01:26:10.685 - INFO - Enviado a 192.168.0.166:47758: Sha65W/lHJda/6M2Xw+nQaNNVY1FfuyHc/zSqi8m4yGQOjET67gRjCRU93bFi6wJNpkWZXYA//4rv6miOsCbb4UFIVfJhZh6RMuV4ahXb5s=
+2025-06-12 01:26:11.690 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-026
+2025-06-12 01:26:11.690 - INFO - Enviado a 192.168.0.166:47758: xeOoXzOaqf/vYPO+sZfEBaKvJinU667Cbytbt9rJ0EnB1z8/wYcO6FgzIfHehfFhi5TY8gMCcPIFfq6k96pSX2loM/iGzpC6vrQiS3jIp3U=
+2025-06-12 01:26:12.696 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-027
+2025-06-12 01:26:12.697 - INFO - Enviado a 192.168.0.166:47758: u4A57tcjLHMthm/2PBsvwBPys9NyxIU2h9wF5N4Or7cXBYCHzezVlR42SpQnyEBS8ddoIw+uq/95jGv8vPoIc5ozxBvg8UXgI1JaONysFg0=
+2025-06-12 01:26:13.702 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-028
+2025-06-12 01:26:13.702 - INFO - Enviado a 192.168.0.166:47758: 2siCTWBwg3udHVkCSm24RQE8JWwqeiumIpiIyJ1YBGBG7b7tPf8jLW8aXrXu4ZAtvw82G3Kyi+q5swFdctDbNrLe7HYvW3dPZszVJGxpC2w=
+2025-06-12 01:26:14.707 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-029
+2025-06-12 01:26:14.707 - INFO - Enviado a 192.168.0.166:47758: kbrhuCWPNemJy57WocleqGXMvO5yX67CUMvI1yscEPzqVHMa1wamzPJIozzSEougMO9cFtF/5+iOiBecv6DDObi3LJUcWgLFq8zFYM73GGU=
+2025-06-12 01:26:15.712 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-030
+2025-06-12 01:26:15.712 - INFO - Enviado a 192.168.0.166:47758: CM8nBgHTZq8Ytf40ruBfWza523f85heTRR6NxllfOEnqKBN7JeSDztLR1tITy4UnrBUcTC0+R+dWQ5Ut+S3DCnNuK7069HtcDvFfobUXG24=
+2025-06-12 01:26:16.718 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-031
+2025-06-12 01:26:16.718 - INFO - Enviado a 192.168.0.166:47758: 442pMvS47sHrnYkg96ei1JNcooceLx8atwNUo192cpHKg2SC9XNEuXFgXT651xmKpaXmrSxEcCnu3KCaYaQ6bPmLVzCbdeTBWT9W54fW6QM=
+2025-06-12 01:26:17.723 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-032
+2025-06-12 01:26:17.723 - INFO - Enviado a 192.168.0.166:47758: 7rSdFAtb/rTx6Cla6eNQUxDpb2udsM8mfBp49aDDgt/lJEpLzhJQ6Khi7YSq1oyKRaQVakSoUIcsKp8KrOt/D/5A59yDJnxT0zu02UGuRsk=
+2025-06-12 01:26:18.728 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-033
+2025-06-12 01:26:18.728 - INFO - Enviado a 192.168.0.166:47758: YbLVosOwNd7gNzsJHtB6PxFOwptcLwYeBsTNPoI+5t+nS/0bHYQCbMMHpXclO86CBbZKdTZGUaAYzlqR+ezIZQRtCTB+ShB6In4tyIFr9zo=
+2025-06-12 01:26:19.734 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-034
+2025-06-12 01:26:19.734 - INFO - Enviado a 192.168.0.166:47758: d0gCvn51M877NGIoz+RYA07RvzZkCaCbNsl2DGOgYYvKE8MBgelPfIJpXT5Uwtym36mQnDxq5fKyT9M41mQbUWSHKBhw3jTHmdaLUdGurKc=
+2025-06-12 01:26:20.739 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-035
+2025-06-12 01:26:20.739 - INFO - Enviado a 192.168.0.166:47758: hEeU1zS2RpJDOcbTPsoAaZngOJU2jbbK9nQR8a5Rq0VRBeLMAxeBPNEnGAkch0/rU6scwhjCOhNzXRk+pZ6vo7lwiYtPcRPkeZX8uO19F3Q=
+2025-06-12 01:26:21.745 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-036
+2025-06-12 01:26:21.745 - INFO - Enviado a 192.168.0.166:47758: yZVwH3mBhHEYcdaAgSIsv7M83s4SKmpblWhD/5C4erbA4LlEmuNtUE+P7tjhyFuA5QpuiyZRWaLtNO867W9bCQ6T7QD9IbWOQOOFRe6mJZk=
+2025-06-12 01:26:22.749 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-037
+2025-06-12 01:26:22.749 - INFO - Enviado a 192.168.0.166:47758: FPXybcODgQvifJsKKeO4batLghZD4lFKCL39CzAUt+8EXcDwxB26vlS3C+dDURGari4Gpp+6982hfOZgyI16/wLArgSuG316CouS5yRUBB8=
+2025-06-12 01:26:23.755 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-038
+2025-06-12 01:26:23.755 - INFO - Enviado a 192.168.0.166:47758: AAaAgm/7A557k/4wf0GeF7osIyhOsKm+n5gI5sSR0Dv21Buqf3WjWmhb8J1tWJxVmxpPI3x2KZY/FVLb9thB9namDg3CvkU9H6Febrlszlw=
+2025-06-12 01:26:24.760 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-039
+2025-06-12 01:26:24.761 - INFO - Enviado a 192.168.0.166:47758: AJyL87yIRwBwhPf3HnZer8gYGyyLRw+g5vPBeAaJSkv8E/44FU/dbKC9d1lT4ln2Oi238+HsIUhJCGEOQrZPF+ujZRQ+rx6Nkat0kT2OqbQ=
+2025-06-12 01:26:25.765 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-040
+2025-06-12 01:26:25.765 - INFO - Enviado a 192.168.0.166:47758: kWnJDttEy3YZ6Xi9irmlGty6uISS8kYbVOhBLEz36WKa1/vqzmIAMUpx6EAuD6iT4ff34VRz2lSqdbg6RkbhYBQoAkICG1fqKzXmUsB9R8k=
+2025-06-12 01:26:26.770 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-041
+2025-06-12 01:26:26.770 - INFO - Enviado a 192.168.0.166:47758: W5aWB/5mHKOwcdQdgm+BRSmIOnlCjBMvlOWVjUIqMsjRC4760BCEtgaYon50mSU9d3sSR0Rqkbq/cpAqzsH136RtffQ4q1Aa8YKAaxOScBA=
+2025-06-12 01:26:27.775 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-042
+2025-06-12 01:26:27.776 - INFO - Enviado a 192.168.0.166:47758: gzkfHbLMr2fx2p0hbNTLpsaBsd5vwHLT57l2xa5GFXc9twMmfYBt2kuzDehLI2IKKYZ0S0QOL6IFvpC7mQ1cc7n5JOHYuSVAWTzqlaIVKkU=
+2025-06-12 01:26:28.780 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-043
+2025-06-12 01:26:28.780 - INFO - Enviado a 192.168.0.166:47758: B54/fedoskOjsDmYu1eq2Ji3xhYytQWz4npNqu5vGGZFi5PpLerI2jThtwi99UuxH2SfbFE8vCOhGy8hXmQm5V6rASIBGiOpuRVAPyBraRs=
+2025-06-12 01:26:29.786 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-044
+2025-06-12 01:26:29.786 - INFO - Enviado a 192.168.0.166:47758: Rdng5pgjWxvefYs22VF2eYjOoGrk0ymJpcefynZda0nyXR4jOuWoI4Zmvb941y4AGbaiypPvpLyHlFYbXde4Y5k1ny7eY5oUoUwGSwcjZMQ=
+2025-06-12 01:26:30.791 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-045
+2025-06-12 01:26:30.791 - INFO - Enviado a 192.168.0.166:47758: CerAjWk0cwuFDA3uqveKNneL5Wos+R8KrrDcf+xwx2Qxy/rrWlxoBX4PTzspelgxag7qpIy94ey9hiDqu9+iPaia83BPhS9EFpqI9Ks62GI=
+2025-06-12 01:26:31.796 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-046
+2025-06-12 01:26:31.796 - INFO - Enviado a 192.168.0.166:47758: VN4DqoVx9g15XT+ZGRweowMCNdd2nan5NigDVOyymK0oz4TgfvPGgAsKZCyyEoJvqnlbwJ3TpeMD8CE5GCVYvgvRddchfFLw0YIrJqdwPZA=
+2025-06-12 01:26:32.801 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-047
+2025-06-12 01:26:32.801 - INFO - Enviado a 192.168.0.166:47758: VdV5q9Yc301XBJGRG3DhGE0kY8qe5Rlj99yRyg3+4SHtqG2R5GXQg4G80iaBS0fEzOW0g3AblwtofpZzbvP2znieF/KxTQ3KVxaGav+Aexc=
+2025-06-12 01:26:33.806 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-048
+2025-06-12 01:26:33.806 - INFO - Enviado a 192.168.0.166:47758: jUqVnpQ+/Vbh0onhRcwvGzwKH/x+0Up3V8TYyla9i7vm1BQ1KfPJnasEaXYp7ruMZqDRNPebAoFDOzp6MI/foW6x++VpfHVg7FAAx0R6s5E=
+2025-06-12 01:26:34.811 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-049
+2025-06-12 01:26:34.812 - INFO - Enviado a 192.168.0.166:47758: eK1XOk3yJDBo0EhG2OFD9IKAgp8gcGutDwMmw3ib7Wesdo5My9OnBH3TnQzd0Wq1BZ5JmlVTuPNOo2Cr5bwoxtOGG4D8Sx3Oflk5WdvpNKk=
+2025-06-12 01:26:35.816 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-050
+2025-06-12 01:26:35.816 - INFO - Enviado a 192.168.0.166:47758: Lp1y0pyOyN1T+7csE4Am47vrkV15SLfiDtYZWAtKXTUfbmGHeb2/R81nVlVzwewND7hdp/DmwMVhLj3XLh2CTP0QogTqtE2mHYImxZmvxdk=
+2025-06-12 01:26:36.821 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-051
+2025-06-12 01:26:36.821 - INFO - Enviado a 192.168.0.166:47758: MJJ3bqVU/lcPUpCL1S5UhikzvVFEzIGbr6CEVG3h7TKkOvVAQ8/90vpF/2pnK4OB/ewMOIq+6RSpuOGSBQarvRVnJlIxkTjrgXbnnamXB1s=
+2025-06-12 01:26:37.827 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-052
+2025-06-12 01:26:37.827 - INFO - Enviado a 192.168.0.166:47758: TW4ZJGR7J/RwUjmcOUhX0HNCefX7sgsQteTIiRf4Q5op24tqz7qzmyYG3Qm+NFZm5FDCIwGwHrYIeUPsgbnwGwvOhUKdhf0JX7fo6wNdOBU=
+2025-06-12 01:26:38.831 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-053
+2025-06-12 01:26:38.831 - INFO - Enviado a 192.168.0.166:47758: GGIXfdGdmleoAlAyfAhuVoqyXO9FpXxSxaoUmFyR8bppeN5Gw6qPV4ViBy4zxePOFPbYD9jJXZsmIP6OLqthXeBDbWBOtlfpIzRV6Jv6g1Y=
+2025-06-12 01:26:39.837 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-054
+2025-06-12 01:26:39.837 - INFO - Enviado a 192.168.0.166:47758: m3pEZm1ud8IlU/rW7HmFZvTtCrMiAlFPp2NzlEhz/mup4JBDckSxsxHVtwdvGzhV2pAzAFJZjfts0omZSi6uHar9/s1cB6pV5VIHa2PsABQ=
+2025-06-12 01:26:40.842 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-055
+2025-06-12 01:26:40.842 - INFO - Enviado a 192.168.0.166:47758: YQ9D+h1GEBtcU5stCopxqyqsdMFw/9i0P2XfwJUX53qe5VDwHWIzTxalI5Bce5d6/PrKvlKGMS9IOFY4N4Y2pTE8Z9MqBDCSC8wKY1bnN0M=
+2025-06-12 01:26:41.847 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-056
+2025-06-12 01:26:41.848 - INFO - Enviado a 192.168.0.166:47758: bN9FbQlGz++AAdulvoCs19iYiwImLAElFmjvQJUVRT5x3gp1HlmvEzhwLmtC2mH1fXHILh34dl/9qTcxFXHseCTZ9QEM9Db/tEXz29qoi5E=
+2025-06-12 01:26:42.854 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-057
+2025-06-12 01:26:42.854 - INFO - Enviado a 192.168.0.166:47758: jkKaH7eCInHqeqtZ3lVGyrN3nUHkUMdaLZb1KoLKtbo1JScglWu1iLs6Lp0c77W4GgQubYYUobhaGWJYdRd4OkKTBBaN07RWGzjVJW7xke0=
+2025-06-12 01:26:43.859 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-058
+2025-06-12 01:26:43.860 - INFO - Enviado a 192.168.0.166:47758: 5tBx9V4enZBlyKAdQ7fcYjgH/a7P6Yz62vH7Z6jSEBPmaNlXm6LzUqyXmK+1woFQIx2Tgt7mnzh9juqX4qH9DD7hEvs1Cjb9EMEfgHA5yaU=
+2025-06-12 01:26:44.865 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-059
+2025-06-12 01:26:44.865 - INFO - Enviado a 192.168.0.166:47758: gp4H2NcF8WnHT6X9XcoHAgykZpNRccLJuiM/5l+4Og8G0CVtctpoEhLHi330fVnsNwiF9koh5d/PLhhbF+ucTbdhrJD8R048JBpwoERCT9c=
+2025-06-12 01:26:45.871 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-060
+2025-06-12 01:26:45.871 - INFO - Enviado a 192.168.0.166:47758: O5WOucB86PU7hwFPFgwKce5Wq0YQr6Gte1GAo+IgQRCp1Ajl2+ieqcOxd4aQhlQs3T2ur+gMY/HCyHFxJAMlK1zNZP6a2XtHZa+SPUPAU3s=
+2025-06-12 01:26:46.876 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-061
+2025-06-12 01:26:46.877 - INFO - Enviado a 192.168.0.166:47758: aZPQgCLEvEwQQPGzPhgNzoB+zQorN1M8nHfPC96nN6pcOxetBXIIrnAxd3U6ciIqSPxSkZjFFEPs4kp1Z9VqnPIA9K7uIB7kePHfmvMe6Z0=
+2025-06-12 01:26:47.881 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-062
+2025-06-12 01:26:47.881 - INFO - Enviado a 192.168.0.166:47758: GTw9qpzlxmya1Lk2gXIQpzxyANMPt1IMPSVn+2S2dlvnnz5o24udivT71wGaoZhrQ+1PWznN8BYyB1M3AeVHuOWelgkvIkdH7XshpwzZ9A4=
+2025-06-12 01:26:48.885 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-063
+2025-06-12 01:26:48.885 - INFO - Enviado a 192.168.0.166:47758: cBsvp95mwl3u2IQoc73ZrcI+gBumqm1GTSoPGFSZxXZe0d4UX1jS6D4TOlchXDhO+IcbD5Q6nkPpfuTynB/5aktpMxZ+rA+8KF5sE6QGVR0=
+2025-06-12 01:26:49.889 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-064
+2025-06-12 01:26:49.890 - INFO - Enviado a 192.168.0.166:47758: zhSOjQfd6r81dw9umODoTmL23RB4W9lzR8NuiOaYM8umi/2aU7eVR2d9uRXt0ipJT0fc/s6WEQG33RKtRqi7Br0381XacTeXEBTnAbNEshQ=
+2025-06-12 01:26:50.894 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-065
+2025-06-12 01:26:50.894 - INFO - Enviado a 192.168.0.166:47758: otPspbDGufOcr1q4G/G3dQGJm+1qsuE3FpdFtbv5FUQ8ujoYchxA+TkjOhLe4wvuHStwcl+0dZwsp/k0ZT7SGNzKfFNKor7phaLotM+AF+w=
+2025-06-12 01:26:51.899 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-066
+2025-06-12 01:26:51.900 - INFO - Enviado a 192.168.0.166:47758: HAq8X7Hl5RdnY7SYoK6MI0EPsJAaEHZLR3zluSwdi5sfHw8QJFGr8KiDUoMp+fJnlvC/Uu8TzdXpRI87imzUee4AWO5naZ/XEVQNKk9x3dg=
+2025-06-12 01:26:52.905 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-067
+2025-06-12 01:26:52.906 - INFO - Enviado a 192.168.0.166:47758: Ahk1bHcRNhCzc7wHWKdvhibGWD4ZJZarTYTq/ZpzeqMFJ0J8gyl/kLLpYDT+6mslNH0bEh2e4TbabQ2kRYfvqN99VJk/hSwuwXe45BpZYV0=
+2025-06-12 01:26:53.910 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-068
+2025-06-12 01:26:53.911 - INFO - Enviado a 192.168.0.166:47758: 0EfV+2Fq1EVs9xKAqMu3+SeJ/0TwzKs+YqR/QBlLMYxZ3sm4Tw/HuAGgVplRBryUu4oQK7uF/iY4HTG7WYbWPRjSbvp2wX1yIo/dkAZRaKE=
+2025-06-12 01:26:54.916 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-069
+2025-06-12 01:26:54.916 - INFO - Enviado a 192.168.0.166:47758: TweftBXMvmQqLN8S+lQGWoVBegphpE6Zrp3SzVo5Kxrq50dqpjr6bpa95x52eg3qid2MXOZcTHS55yrvS8bKb4AeA5lb5+JdeijgNdoC5TY=
+2025-06-12 01:26:55.920 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-070
+2025-06-12 01:26:55.921 - INFO - Enviado a 192.168.0.166:47758: LpgpzjEc46yPNGX54EPedwnflKhwqQqeKq/E3TDqR+9pNAyNJbtbe7VAP5++S9m7Pqwv9sJ/Ra74xlscoVGEpDvsKUHSS2h12g9G+uNp4+w=
+2025-06-12 01:26:56.925 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-071
+2025-06-12 01:26:56.926 - INFO - Enviado a 192.168.0.166:47758: 9u5ZVAja7EnYbgYMVPPN7VWjwIYgSLLW1R87oyyIQdDvHcQnx9TABDqSQt9tZjxQr5XjDIHENzV2fz7c9Lafcknwd+7XWXRS+QLdvwhdiVQ=
+2025-06-12 01:26:57.930 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-072
+2025-06-12 01:26:57.931 - INFO - Enviado a 192.168.0.166:47758: j/YucZRvbS6TJvB6gNtrpVlBxH7t0z6OXPhqjZA/ma6QEvdL05dg9p1wt0iqO2nfLNXeNRjZQpXPiQfnJCBWwem1GW7eW2AxLdupnYHkfQM=
+2025-06-12 01:26:58.936 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-073
+2025-06-12 01:26:58.936 - INFO - Enviado a 192.168.0.166:47758: ADFas9Gx8RfpiUuhZ6lDEwR1jGlnAradONIoyGc4+3X0rcHae2E7qpijQ0SZenHIPf5MpVBIAS6U9O1Sz4KfCS277BR/sWFutN098cqRtGE=
+2025-06-12 01:26:59.942 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-074
+2025-06-12 01:26:59.942 - INFO - Enviado a 192.168.0.166:47758: gwIJCS89l7LaKhH5tCxehGj2ZfP5/962qweIhTy7zq1QMangoqtliVz0i1xy38fGdhgP6/p82QWiMifW477+sVFUpxy9m3IQT5ujWdM8SWs=
+2025-06-12 01:27:00.947 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-075
+2025-06-12 01:27:00.947 - INFO - Enviado a 192.168.0.166:47758: q3jrmS68jSSc3qmKemTh1Yxq/pK1LnwClzNHnHu74fE7VBB8m7KflmaHe0touBOPMtUhodZM5DZMLnAFOqkS2OU/tgMvtY7FMhHbbfKPhSE=
+2025-06-12 01:27:01.951 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-076
+2025-06-12 01:27:01.951 - INFO - Enviado a 192.168.0.166:47758: KxQjv//I3A486kIznwSJ6tuyRUsGa3jaWEtVCEeR8LhL57OVR7v4VGweKQwyZyUDWgU7aIgiWKruaJO8YYVyoEgjXrLVbxwbEcGJVy4QRy4=
+2025-06-12 01:27:02.957 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-077
+2025-06-12 01:27:02.957 - INFO - Enviado a 192.168.0.166:47758: f9RAAshPKKh+mJ8m7zgwstpYfM0mFWqd1nx3MgrbCl2Q7NLJP1NwhRTAo+rrYlO0tWTlmXeqJUR5+LhdCXWM0z2NfvglN4rwZpbV+uT2hB4=
+2025-06-12 01:27:03.962 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-078
+2025-06-12 01:27:03.962 - INFO - Enviado a 192.168.0.166:47758: nnSqFIWbExggIt10JaZzmV04MzQHb+tMdrcsjfcQsLSi3PSum9+x8ojGfxbuqMGjaElMWKVtFeH8Cv6praA9XewQ4uP+dbg2VPvDtMTLez8=
+2025-06-12 01:27:04.967 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-079
+2025-06-12 01:27:04.967 - INFO - Enviado a 192.168.0.166:47758: LCRleTAhq9SBQs2XRDXRyD4ZNIO0jw/iaii4+/94Z0IkeGY/OaAkKk7NUgi+7z9cp7+2gkU5Ths5UUQAh6d/umDi+++Dg27wipPmZ1z9jjQ=
+2025-06-12 01:27:05.973 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-080
+2025-06-12 01:27:05.974 - INFO - Enviado a 192.168.0.166:47758: fnt6/KvwqEXUt/U1ml3it09phbBw40+9PEQwVPZrSlSnP2O/iCNjz8UO/cwdMIzj6/LDPfAACSHOZf0DkVtcx4hf994aZ2a8efw+LX7OYoc=
+2025-06-12 01:27:06.978 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-081
+2025-06-12 01:27:06.978 - INFO - Enviado a 192.168.0.166:47758: Pb0m5RlRYOLcrZdFEHlb4YR0bdeuMnSoQd8OE2z/M2Qkazx+PzT/SGYubE/RfBzGeJO3jIzTwqnpKJBd0wS+llrD5C8vNEsZAawt/W5ZDJA=
+2025-06-12 01:27:07.983 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-082
+2025-06-12 01:27:07.984 - INFO - Enviado a 192.168.0.166:47758: li9MkY3LuqXKhve1XakjcXnUrcn9GtDFim1DH5cQtU7wQ2YDv/DZFXAnaT3iOkOApPvhfZQDepHxBOj9TfYZMCsI63SRAs9cOWb/yvWbEng=
+2025-06-12 01:27:08.990 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-083
+2025-06-12 01:27:08.990 - INFO - Enviado a 192.168.0.166:47758: G++TYoj900yzz3ghMjuAdxShP3mGy018+WZhfpA9sUy3K8KK27H1+8WGLBDKNlatMwF9QUwwlTtv+7RVri6CZ7GyaGOST9PrOK7w7pBP0yk=
+2025-06-12 01:27:09.996 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-084
+2025-06-12 01:27:09.996 - INFO - Enviado a 192.168.0.166:47758: Pr8rhF+LDt5ecVbZtiZe7d/3OqbOKv1KWn/hPN0Y1Q7mate4AbiiM0mOxR+RdB1iE369uUYPkIdtrDcjmBkRl3Esvn6r3CMBgGsN5yHEvF0=
+2025-06-12 01:27:11.001 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-085
+2025-06-12 01:27:11.002 - INFO - Enviado a 192.168.0.166:47758: lTm95E9EfLoG2Xo+POowPD6Ax9p/26K8TdsN1ProBgCJzLcY9wU+OEp225WbHEde5mHlg/zwTFjBYBESV0LQxmBjVm1eHsHknOvu5jNVKWI=
+2025-06-12 01:27:12.007 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-086
+2025-06-12 01:27:12.008 - INFO - Enviado a 192.168.0.166:47758: Yz96hm0T+NeS4Ecl1vxvfi26B+n3I6mGRqiwX3eBYlULWvt3e/tfR3gjfII2sUHPbmSawx86r2P663IJoJqjsqDicwYMvbAAZcFEuf1G9Y4=
+2025-06-12 01:27:13.013 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-087
+2025-06-12 01:27:13.014 - INFO - Enviado a 192.168.0.166:47758: jxkl3LAR3HOgsRplfmcBEy/sU5U+3VR56Hmad8T8V6CpzM2Dx2RM8Q0VuDxn+8X0jLIHPhLUiVWE6XSxuB0hMp0Ei+d0MDCPIxAcdvC6Xps=
+2025-06-12 01:27:14.019 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-088
+2025-06-12 01:27:14.019 - INFO - Enviado a 192.168.0.166:47758: ctcr4fgYzr5wCR/7lMT15k4JvRfTYv3eqzpoYKvRdElmQS9mXNu/mFtZNMB14YONoRDPSCndcn0tYENLfAIBnPs1ORLNz+bVLUVbBOsuops=
+2025-06-12 01:27:15.024 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-089
+2025-06-12 01:27:15.025 - INFO - Enviado a 192.168.0.166:47758: iMEer2jSvxLvLw1rsQatmbdTg0w/JyUldoioDQTgrBLz5+tAdDEdjKb/YH6eSmF2ztVwoLzm4GRD9BYsgUJF1HTSIhh+LsFaNFRuhLGsku8=
+2025-06-12 01:27:16.030 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-090
+2025-06-12 01:27:16.030 - INFO - Enviado a 192.168.0.166:47758: McUwLJ3GY9lCZc4uyRiqpRHWhpbilnfTrkYSBFHmH9ssMXuHBfkd3x8TIGDYO+uXTNezvmIx9ndh7pDXiRLza4TEirMMVACVJZhsPHbvBCI=
+2025-06-12 01:27:17.035 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-091
+2025-06-12 01:27:17.035 - INFO - Enviado a 192.168.0.166:47758: mLMbwFRtVc/2GwsoQwb0VMDnr1I8MnwhgPdkdHcDT2wf8gRRMpT9VIZgD8MwVnNQpP5KtgP4RlkmWDK6KW0WeKwpDMf2ByF7R9zHTB8lMjY=
+2025-06-12 01:27:18.040 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-092
+2025-06-12 01:27:18.044 - INFO - Enviado a 192.168.0.166:47758: KVZx/RprkT3DrTww+RCwMcea65AueQ2+OA27CTZQRUlOji4y+GE5UGjbjOZGEWrHmpOS7vNJ4NaWCqXtOjbGZPjP1uSlxBnQygP866Mzm4o=
+2025-06-12 01:27:19.048 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-093
+2025-06-12 01:27:19.049 - INFO - Enviado a 192.168.0.166:47758: NW3ymq/hrk+FSPYROra/clDXFQzBC7OuRlMIDvLLnfJyhCWoMTalFoFhHcZv6GbLPqTbsZrxnlVSrkPjEP/AyaHfDaTtOq0TYBzcfp5CTB4=
+2025-06-12 01:27:20.055 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-094
+2025-06-12 01:27:20.055 - INFO - Enviado a 192.168.0.166:47758: Fg/rmSEk/fR/T/kFCtpNG77WfLdklml44pwBjvSd4uVtVM/qHKtAdvahjsqUnUmMZK1qliuN3jsGW4Ie+cZ2jy+8ecyHDllYJfFa6wHJN5Q=
+2025-06-12 01:27:21.059 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-095
+2025-06-12 01:27:21.060 - INFO - Enviado a 192.168.0.166:47758: UKy4UUquvF5LcEc0Z0XxgaOWwC0dhKTR0vlSg7aGzmhxNe/aVRN3dgd2mBixVi2TRqJcJcuRBZuzSGN8CIqg0sB9OvWCFMlpTmnpGH0FQ8o=
+2025-06-12 01:27:22.064 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-096
+2025-06-12 01:27:22.064 - INFO - Enviado a 192.168.0.166:47758: VT7hoyFGbEyuV7wxLBNxOjLZRnyWSOjy7Jrp30ms2RtsuywuexgX9kbm+V+9UL5HVdnb0E7Wd0qkOrGEjhbS/uCBrgblMm/BGxOGUWeadXk=
+2025-06-12 01:27:23.069 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-097
+2025-06-12 01:27:23.070 - INFO - Enviado a 192.168.0.166:47758: bXokCra69UilfJu06lH81pGXgMs+NX4IdiY5TLNFm4km8tvvJ+RBIaGrZTYPqVtVmiehTl3haW8iYci43os4WVAJgL6Li4JjROpkcd22o0c=
+2025-06-12 01:27:24.075 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-098
+2025-06-12 01:27:24.075 - INFO - Enviado a 192.168.0.166:47758: Fqqgjl0FtjhSwJzKgEJ6qro9vH6aptAGlTgJFz/9oPCrzZypLPuIkIXiVpBCAhHUdn2ccPzd4viCzMfQYLjWX0Geu9bfzZ347fwBQ2rje9w=
+2025-06-12 01:27:25.080 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-099
+2025-06-12 01:27:25.080 - INFO - Enviado a 192.168.0.166:47758: DpNnP+/HI+WtjZpOt7wA7k/b34uESGcVpUHKub5FyA8a2mNnf8Tv+Do1towVU87dzJqQXC4CLSTxTRWusbFPKKeSoyfMZItUfPIWJsPHDe0=
+2025-06-12 01:27:26.085 - INFO - Recibido de 192.168.0.166:47758: Hola, soy el paquete Lenox Legends v2.0-100
+2025-06-12 01:27:26.085 - INFO - Enviado a 192.168.0.166:47758: hFE84qN63T4OppXt8mD3qamI6DSMVN/9ZZCBXuB+239jk7Tq3SSDlhaAldU9eRVfZL3tJ2YmR6Nz6ZhJjemXKxNXPvnDwGjx9TrdXO7K944=
+2025-06-12 01:27:26.091 - INFO - Cliente 192.168.0.166:47758 cerró la conexión.
+2025-06-12 01:27:26.091 - INFO - Desconectado de 192.168.0.166:47758
+2025-06-12 01:34:49.804 - INFO - Servidor TCP escuchando en 0.0.0.0:65432...
+2025-06-12 01:34:52.501 - INFO - Conectado por 192.168.0.166:47740
+2025-06-12 01:34:52.575 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-001
+2025-06-12 01:34:52.575 - INFO - Enviado a 192.168.0.166:47740: 8SBkPsIKvxWbLRMJZ9q0v3Qi0/JC+H7L/0x8ccIIlUOuTBgdhBprDn2fe453c4QmPuFQBF7/kb1fVYWKfpvQYAw9fEPqS5yym+IzhnUF3Ng=
+2025-06-12 01:34:53.582 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-002
+2025-06-12 01:34:53.582 - INFO - Enviado a 192.168.0.166:47740: we4T5ggFwkXonoB/ACIWcYkcxOOmbMyZTqQlLDscE6kFN23/8qeA7Y3zs486zovJcPHI+KBnYmI6qJGXWvDPl5mlI+CcXXIDg1XYMbm8ZoQ=
+2025-06-12 01:34:54.589 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-003
+2025-06-12 01:34:54.589 - INFO - Enviado a 192.168.0.166:47740: Esk4myCQ4Y/5/PABHYScvQfGPUoSGvLP8nd6gf1KMRlSS53j/yntOH+FkOK9loYDfgrmu34CrTK9s/lQNanYpbg6jHNscFn8Eq88AHVQ03w=
+2025-06-12 01:34:55.596 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-004
+2025-06-12 01:34:55.596 - INFO - Enviado a 192.168.0.166:47740: +gTSPRvl0A9GqjXcVeumuCOvKagCfzoTgD3bbH6L7V0OUy4bDcwyP6DwYEXGEP4nE7WBmz421GI4oNiCDVFsuUxmrW3yDSYJ3orMIz9DU0w=
+2025-06-12 01:34:56.604 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-005
+2025-06-12 01:34:56.604 - INFO - Enviado a 192.168.0.166:47740: Sv/u6mMJwXCx9h3koag1zTunQMkVNDp6ExUS2+FsLJlI2SYsdgQq8TpItMHIMLzVJPbaKyx1vWhYDVmxxdgslxGaK3Isgt2P8OaSTLbkW1c=
+2025-06-12 01:34:57.610 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-006
+2025-06-12 01:34:57.610 - INFO - Enviado a 192.168.0.166:47740: h884QnJOW9t88sgFdXSYeXOu/1n8gQvJU/q1UjiQ/Fr5TqDnChDJpgPyuB0FnY2DFCZwrM4QW68dgkPnp9VFNEg5qdX5X/yEflI4hQ2fjps=
+2025-06-12 01:34:58.619 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-007
+2025-06-12 01:34:58.619 - INFO - Enviado a 192.168.0.166:47740: DWzZ6wdOZA83PzSND0xc2aRl1BUFZD4shGTkJV+uKyvy2oqqfwacjRtD/RrLFUnO04dKy/CA+DTe1ZWOT9GEJhpeyzkR03L7vhjRBG/rZPw=
+2025-06-12 01:34:59.625 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-008
+2025-06-12 01:34:59.626 - INFO - Enviado a 192.168.0.166:47740: FRMvCkzYyWSZhKZx2xracLTDi5O+serXBpXok689vG2ZP35GrF6qfrlHbhpVHSB0K2Z5HsFa2OQUU+VrIqfFYZUn/sKDlztQI1ta0CKHtoo=
+2025-06-12 01:35:00.632 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-009
+2025-06-12 01:35:00.633 - INFO - Enviado a 192.168.0.166:47740: J98oG3AlyeNYVqozgg9/Fk0JRb318VSrS5csM5Qs+dTxUywWrUakXqqpA0gUEO8F24QtpEW0tWBCBsHPqwvbjwYlGdegp7c3DB7SyGULTgA=
+2025-06-12 01:35:01.639 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-010
+2025-06-12 01:35:01.639 - INFO - Enviado a 192.168.0.166:47740: pMRpkjHrOPMdVkq/J+sOrQgF4HUcyQMBN+Lvc+mAraYtyfJ97QNBUeXCo+DfeAe/tTrHnxBF0rivMZ46HTIAMcw4zHB63qvf4mPPqetg6T8=
+2025-06-12 01:35:02.646 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-011
+2025-06-12 01:35:02.647 - INFO - Enviado a 192.168.0.166:47740: KaLtEbgsfEPPFvF9fjN+dKFG1VMRlITW+I5TFL/xgjwEkkylzm/xKcN9Pqcww3kYfEkgan8hhEwSuOE5oyJ50MnEvP0dU0NR2EfN8TIiJOc=
+2025-06-12 01:35:03.652 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-012
+2025-06-12 01:35:03.653 - INFO - Enviado a 192.168.0.166:47740: XdEooz4jsWKT6wJ0fnhFJl9eZPLXZMa0ru3d0wV01YUovZm/tQRBDdXK90pDUN+WPAqyVX1yqJ/sMJmfQE3K1pwuLvrttPov2UHO9Poe/to=
+2025-06-12 01:35:04.658 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-013
+2025-06-12 01:35:04.658 - INFO - Enviado a 192.168.0.166:47740: ThodarI8VRmephDMmHMmqP62jHBOy4nu0kMsxIUUzQOEXK1bguXHaMMyi+/Us7RA87lTaeCT6eckDpJAA5mPRrqyWguJrfZbeTPXDCS6t4s=
+2025-06-12 01:35:05.664 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-014
+2025-06-12 01:35:05.664 - INFO - Enviado a 192.168.0.166:47740: E5eAWvLn4ezSsWdsE3xknj/uaDriKc2dIXMQKVPINMsAmSzCuhc+TR3NvoBzw+xsh4GWw7NJDJPjtBbMA4F4Qam2/IZTsQezuvJYe3F6m4Y=
+2025-06-12 01:35:06.668 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-015
+2025-06-12 01:35:06.669 - INFO - Enviado a 192.168.0.166:47740: Gt/ArvAlu0s0AUOAdwInxIH/IsVNftspNJtMBgNXBNJ10QKxl39zW9vbDNtaSZiO+oK8qhX0To7BrV/Op+RKMdk0OV81l8XjUfzJgR+Bfyo=
+2025-06-12 01:35:07.674 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-016
+2025-06-12 01:35:07.674 - INFO - Enviado a 192.168.0.166:47740: 4U3TLb/aeZKBrN4NI7SvzIRDao6xXYxwWSM801aXtnKSBfekQ7P897+1JczjpC4W9feZak+EmwYFfTlvY0S4No9R+kXc0jtcgz9Vz7HFDBg=
+2025-06-12 01:35:08.679 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-017
+2025-06-12 01:35:08.679 - INFO - Enviado a 192.168.0.166:47740: s/FDO5RK5uFoxjH/KqFVi+B72xxKHV98+HkGyc1AOV6v/O7gtMrd25O0HIARse70Jxc3urf0e35aZmLRM17V7rGr0pJDMMNoccdkr/0NE4w=
+2025-06-12 01:35:09.684 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-018
+2025-06-12 01:35:09.684 - INFO - Enviado a 192.168.0.166:47740: lMuoLZ60kuZNDQvI/CAHud/vayycEC1hZo15l50Pw7yP6iutBEMT1wvGJrL1Q3HhP3yP3Nxlvm/7v9aTxarDR53j+jilXdl21fRWNanWjzU=
+2025-06-12 01:35:10.690 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-019
+2025-06-12 01:35:10.690 - INFO - Enviado a 192.168.0.166:47740: Z8TAeMncZn9ljMzn+YpCUnuHDkMK2+5zIU7Rop+q3Llnj9q6kET7UO/fJtO94d2NImMieNVKi9kDMsHrtZgzCzMRRKBG+xBW6p0aK9A9nTg=
+2025-06-12 01:35:11.696 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-020
+2025-06-12 01:35:11.697 - INFO - Enviado a 192.168.0.166:47740: VavJZGJTTndDBRNWVh49u/crOfr52F8LCzLdy3pwjbmbBjewDHSKBrcUGqFzwkxy07pDK+xSvg2cLqLxrERSZ0bF9T2XrsWEmZ8BlwpCwXQ=
+2025-06-12 01:35:12.702 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-021
+2025-06-12 01:35:12.703 - INFO - Enviado a 192.168.0.166:47740: E6N8XAueLBkGCx1rY/sOh6qtP15iALS5ryP2p2Os+W36/VXEQvBM43Ui9sroXd+030n8Z5qekXasPOy+2zLKk4JLDEHwqGAWYNs6xeRJSb4=
+2025-06-12 01:35:13.707 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-022
+2025-06-12 01:35:13.707 - INFO - Enviado a 192.168.0.166:47740: 9txLfTwEhhdaD+LFaIQp7m7SPIAnVXVpo1ELj983iXLULLp6soSPAqK8BUoR0JxKSnwjLImIMYdHjCjuyqN+8qmg1c3AUVZg/tS0UB0PYwE=
+2025-06-12 01:35:14.713 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-023
+2025-06-12 01:35:14.714 - INFO - Enviado a 192.168.0.166:47740: UsyKMtdmREQQfQKwguNpLSJc8Z5RPGquQpcyONpAHXEtcD7YHAIUCkwY2u/qvwrt0l1i04MQ0/0jUsFUD689QBedzoDCpXvLgQQCYyYdzjY=
+2025-06-12 01:35:15.718 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-024
+2025-06-12 01:35:15.719 - INFO - Enviado a 192.168.0.166:47740: bf2R3zt+xgPNLeulyxLC9uNMaj2wbtLxV0Dfh6wWIiAXUk9w7D45cr+Vgbv1C8t4sOrND4CL5Aznm5mosxok8fgiJBF+rJAzXdtlA1EGnaA=
+2025-06-12 01:35:16.724 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-025
+2025-06-12 01:35:16.725 - INFO - Enviado a 192.168.0.166:47740: zlF9byV+c7+pMsxAMJlw5ehf7nveZ5ggzphdb2HXHhbhQnM9G4qhVA4BwVqiKZm25VIWiiSIpctYXP/YQYPPffox9kjuJ64t8B9PB1QAMQA=
+2025-06-12 01:35:17.730 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-026
+2025-06-12 01:35:17.730 - INFO - Enviado a 192.168.0.166:47740: WEBuNI1tmA3GX4Y9fVkWwzd1sz/NQ9SaZSNLRV0RJazcLiAdLbagveNsZJ0P6XMUMgvLVwTLP5YGW7eHVS9ist5dPF62vYWteh56o/tc9MI=
+2025-06-12 01:35:18.735 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-027
+2025-06-12 01:35:18.736 - INFO - Enviado a 192.168.0.166:47740: PI5XAqumN8yK8sErRTqgIe7GP44UUD/6kkO4flBx3TDTV9u91HT9w0F+7K1PzZ6/bjNg1u44dkYCXqZmeI1jIeKFoD5CndRg+zxv6B0PZrc=
+2025-06-12 01:35:19.742 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-028
+2025-06-12 01:35:19.742 - INFO - Enviado a 192.168.0.166:47740: 6jnkpmAfCCslaVFzGFmnpScbmIEEnc4snYCJOHFhL3DGTjfoYNAD2HqgjL4cj1tQ8sdDgt28ijiv4KgcMsy6uOIa0nR9QOmLVg1cKW6KlYE=
+2025-06-12 01:35:20.746 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-029
+2025-06-12 01:35:20.747 - INFO - Enviado a 192.168.0.166:47740: Rudftzo3bVZLrH/ZzvXvuevBB82eJ3ne5WsmZBvIWDagMmU8j4uSNrAl7iYCTgfMGoUuvo+MsTPD9RLUscjJsaDuzQNrMckwx1ojIB1+vCc=
+2025-06-12 01:35:21.752 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-030
+2025-06-12 01:35:21.752 - INFO - Enviado a 192.168.0.166:47740: hoveyHnayrj5xEhgDpcf1bqXHHI+0dGJsYVFx9TEVF3J6LCz5ot0SaL29I6VxDB3vlB7sSC3mY7w3lcrMyao/o5sCe1wL9yM5RTYTTEWxi8=
+2025-06-12 01:35:22.757 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-031
+2025-06-12 01:35:22.757 - INFO - Enviado a 192.168.0.166:47740: o2vlBCUAOTJ8mMMY085RvLb8p6vhepuK3EpBSKSpqSWXqV6NIpHeNYBTEl6Yg1CNcx+aLiQfT2MgTJqTlVXbNmlNfje29ehCsPwsswf+XBs=
+2025-06-12 01:35:23.763 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-032
+2025-06-12 01:35:23.763 - INFO - Enviado a 192.168.0.166:47740: EtQvAejetIaZ4XRxMFHEgX2SLWgQ8RF5RFZRnlc1gt8QPvPlvmYuSb6M71DjeIGnMELqqocw78cfHARk2fTPrxVRKNG20lQMaLh6IuaPTo8=
+2025-06-12 01:35:24.768 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-033
+2025-06-12 01:35:24.768 - INFO - Enviado a 192.168.0.166:47740: n2CYQXjMWVqoqLG/IROGLUZ56AatFvduFvXEQQHzxrNgaq0n1ELZd79k+Rz1M1QBfdjDeuAyrKi1M/JXDVOgMNPS8wpa3PRh/WSIspUvF9g=
+2025-06-12 01:35:25.774 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-034
+2025-06-12 01:35:25.774 - INFO - Enviado a 192.168.0.166:47740: UnQE3M1e2gYDU88ERQC1LX+Bn+gc/S3x5L8x8jTXU27/q9eZcBXSUmoN5ZA4kxbvYNyrDyfJV0HmV7/n0Qs+BMigWNDJNTJdzAUHfj5FTSI=
+2025-06-12 01:35:26.779 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-035
+2025-06-12 01:35:26.779 - INFO - Enviado a 192.168.0.166:47740: 3yCbZBWHWq0z/TL0Bk2vSFB/AHMBZ5g/A+X7OCVrDnUIq8tE2CMQRR5ouuJ/RuqiLKPjTmV2jxcU1XKJHH2XaoK5hM5uE+wSUSUk4G4rm5M=
+2025-06-12 01:35:27.784 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-036
+2025-06-12 01:35:27.784 - INFO - Enviado a 192.168.0.166:47740: k3/WVMCxI06jQWUcTit1Prwblnw6KLLjB6j+k2JD7yxPxRq7T+IBPQotG8UC1MgqlW4Qq4U0MB3FN5UV1b3OsYa1oPG2+my57tTWpjbd4PA=
+2025-06-12 01:35:28.789 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-037
+2025-06-12 01:35:28.789 - INFO - Enviado a 192.168.0.166:47740: OJDnMoTFTXx6MyDPlIyJppxSqYhO7K+G8ChLZmv+n+J3jQ3p3ow+Acf1QPhlg7DVUdn4lRzPTV5h/urdVaPD/UG4rdNmmeNQiy8j2XI3uoo=
+2025-06-12 01:35:29.794 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-038
+2025-06-12 01:35:29.794 - INFO - Enviado a 192.168.0.166:47740: NQZkCHBV9WqtdoHx+3d1wr/J2cwfdWgmfhOqnpoWvar2Lmb3gyZl1YZbBf66rd8iutbPjQcssiIfiYS+GZIReGC24NV/8irX2jNPVwK91D4=
+2025-06-12 01:35:30.799 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-039
+2025-06-12 01:35:30.799 - INFO - Enviado a 192.168.0.166:47740: GymzlbYpBQq5WuikwpriYaGo6fI02j9ek86OhbeCE+kCX4kJDCAIJiTNnZNT+ajB9MgD4I0txHPRg0ZX8vK2SBkEvo+57P1dKFDUTCeHXpg=
+2025-06-12 01:35:31.804 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-040
+2025-06-12 01:35:31.804 - INFO - Enviado a 192.168.0.166:47740: Nsgpoyu+ykCgCntkrAjldUX2WgyN7duRmEHZBU81NrjMFpEk9d6ycORUIiWiSmU0nsut5bqkJh4U7O8KbgMg7zy+Y0wfaeTE3YGxXFa3YFE=
+2025-06-12 01:35:32.809 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-041
+2025-06-12 01:35:32.810 - INFO - Enviado a 192.168.0.166:47740: 0Z22U+4/E1h9wHKREQx7NdDgQR8FljSIB9GLiIIjysjUkDgw3GDPbUxF/YLTwMml8VSzXl9i8OpgQ90icBwjPSQwpBMqbjTXgukOKIrrHeM=
+2025-06-12 01:35:33.815 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-042
+2025-06-12 01:35:33.815 - INFO - Enviado a 192.168.0.166:47740: Ap3FP/E/tSUMfJb6nBmFUvB89H05BOTwRXCSRMSgFbD0q8mKpc31Gy21xDeByJ7DBtRzzSKTWFb24QQKyQ75YFf1z3y1iTwh1c1vIlkc7lE=
+2025-06-12 01:35:34.820 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-043
+2025-06-12 01:35:34.820 - INFO - Enviado a 192.168.0.166:47740: KCZuE1lAgdaTxGvVO1wleVZOTD+Q5sITyTuFmUPkiqdp52a1i84VEtAVNj0HcrdYR693mz3qDVXk955l0LtbGQ6oa4h5lJaN/Tkn3uzORMk=
+2025-06-12 01:35:35.827 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-044
+2025-06-12 01:35:35.827 - INFO - Enviado a 192.168.0.166:47740: BG3JGvurlXIqXIu34VlDEPp4UJeviWhtb3WS+x5rMq9YhPeiH0fUCZf08djzWCWC8696KI9Zcor5w3zwQKS1h/TOyQzvJTUcMJHTksQlG8M=
+2025-06-12 01:35:36.832 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-045
+2025-06-12 01:35:36.832 - INFO - Enviado a 192.168.0.166:47740: SyCkCw+Ct37pay8dKLGWkQiLQjX26iqNoIZ/chFyDF4aHo07SjJWXZ2GZ0fuvXyVvhM6+SqeFQhdpqKZAg0yp67oygm521ZfnLtXym5a03A=
+2025-06-12 01:35:37.838 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-046
+2025-06-12 01:35:37.838 - INFO - Enviado a 192.168.0.166:47740: wOH6YEHSlxiuKxUWQgiJrL0SyUUGZbjq1IjkUqngAqgeVI5Ni8U33rCyqWpVzvxrgFWkDh9XiGUadpqUNzkSuk4b6pYtaa+YdtPtPTWq8gY=
+2025-06-12 01:35:38.843 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-047
+2025-06-12 01:35:38.843 - INFO - Enviado a 192.168.0.166:47740: Z1/GhevVxOyjMlA6yU8H4LAWNZKbsmPrV/mXkykaMrF4jnDhQeJkNksBy4PwlSyfYGCTkHjrz8HaiQwx+g1f8n+bRKOx/EIoWM5rimw1/0w=
+2025-06-12 01:35:39.848 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-048
+2025-06-12 01:35:39.848 - INFO - Enviado a 192.168.0.166:47740: 53tYLrQCgu6zHwJa5l5pvYl498P6jWl9Zs2WuelYAJJWRLu/PftCfuOWHBJ/UTcK4p24hcTEDj3VHafZAGwaWFXlKlbvG9fxyz6GFNVWMqk=
+2025-06-12 01:35:40.854 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-049
+2025-06-12 01:35:40.854 - INFO - Enviado a 192.168.0.166:47740: /sxAnRod/KYZyTa7/y7XGNmLZj6LqJdpg6rzmLtS6mmdx7QoksthTdP/uImLhcZK8dEPdhN3Zk7685j+SSnrtbl1FIR22xf14EjVTZfntP4=
+2025-06-12 01:35:41.859 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-050
+2025-06-12 01:35:41.859 - INFO - Enviado a 192.168.0.166:47740: D6gBAxvNuBPVsVlxApZgMJpRpsA5Vo8E/ddmMKu0cOs1hVSrCFJurMSRQkdZ79qPSGE2OQga0IkOv99pnaBReJdTXIVtasgdWMy7vmUmtu4=
+2025-06-12 01:35:42.864 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-051
+2025-06-12 01:35:42.864 - INFO - Enviado a 192.168.0.166:47740: bZjlLL/4XkTs93hai8nYZt3GFC0+Q2zMvgk+kyZirf12037ry+P1f5xjMOtg3yra5n+DPDz5ap3oAjgooVtBSTVOkB+B3yKoXgkWrBgCRI8=
+2025-06-12 01:35:43.869 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-052
+2025-06-12 01:35:43.870 - INFO - Enviado a 192.168.0.166:47740: h1x0KTMJiLRERBhg8tNo31zx2/pTqbl5+9SM5o4g1nWMMullY5wiwvm9cKaFsvWYrF7WXoeJ9xxTI4+u0DhRWI/Sla6kainh8/U5c5UxGmo=
+2025-06-12 01:35:44.874 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-053
+2025-06-12 01:35:44.874 - INFO - Enviado a 192.168.0.166:47740: ye9rTNRaU/dY7q8DoQXU1PNas9RnWhrL6LAA3HFPmyThV3FsbEvtcgP7u+4rFpR5IE//gNItLu2mdIeaehGaYHRbFm60T7W/AIn2jmUv3D4=
+2025-06-12 01:35:45.879 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-054
+2025-06-12 01:35:45.880 - INFO - Enviado a 192.168.0.166:47740: ZCfR0nMFa4vSn0GTgWb2DMWOWMgIom3BM7y6oCSefZpmQ/Fh9uYUt3uss8TYkym9SfmBIVE1GnRQEz3v7BkAtLEFEXm8S8hrSKBTkZJGiaY=
+2025-06-12 01:35:46.883 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-055
+2025-06-12 01:35:46.883 - INFO - Enviado a 192.168.0.166:47740: nr8PT+sXsvPKrnBG0BLAjY1vW1b50e+wHSuj9I2anhaHgiO098sP7MMh3QPGyDRYfSW9nHQ/oEQWmihIsnc5sY1ZkpBXm6wxRT7hoNeC8rw=
+2025-06-12 01:35:47.888 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-056
+2025-06-12 01:35:47.888 - INFO - Enviado a 192.168.0.166:47740: rk4Hw4XHkbbHqISay2JLjAeVgKli7M1AzNS9V/eC/nKenKntPhlnOkHkstcIesNCarVQRS/3+p1WW9pcwd5FOPjKtz6A3Ne3p2fNSoumgW4=
+2025-06-12 01:35:48.893 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-057
+2025-06-12 01:35:48.893 - INFO - Enviado a 192.168.0.166:47740: s8FcCuNTHYsHKNjMvAv1LIkprddR65R4Bqdh7YmsvnQm/7PPO3oV7JQlpLOAI2XsvCOVT4a6y3IG0XL77WCoQScxHKluBeYnFynn7puLR3o=
+2025-06-12 01:35:49.898 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-058
+2025-06-12 01:35:49.898 - INFO - Enviado a 192.168.0.166:47740: hAL4LawfIdCzwlnCpWeMqNr+WC7RzuScRQhwcZVTsoKH3H6k1JRsL1md+JYuCr1xxn2ANrgRs8lrBgB3h6OJT6PkfmX7f8DDJEHv2iVDbo0=
+2025-06-12 01:35:50.903 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-059
+2025-06-12 01:35:50.903 - INFO - Enviado a 192.168.0.166:47740: DXAtPVNGi15U6jpOTiUvhDAINrFJGysMCFcz1+9yZlTCv2b6zWZB/mmSFq9crYfgCi5wiBt/vPdiPdyxsbuP0A4Z+xeLj9huHususlE91Xc=
+2025-06-12 01:35:51.909 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-060
+2025-06-12 01:35:51.909 - INFO - Enviado a 192.168.0.166:47740: bvpWo+3f7WwoPGnIRo8m7eEz0lED0WwEnd7svCBX0EAX0xNcggmTBhm/ZBZ9lxDIqFX9UvJDcwY4QkaZfxHAeN8qp21snvmNeD5oc7OadRg=
+2025-06-12 01:35:52.915 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-061
+2025-06-12 01:35:52.915 - INFO - Enviado a 192.168.0.166:47740: V+Bpwcg/cL7Fx1h1fYFQgmamDpRkaP0YvmRSG77xTEAIl+7N8F2gbkqe5iHOVwFqqwscCs1ARdQrKC/gtPk/J4hm6/zdzLfWRgGj9DySZH8=
+2025-06-12 01:35:53.921 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-062
+2025-06-12 01:35:53.921 - INFO - Enviado a 192.168.0.166:47740: gAaN8Q8J/4fuuAZ3DHiddk+ymnhprURi7s/lIIT5PpTk0IyaSo5u5VGmXYH3m/IulgqtgZ49HohKN/BeUV9rNkrEIx1LXQrDkcsf0g4Y0Jk=
+2025-06-12 01:35:54.926 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-063
+2025-06-12 01:35:54.926 - INFO - Enviado a 192.168.0.166:47740: tCwjQErXqyBaWz6h8hVj7LtzefRerCh0CN2VpKuHHtBQ0em8xzq9gEM3K0P9FX5uIlvnLFt/ZllRRKghoYzlPp5smAgb/GJPVJSFE5Z8UbE=
+2025-06-12 01:35:55.932 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-064
+2025-06-12 01:35:55.932 - INFO - Enviado a 192.168.0.166:47740: SDp2xANw2WYI74SoGLmk+v/IjOvBiAZzE+qOs60U2933VMrOTd+RzMK10zbhlHP9zsTlXmBNTDVr/KiWTBVaklcU2XtNMrgywDjGAT0IeYg=
+2025-06-12 01:35:56.937 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-065
+2025-06-12 01:35:56.938 - INFO - Enviado a 192.168.0.166:47740: 0PE6fUKgK15/RBkL7jjO+KY5kqEG2ntk3FYVG5pRO9cXTiUQtxXEpYzgB2c9yMFpgvqi6Steugb3KDvOBLZZBz1AcuLng8yJIrjI3NIsX2I=
+2025-06-12 01:35:57.943 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-066
+2025-06-12 01:35:57.943 - INFO - Enviado a 192.168.0.166:47740: hTjP81Ko5SX5SkgHjXDRn8CSV+2b4wGe4fshmEyobWftnLklWkk2PpQO5OjmFQOnQgjlQbSprHEXJYRvy4mY70SoWQDH+D5Zx1JF0iKUZKA=
+2025-06-12 01:35:58.948 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-067
+2025-06-12 01:35:58.948 - INFO - Enviado a 192.168.0.166:47740: ueq319monJCzVTpNI61B4KR1TR22Pz5BIxJKEQuOXIi0J2u7doBAisBqzXDMAkJAFgvXv5lfu0YY6up6dgybDtxaDor3paG6w8IugqBBmEE=
+2025-06-12 01:35:59.953 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-068
+2025-06-12 01:35:59.954 - INFO - Enviado a 192.168.0.166:47740: n08PHl05tSE+ahrVRW6ZY8L4TrwhFmWUrI5i/7YUP0a5t/MdSlhxYZ8tayKu+0JKka5Wil6d/mHIBIkFOQSWjteeReQFqVf8xcThLOnIKbc=
+2025-06-12 01:36:00.959 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-069
+2025-06-12 01:36:00.959 - INFO - Enviado a 192.168.0.166:47740: 0OGOmPML79c9DVeWlDTbw2T89/sNSiHkhFRnuUSLH2yFa7K2ug06W0bd+Q8iX0X7yOItnPNXsdU5i4htI9WrFIaEmPh0C27+wR2/RlM3fSY=
+2025-06-12 01:36:01.965 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-070
+2025-06-12 01:36:01.966 - INFO - Enviado a 192.168.0.166:47740: rOjaUgx0+Fc0Yvae0gPOPhYSOyc6KsQncZLsfV5BUdWNkG/bOnzjG2LtRfcjIMbZSAxJCiK+71SBFibK7pSBn2VHs9poPpZVpZq9UV576eI=
+2025-06-12 01:36:02.970 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-071
+2025-06-12 01:36:02.971 - INFO - Enviado a 192.168.0.166:47740: DcZMj3I7Kqav5jOygmmlmKRcK1Vzrjst4ULA83YZ7lhxlA/qrv+y3ID6uW/y+reFxERH8H9GWi9+XI4KTSxJpdP03dm2JblCLBaq7XxfblU=
+2025-06-12 01:36:03.977 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-072
+2025-06-12 01:36:03.978 - INFO - Enviado a 192.168.0.166:47740: 22Kj83IY24XnAuwriy2DRaz2Ugzn38ObCUeSki8pERpr8AmYqGS1qYrunznRpNdwhQRjililPlpYBWZsVlMDOXYVzRpqQTxtQcFdqE07l2I=
+2025-06-12 01:36:04.983 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-073
+2025-06-12 01:36:04.984 - INFO - Enviado a 192.168.0.166:47740: qG5rdR7WnRsJ6GC8+cH8HwS+KswSuOPXjtI8XagpstMox0Ac+UoSO2amb+4uNzW3btsZmWDsyjCV1bzz68OASgBmApWIvFpXX99sTTlVriI=
+2025-06-12 01:36:05.988 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-074
+2025-06-12 01:36:05.989 - INFO - Enviado a 192.168.0.166:47740: sfcoRq5MhEz4Ox+F7THLLIVDeb4Fy/jFlJYPw8Yy//LsvEfZAVWZUWNTObJx1RRfuudUJP6pw939i+Xcg61FS5zf14T/T+FWPZbg974yPaM=
+2025-06-12 01:36:06.995 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-075
+2025-06-12 01:36:06.995 - INFO - Enviado a 192.168.0.166:47740: 9GfkyEQfTVWOx6LcjfovlMW6M5cxk4OLCBUXFIHLu1OaBDwVKyZQBa25xx4+6c6TiuU1/X2aNxMFD64U+XIX3boedkM6eO1Wpi7mh4M6xhI=
+2025-06-12 01:36:08.000 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-076
+2025-06-12 01:36:08.000 - INFO - Enviado a 192.168.0.166:47740: mBOn6+tIRWDPlAp+l1Nh8AX08om7c424dza+Igwtnfa4hCeCmfl52fEp6KrdfNF2D7J4DxFXR7N5RA7i3DB/9KUfp/9vFS3itkc5lHFKNHI=
+2025-06-12 01:36:09.006 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-077
+2025-06-12 01:36:09.006 - INFO - Enviado a 192.168.0.166:47740: SLsv5KPYBz469Tk772HiE6pCDG8Ne+Q+VEswdaoQAzQUZ1Ka3Xu6FiZjw8Bg15oHbflOKxQMcMJnkjUt9PGGC25LN0i5dTHuXqKIECTlgdQ=
+2025-06-12 01:36:10.010 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-078
+2025-06-12 01:36:10.010 - INFO - Enviado a 192.168.0.166:47740: VgHk/zOXZH5ZO34am3oC9PnPL9lV1zzFH31ARmUL4ySVOajP5/G+rT3q4NdwMxgFgDUQ1Lt9spujsOrl6VfqkPfQKnWBPez4sH9OaBAtEW4=
+2025-06-12 01:36:11.015 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-079
+2025-06-12 01:36:11.015 - INFO - Enviado a 192.168.0.166:47740: Z80Omc+hDsrL0h2+v1naBk9Qr5Kl5IObsUHwsPQSfHOBk8neDf5MNpWzke1LU45gZkAdo+DrywhLX4XePfbNbaXaEHTyzIYVyZl/hGat478=
+2025-06-12 01:36:12.020 - INFO - Recibido de 192.168.0.166:47740: Hola, soy el paquete Lenox Legends v2.0-080
+2025-06-12 01:36:12.021 - INFO - Enviado a 192.168.0.166:47740: Rh3mhm8QtWuKQgxXVJaK9yJxTjTMo/fXZMxqGfVCyrzQL7OCfmv6nZw1h08nEqNRZ5wCJU31X3GfY9+ceoSQf9+rWia+7F/fQPWIrBV3d9I=
+2025-06-12 01:36:12.139 - INFO - Cliente 192.168.0.166:47740 cerró la conexión.
+2025-06-12 01:36:12.140 - INFO - Desconectado de 192.168.0.166:47740
