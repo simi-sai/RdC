@@ -39,7 +39,7 @@ def setup_client_logger(protocol):
     return logger, latency_logger
 
 # --- Configuración del Cliente ---
-SERVER_HOST = '192.168.1.100'
+SERVER_HOST = '192.168.1.5'
 SERVER_PORT = 65432
 GROUP_NAME = 'Lenox Legends v2.0'
 SEND_INTERVAL_SECONDS = 1
